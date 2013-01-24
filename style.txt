@@ -1,0 +1,617 @@
+<style>
+div
+{
+	margin: 0;
+	padding: 0;
+}
+
+br {
+	clear: both;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 10px;
+	font-family: sans-serif;
+	font-size: 85%;
+	text-align: left;
+	color: #000000;
+	background: #ffffff;
+	height: 100%;
+}
+
+/* css 2 */
+
+.wettekst-inhoud * {
+	font-size: 100%;
+	font-style: normal;
+	color: #000000;
+}
+
+.wettekst-inhoud .cur,
+.wettekst-inhoud .vetcur {
+	font-style: italic;
+}
+
+.wettekst-inhoud .vet,
+.wettekst-inhoud .vetcur,
+.wettekst-inhoud .dikgedrukt {
+	font-weight: bold;
+}
+
+.wettekst-inhoud .nadruk-kap {
+	text-transform: uppercase;
+}
+
+.wettekst-inhoud .nadruk-ondlijn {
+	text-decoration: underline;
+}
+
+.wettekst-inhoud a,
+.wettekst-inhoud a:hover {
+	color: #771122;
+	text-decoration: underline;
+}
+/*
+.wettekst-inhoud a.arrow { 
+	background: url(/images/next.gif) transparent center center no-repeat;
+	padding: 2px 4px;
+}
+
+.wettekst-inhoud a.arrow,
+.wettekst-inhoud a.arrow:hover { 
+	text-decoration: none; 
+}
+*/
+.wettekst-inhoud ul {
+	display: block;
+	margin: 0;
+	padding: 0 0 5px 0;
+	list-style-type: none;
+}
+
+.wettekst-inhoud ul li {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.wettekst-inhoud ul.whitespace-small,
+.wettekst-inhoud .opmerkingen-inhoud table {
+	margin-left: 2em;
+}
+
+.wettekst-inhoud ul.whitespace-medium {
+	margin-left: 2.8em;
+}
+
+.wettekst-inhoud ul.whitespace-large {
+	margin-left: 4.4em;
+}
+
+.wettekst-inhoud ul.whitespace-extralarge {
+	margin-left: 9em;
+}
+
+.wettekst-inhoud ul.bol, 
+.wettekst-inhoud ul.cirkel, 
+.wettekst-inhoud ul.vierkant {
+	list-style-position: outside;
+	padding-left: 18px;
+}
+
+.wettekst-inhoud ul.bol {
+	list-style-type: disc;
+}
+
+.wettekst-inhoud ul.cirkel {
+	list-style-type: circle;
+}
+
+.wettekst-inhoud ul.vierkant {
+	list-style-type: square;
+}
+
+.wettekst-inhoud ul.bol li, 
+.wettekst-inhoud ul.cirkel li, 
+.wettekst-inhoud ul.vierkant li {
+	display: list-item !important;
+}
+
+.wettekst-inhoud ul.ndash, 
+.wettekst-inhoud ul.mdash, 
+.wettekst-inhoud ul.asterisk {
+	margin-left: 18px;
+}
+
+.wettekst-inhoud ul.ndash li, 
+.wettekst-inhoud ul.mdash li, 
+.wettekst-inhoud ul.asterisk li {
+	position: relative;
+}
+
+.wettekst-inhoud ul.ndash span.ongeordend, 
+.wettekst-inhoud ul.mdash span.ongeordend, 
+.wettekst-inhoud ul.asterisk span.ongeordend {
+	position: absolute;
+	left: -18px;
+}
+
+.wettekst-inhoud .intitule {
+	padding-bottom: 9px;
+}
+
+.wettekst-inhoud p.lid,
+.wettekst-inhoud p.labeled {
+	position: relative;
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+.wettekst-inhoud p.lid span.lidnr,
+.wettekst-inhoud p.labeled span.ol {
+	position: absolute; 
+	font-weight: bold;
+}
+
+.wettekst-inhoud ul.whitespace-small > li > p.lid span.lidnr,
+.wettekst-inhoud ul.whitespace-small > li > p.labeled span.ol,
+.wettekst-inhoud .opmerkingen-inhoud table p.lid span.lidnr {
+	left: -2em;
+}
+
+.wettekst-inhoud ul.whitespace-medium > li > p.lid span.lidnr,
+.wettekst-inhoud ul.whitespace-medium > li > p.labeled span.ol {
+	left: -2.8em;
+}
+
+.wettekst-inhoud ul.whitespace-large > li > p.lid span.lidnr,
+.wettekst-inhoud ul.whitespace-large > li > p.labeled span.ol {
+	left: -4.4em;
+}
+
+.wettekst-inhoud ul.whitespace-extralarge > li > p.lid span.lidnr,
+.wettekst-inhoud ul.whitespace-extralarge > li > p.labeled span.ol {
+	left: -9em;
+}
+
+.wettekst-inhoud dl.whitespace-large {
+	margin-left: 2em;
+}
+
+.wettekst-inhoud dl.whitespace-large dt,
+.wettekst-inhoud dl.whitespace-large dd {
+	margin: 0;
+	padding: 0;
+}
+
+.wettekst-inhoud dl.whitespace-large dt {
+	position: relative;
+}
+
+.wettekst-inhoud dl.whitespace-large span.ol {
+	position: absolute;
+	left: -2em;
+}
+
+.wettekst-inhoud .hoofdstuk-kop {
+	font-size: 118%;
+	color: #00a0c8;
+}
+
+.wettekst-inhoud .hoofdstuk-kop p.melding, .wettekst-inhoud .hoofdstuk-kop div.melding {
+	font-size: 84%;
+}
+
+.wettekst-inhoud .paragraaf-kop {
+	font-size: 109%;
+}
+
+.wettekst-inhoud .paragraaf-kop p.melding, .wettekst-inhoud .paragraaf-kop div.melding {
+	font-size: 92%;
+}
+
+.wettekst-inhoud .artikel-kop {
+	display:none;
+}
+
+.wettekst-inhoud .artikel-kp {
+    display:none;
+}
+.wettekst-inhoud .koning {
+    text-align: right;
+}
+
+.wettekst-inhoud .uitgifte {
+    text-align: right;
+    margin-bottom: 2em;
+}
+
+.wettekst-inhoud .tekstcorrectie {
+    font-style: italic;
+}
+
+.wettekst-inhoud .tussenkop,
+.wettekst-inhoud .tussenkop * {
+    font-style: italic;
+}
+
+.wettekst-inhoud .tussenkop {
+    font-weight: normal;
+}
+
+.wettekst-inhoud .al,
+.wettekst-inhoud .noot,
+.wettekst-inhoud .functie,
+.wettekst-inhoud .naam,
+.wettekst-inhoud .wij,
+.wettekst-inhoud .dikgedrukt,
+.wettekst-inhoud .kop,
+.wettekst-inhoud .boek-kop,
+.wettekst-inhoud .verdrag,
+.wettekst-inhoud .verdrag-kop,
+.wettekst-inhoud .verdragtekst-kop,
+.wettekst-inhoud .deel-kop,
+.wettekst-inhoud .titeldeel-kop,
+.wettekst-inhoud .afdeling-kop,
+.wettekst-inhoud .hoofdstuk-kop,
+.wettekst-inhoud .officiele-inhoudsopgave-kop,
+.wettekst-inhoud .paragraaf-kop,
+.wettekst-inhoud .sub-paragraaf-kop,
+.wettekst-inhoud .artikel-kop,
+.wettekst-inhoud .head-kop,
+.wettekst-inhoud .wetgeving-kop,
+.wettekst-inhoud .richtlijn-kop,
+.wettekst-inhoud .reglement-kop,
+.wettekst-inhoud .bijlage-kop,
+.wettekst-inhoud .tussenkop { 
+	margin-top: 0; 
+}
+
+.wettekst-inhoud .functie {
+	margin-bottom: 0;
+}
+
+.wettekst-inhoud .nonanchor:link,
+.wettekst-inhoud .nonanchor:visited {
+    color: #000000;
+}
+
+.wettekst-inhoud .additional {
+    color: #808080;
+    font-size: 91%;
+}
+
+.wettekst-inhoud .sup,
+.wettekst-inhoud .inf,
+.wettekst-inhoud .footnote {
+	position: relative; 
+	vertical-align: text-bottom;
+}
+
+.wettekst-inhoud .footnote {
+	font-size: 91%;
+}
+
+.wettekst-inhoud .sup,
+.wettekst-inhoud .footnote {
+	top: -0.3em; 
+}
+
+.wettekst-inhoud .inf {
+	top: 0.3em;
+}
+
+.wettekst-inhoud a sup,
+.wettekst-inhoud a:hover sup ,
+.wettekst-inhoud a sub,
+.wettekst-inhoud a:hover sub {
+    text-decoration: none;
+}
+
+.wettekst-inhoud .top {
+	vertical-align: top;
+}
+
+.wettekst-inhoud .middle {
+	vertical-align: middle;
+}
+
+.wettekst-inhoud .bottom {
+	vertical-align: bottom;
+}
+
+.wettekst-inhoud .left {
+	text-align: left;
+}
+
+.wettekst-inhoud .center {
+	text-align: center;
+}
+
+.wettekst-inhoud .right {
+	text-align: right;
+}
+
+.wettekst-inhoud tr.current {
+    background: #FFFF33;
+    font-weight: bold;
+}
+
+.wettekst-inhoud table.meta {
+    border-width: 1px 0 1px 1px;
+    border-color: #808080;
+    border-style: solid;
+}
+
+.wettekst-inhoud table.metaprint {
+    background: #E5EAF5;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.wettekst-inhoud caption.metaprint {
+    background: #E5EAF5;
+    margin-top: 15px;
+    margin-bottom: 0;
+    padding: 5px 5px 0 5px;
+    font-weight: bold;
+    caption-side: top;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.wettekst-inhoud td.metaheader {
+    font-size: 82%;
+    font-weight: bold;
+    padding: 5px;
+    border-width: 0 1px 1px 0;
+    border-color: #808080;
+    border-style: solid;
+}
+
+.wettekst-inhoud td.meta-repeat-header {
+    font-size: 82%;
+    font-weight: bold;
+    padding: 15px 5px 5px 5px;                                                                                    
+    border-width: 1px 1px 1px 0;
+    border-color: #808080;
+    border-style: solid;
+}
+
+.wettekst-inhoud td.meta-repeat-subheader {
+    font-size: 82%;
+    font-weight: bold;
+    padding: 5px;      
+    border-width: 0 1px 1px 0;
+    border-color: #808080;
+    border-style: solid;
+}
+
+.wettekst-inhoud td.metacontent {
+    font-size: 82%;
+    padding: 2px;
+    border-width: 0 1px 0 0;
+    border-color: #808080;
+    border-style: solid;
+}
+
+.wettekst-inhoud table.overview {
+    border-width: 1px 1px 0 1px;
+    border-color: #808080;
+    border-style: solid;
+}
+ 
+.wettekst-inhoud td.overviewheader {
+    font-size: 82%;
+    font-weight: bold;
+    padding: 5px;
+    border-width: 0 0 1px 0;
+    border-color: #808080;
+    border-style: solid;
+}
+
+.wettekst-inhoud td.overviewcontent {
+    font-size: 82%;
+    padding: 5px;
+    border-width: 0 0 1px 1px;
+    border-color: #808080;
+    border-style: solid;
+}
+
+.wettekst-inhoud td.sectiontopic {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 145%;
+}
+
+.wettekst-inhoud td.sectionheader {
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.wettekst-inhoud td.sectioncontent {
+	padding-left: 10px;   
+    font-size: 82%;
+}
+
+.wettekst-inhoud td.sectiontopicprint {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 145%;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.wettekst-inhoud td.sectionheaderprint {
+    padding-top: 10px;
+    font-weight: bold;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.wettekst-inhoud .opmerking,
+.wettekst-inhoud .opmerkingnr {
+    vertical-align: top;
+    font-size: 82%;
+}
+
+.wettekst-inhoud .opmerkingnr {
+    padding-right: 5px;
+}
+
+.wettekst-inhoud td.opmerking p.al {
+	margin: 0 0 5px 0;
+}
+
+.wettekst-inhoud thead { 
+    display: table-header-group;
+}
+
+.wettekst-inhoud tfoot { 
+    display: table-footer-group; 
+}
+
+.wettekst-inhoud .infohead {
+    background-color: #ff6600;
+    color: #ffffff;
+}
+
+.wettekst-inhoud .infoitem {
+    font-weight: bold;
+    background-color: #ff6600;
+    color: #ffffff;
+}
+
+.wettekst-inhoud .highlight1 {
+    background: #A0FFFF;
+}
+
+.wettekst-inhoud .highlight2 {
+    background: #99FF99;
+}
+
+.wettekst-inhoud .highlight3 {
+    background: #FF9999;
+}
+
+.wettekst-inhoud .highlight4 {
+    background: #FF99FF;
+}
+
+.wettekst-inhoud .highlight5 {
+    background: #9999FF;
+}
+
+.wettekst-inhoud .highlight6 {
+    background: #FFFF66;
+}
+
+.wettekst-inhoud .gegenereerde-tekst {
+	font-weight: bold;
+}
+
+
+/* TABELLEN OPMAAK */
+.wettekst-inhoud table {
+	border-spacing: 0px;
+	border-collapse: collapse;
+	border: 1px solid #999999;
+	margin: 0 auto 15px auto;
+}
+
+.wettekst-inhoud table .entry {
+	border-collapse: collapse;
+	border: 1px solid #999999;
+	padding: 1px 2px;
+}
+
+.wettekst-inhoud table.frame-none,
+.wettekst-inhoud table.frame-top,
+.wettekst-inhoud table.frame-bottom,
+.wettekst-inhoud table.frame-sides,
+.wettekst-inhoud table.frame-topbot {
+	border-spacing: 2px;	
+	border-collapse: separate;
+	border: 0px solid #000000;
+}
+
+.wettekst-inhoud table.frame-top,
+.wettekst-inhoud table.frame-topbot {
+	border-top: 1px solid #999999;
+}
+
+.wettekst-inhoud table.frame-bottom,
+.wettekst-inhoud table.frame-topbot {
+	border-bottom: 1px solid #999999;
+}
+
+.wettekst-inhoud table.frame-sides {
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
+}
+
+.wettekst-inhoud table.frame-none .entry,
+.wettekst-inhoud table.frame-top .entry,
+.wettekst-inhoud table.frame-bottom .entry,
+.wettekst-inhoud table.frame-sides .entry,
+.wettekst-inhoud table.frame-topbot .entry {
+	border-collapse: separate;
+	border: 0px solid #000000;
+}
+
+.wettekst-inhoud table tr.table-head th {
+	background: #c7b1b5;
+	font-weight: normal;
+}
+
+.wettekst-inhoud table tr.tr-rowsep th,
+.wettekst-inhoud table tr.tr-rowsep td {
+    border-bottom: 1px solid #999999;
+}
+
+.wettekst-inhoud table .entry p.al {
+	margin-bottom: 0;
+}
+
+.wettekst-inhoud table .valign-top {
+	vertical-align: top;
+}
+
+.wettekst-inhoud table .valign-middle {
+	vertical-align: middle;
+}
+
+.wettekst-inhoud table .valign-bottom {
+	vertical-align: bottom;
+}
+
+.wettekst-inhoud table .align-left {
+	text-align: left;
+}
+
+.wettekst-inhoud table .align-center {
+	text-align: center;
+}
+
+.wettekst-inhoud table .align-right {
+	text-align: right;
+}
+
+/* css a8 */
+.wettekst-inhoud .routing
+{
+	font-family: sans-serif;
+	font-size: 85%;
+	text-align: left;
+	color: #999999;
+	background: #ffffff;
+	margin-bottom: 10px;
+}
+</style>

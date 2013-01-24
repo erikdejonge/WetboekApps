@@ -1,0 +1,203 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* PolitierechtAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {790, 718}}";
+			sepNavSelRange = "{498, 0}";
+			sepNavVisRange = "{0, 606}";
+		};
+	};
+	1D3623250D0F684500981E51 /* PolitierechtAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1076, 718}}";
+			sepNavSelRange = "{135, 0}";
+			sepNavVisRange = "{0, 1415}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Politierecht */ = {
+		activeExec = 0;
+		executables = (
+			C92FF9051070ED29007FA227 /* Politierecht */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Distribute;
+		activeExecutable = C92FF9051070ED29007FA227 /* Politierecht */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Politierecht */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Politierecht */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = C92FF9151070ED2D007FA227 /* Code sense */;
+		executables = (
+			C92FF9051070ED29007FA227 /* Politierecht */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					612,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1064,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 324568722;
+			PBXWorkspaceStateSaveDate = 324568722;
+		};
+		perUserProjectItems = {
+			C94977901358965900D6BDFF /* PlistBookmark */ = C94977901358965900D6BDFF /* PlistBookmark */;
+			C94979D6135C338F00D6BDFF /* PlistBookmark */ = C94979D6135C338F00D6BDFF /* PlistBookmark */;
+		};
+		sourceControlManager = C92FF9141070ED2D007FA227 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107310486CEB800E47090 /* Politierecht-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 588}, {1446, 985}}";
+		};
+	};
+	C92FF9051070ED29007FA227 /* Politierecht */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Politierecht;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	C92FF9141070ED2D007FA227 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	C92FF9151070ED2D007FA227 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	C92FF91E1070EDCB007FA227 /* ExoneratieViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {4184, 1872}}";
+			sepNavSelRange = "{3652, 0}";
+			sepNavVisRange = "{2525, 2268}";
+		};
+	};
+	C92FF9241070EDCB007FA227 /* Sqlite.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {790, 5629}}";
+			sepNavSelRange = "{1924, 0}";
+			sepNavVisRange = "{1380, 920}";
+		};
+	};
+	C92FF9251070EDCB007FA227 /* TableViewFromDatabaseViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {790, 858}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2400}";
+		};
+	};
+	C92FF9261070EDCB007FA227 /* TableViewFromDatabaseViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1398, 11622}}";
+			sepNavSelRange = "{29243, 6}";
+			sepNavVisRange = "{1869, 2086}";
+			sepNavWindowFrame = "{{790, 91}, {1261, 1487}}";
+		};
+	};
+	C92FF9281070EDCB007FA227 /* WetboekSearchViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1265, 4082}}";
+			sepNavSelRange = "{5503, 0}";
+			sepNavVisRange = "{4678, 1743}";
+		};
+	};
+	C94977901358965900D6BDFF /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Politierecht-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/parallels/workspace/WetboekApps/2011/Apps/Politierecht/Politierecht-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	C94979D6135C338F00D6BDFF /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Politierecht-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			LSRequiresIPhoneOS,
+		);
+		name = "/Volumes/parallels/workspace/WetboekApps/2011/Apps/Politierecht/Politierecht-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+}
