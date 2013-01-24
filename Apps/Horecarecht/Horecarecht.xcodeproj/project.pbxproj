@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* HorecarechtAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* HorecarechtAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* HorecarechtViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* HorecarechtViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* HorecarechtViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* HorecarechtViewController.m */; };
+		C9296EA812154F3400A5E722 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9296EA712154F3400A5E722 /* MainWindow-iPad.xib */; };
+		C937BBAE113E65AA00F4A792 /* besluituitvoeringrookvrijewerkplekhorecaenandereruimten.db in Resources */ = {isa = PBXBuildFile; fileRef = C937BBAC113E65AA00F4A792 /* besluituitvoeringrookvrijewerkplekhorecaenandereruimten.db */; };
+		C937BBAF113E65AA00F4A792 /* wijzigingswetdrankenhorecawetenz.db in Resources */ = {isa = PBXBuildFile; fileRef = C937BBAD113E65AA00F4A792 /* wijzigingswetdrankenhorecawetenz.db */; };
+		C9731B71106BA72D00F62324 /* ArtikelViewControllerFromXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = C9731B5E106BA72D00F62324 /* ArtikelViewControllerFromXIB.m */; };
+		C9731B72106BA72D00F62324 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C9731B60106BA72D00F62324 /* CustomCell.m */; };
+		C9731B73106BA72D00F62324 /* CustomCellLong.m in Sources */ = {isa = PBXBuildFile; fileRef = C9731B62106BA72D00F62324 /* CustomCellLong.m */; };
+		C9731B74106BA72D00F62324 /* ExoneratieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9731B64106BA72D00F62324 /* ExoneratieViewController.m */; };
+		C9731B77106BA72D00F62324 /* Sqlite.m in Sources */ = {isa = PBXBuildFile; fileRef = C9731B6A106BA72D00F62324 /* Sqlite.m */; };
+		C9731B79106BA72D00F62324 /* TableViewFromDatabaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9731B6E106BA72D00F62324 /* TableViewFromDatabaseViewController.m */; };
+		C9731B7A106BA72D00F62324 /* WetboekSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9731B70106BA72D00F62324 /* WetboekSearchViewController.m */; };
+		C9731B85106BA82500F62324 /* ArtikelViewControllerFromXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9731B7F106BA82500F62324 /* ArtikelViewControllerFromXIB.xib */; };
+		C9731B86106BA82500F62324 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9731B80106BA82500F62324 /* CustomCell.xib */; };
+		C9731B87106BA82500F62324 /* CustomCellLong.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9731B81106BA82500F62324 /* CustomCellLong.xib */; };
+		C9731B88106BA82500F62324 /* ExoneratieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9731B82106BA82500F62324 /* ExoneratieViewController.xib */; };
+		C9731B89106BA82500F62324 /* TableViewFromDatabaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9731B83106BA82500F62324 /* TableViewFromDatabaseViewController.xib */; };
+		C9731B8A106BA82500F62324 /* WetboekSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9731B84106BA82500F62324 /* WetboekSearchViewController.xib */; };
+		C9731B96106BA83B00F62324 /* arrow-left.png in Resources */ = {isa = PBXBuildFile; fileRef = C9731B8C106BA83B00F62324 /* arrow-left.png */; };
+		C9731B97106BA83B00F62324 /* arrow-right.png in Resources */ = {isa = PBXBuildFile; fileRef = C9731B8D106BA83B00F62324 /* arrow-right.png */; };
+		C9731B98106BA83B00F62324 /* bg-sectionheader.png in Resources */ = {isa = PBXBuildFile; fileRef = C9731B8E106BA83B00F62324 /* bg-sectionheader.png */; };
+		C9731B99106BA83B00F62324 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C9731B8F106BA83B00F62324 /* Default.png */; };
+		C9731B9A106BA83B00F62324 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = C9731B90106BA83B00F62324 /* home.png */; };
+		C9731B9B106BA83B00F62324 /* icon-about.png in Resources */ = {isa = PBXBuildFile; fileRef = C9731B91106BA83B00F62324 /* icon-about.png */; };
+		C9731B9C106BA83B00F62324 /* icon-website.png in Resources */ = {isa = PBXBuildFile; fileRef = C9731B92106BA83B00F62324 /* icon-website.png */; };
+		C9731B9D106BA83B00F62324 /* Icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9731B93106BA83B00F62324 /* Icon.jpg */; };
+		C9731B9E106BA83B00F62324 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C9731B94106BA83B00F62324 /* Icon.png */; };
+		C9731B9F106BA83B00F62324 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = C9731B95106BA83B00F62324 /* info.png */; };
+		C9731BA3106BA84600F62324 /* obj-c.cfg in Resources */ = {isa = PBXBuildFile; fileRef = C9731BA0106BA84600F62324 /* obj-c.cfg */; };
+		C9731BA4106BA84600F62324 /* testleaks.sh in Resources */ = {isa = PBXBuildFile; fileRef = C9731BA1106BA84600F62324 /* testleaks.sh */; };
+		C9731BA5106BA84600F62324 /* uncrust.sh in Resources */ = {isa = PBXBuildFile; fileRef = C9731BA2106BA84600F62324 /* uncrust.sh */; };
+		C9731BCC106BA9EC00F62324 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C9731BCB106BA9EC00F62324 /* libsqlite3.dylib */; };
+		C9731BED106BA9F800F62324 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9731BEC106BA9F800F62324 /* CoreGraphics.framework */; };
+		C9731C04106BAA0200F62324 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9731C03106BAA0200F62324 /* QuartzCore.framework */; };
+		C9731C2F106BB6CF00F62324 /* besluitaanvullingomschrijvingslijtersbedrijf.db in Resources */ = {isa = PBXBuildFile; fileRef = C9731C19106BB6CF00F62324 /* besluitaanvullingomschrijvingslijtersbedrijf.db */; };
+		C9731C31106BB6CF00F62324 /* besluitbestuurlijkeboetedrankenhorecawet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9731C1B106BB6CF00F62324 /* besluitbestuurlijkeboetedrankenhorecawet.db */; };
+		C9731C32106BB6CF00F62324 /* besluitbibob.db in Resources */ = {isa = PBXBuildFile; fileRef = C9731C1C106BB6CF00F62324 /* besluitbibob.db */; };
+		C9731C33106BB6CF00F62324 /* besluiteiseninrichtingendrankenhorecawet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9731C1D106BB6CF00F62324 /* besluiteiseninrichtingendrankenhorecawet.db */; };
+		C9731C34106BB6CF00F62324 /* besluiteisenzedelijkgedragdrankenhorecawet1999.db in Resources */ = {isa = PBXBuildFile; fileRef = C9731C1E106BB6CF00F62324 /* besluiteisenzedelijkgedragdrankenhorecawet1999.db */; };
+		C9731C35106BB6CF00F62324 /* besluitkenniseninzichtsocialehygienedrankenhorecawet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9731C1F106BB6CF00F62324 /* besluitkenniseninzichtsocialehygienedrankenhorecawet.db */; };
+		C9731C37106BB6CF00F62324 /* drankenhorecawet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9731C21106BB6CF00F62324 /* drankenhorecawet.db */; };
+		C9731C38106BB6CF00F62324 /* regelingaanvraaggegevensenformulierendrankenhorecawet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9731C22106BB6CF00F62324 /* regelingaanvraaggegevensenformulierendrankenhorecawet.db */; };
+		C9731C39106BB6CF00F62324 /* regelingbewijsstukkensocialehygienedrankenhorecawet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9731C23106BB6CF00F62324 /* regelingbewijsstukkensocialehygienedrankenhorecawet.db */; };
+		C9731C3A106BB6CF00F62324 /* speelautomatenbesluit2000.db in Resources */ = {isa = PBXBuildFile; fileRef = C9731C24106BB6CF00F62324 /* speelautomatenbesluit2000.db */; };
+		C9731C3B106BB6CF00F62324 /* tabakswet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9731C25106BB6CF00F62324 /* tabakswet.db */; };
+		C9731C3C106BB6CF00F62324 /* vrijstellingenbesluitwinkeltijdenwet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9731C26106BB6CF00F62324 /* vrijstellingenbesluitwinkeltijdenwet.db */; };
+		C9731C3D106BB6CF00F62324 /* wetmilieubeheer.db in Resources */ = {isa = PBXBuildFile; fileRef = C9731C27106BB6CF00F62324 /* wetmilieubeheer.db */; };
+		C9731C3E106BB6CF00F62324 /* wetopdeeconomischedelicten.db in Resources */ = {isa = PBXBuildFile; fileRef = C9731C28106BB6CF00F62324 /* wetopdeeconomischedelicten.db */; };
+		C9731C3F106BB6CF00F62324 /* wetopdekansspelen.db in Resources */ = {isa = PBXBuildFile; fileRef = C9731C29106BB6CF00F62324 /* wetopdekansspelen.db */; };
+		C9731C40106BB6CF00F62324 /* wetten.db in Resources */ = {isa = PBXBuildFile; fileRef = C9731C2A106BB6CF00F62324 /* wetten.db */; };
+		C9731C43106BB6CF00F62324 /* winkeltijdenwet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9731C2D106BB6CF00F62324 /* winkeltijdenwet.db */; };
+		C9731C44106BB6CF00F62324 /* woningwet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9731C2E106BB6CF00F62324 /* woningwet.db */; };
+		C9BB6BB51219555E00719D35 /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = C9BB6BAE1219555E00719D35 /* Default~ipad.png */; };
+		C9BB6BB61219555E00719D35 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = C9BB6BAF1219555E00719D35 /* Icon-72.png */; };
+		C9BB6BB71219555E00719D35 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = C9BB6BB01219555E00719D35 /* Icon-Small-50.png */; };
+		C9BB6BB81219555E00719D35 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = C9BB6BB11219555E00719D35 /* Icon-Small.png */; };
+		C9BB6BB91219555E00719D35 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9BB6BB21219555E00719D35 /* Icon-Small@2x.png */; };
+		C9BB6BBA1219555E00719D35 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C9BB6BB31219555E00719D35 /* Icon.png */; };
+		C9BB6BBB1219555E00719D35 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9BB6BB41219555E00719D35 /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* HorecarechtAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorecarechtAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* HorecarechtAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorecarechtAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Horecarecht.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Horecarecht.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* HorecarechtViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HorecarechtViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* HorecarechtViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorecarechtViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* HorecarechtViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorecarechtViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Horecarecht_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Horecarecht_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Horecarecht-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Horecarecht-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C9296EA712154F3400A5E722 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "Resources-iPad/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		C937BBAC113E65AA00F4A792 /* besluituitvoeringrookvrijewerkplekhorecaenandereruimten.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = besluituitvoeringrookvrijewerkplekhorecaenandereruimten.db; path = db/besluituitvoeringrookvrijewerkplekhorecaenandereruimten.db; sourceTree = "<group>"; };
+		C937BBAD113E65AA00F4A792 /* wijzigingswetdrankenhorecawetenz.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = wijzigingswetdrankenhorecawetenz.db; path = db/wijzigingswetdrankenhorecawetenz.db; sourceTree = "<group>"; };
+		C9731B5D106BA72D00F62324 /* ArtikelViewControllerFromXIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtikelViewControllerFromXIB.h; sourceTree = "<group>"; };
+		C9731B5E106BA72D00F62324 /* ArtikelViewControllerFromXIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtikelViewControllerFromXIB.m; sourceTree = "<group>"; };
+		C9731B5F106BA72D00F62324 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		C9731B60106BA72D00F62324 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		C9731B61106BA72D00F62324 /* CustomCellLong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellLong.h; sourceTree = "<group>"; };
+		C9731B62106BA72D00F62324 /* CustomCellLong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellLong.m; sourceTree = "<group>"; };
+		C9731B63106BA72D00F62324 /* ExoneratieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExoneratieViewController.h; sourceTree = "<group>"; };
+		C9731B64106BA72D00F62324 /* ExoneratieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExoneratieViewController.m; sourceTree = "<group>"; };
+		C9731B69106BA72D00F62324 /* Sqlite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sqlite.h; sourceTree = "<group>"; };
+		C9731B6A106BA72D00F62324 /* Sqlite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sqlite.m; sourceTree = "<group>"; };
+		C9731B6D106BA72D00F62324 /* TableViewFromDatabaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewFromDatabaseViewController.h; sourceTree = "<group>"; };
+		C9731B6E106BA72D00F62324 /* TableViewFromDatabaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewFromDatabaseViewController.m; sourceTree = "<group>"; };
+		C9731B6F106BA72D00F62324 /* WetboekSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WetboekSearchViewController.h; sourceTree = "<group>"; };
+		C9731B70106BA72D00F62324 /* WetboekSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WetboekSearchViewController.m; sourceTree = "<group>"; };
+		C9731B7F106BA82500F62324 /* ArtikelViewControllerFromXIB.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ArtikelViewControllerFromXIB.xib; path = Resources/ArtikelViewControllerFromXIB.xib; sourceTree = "<group>"; };
+		C9731B80106BA82500F62324 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CustomCell.xib; path = Resources/CustomCell.xib; sourceTree = "<group>"; };
+		C9731B81106BA82500F62324 /* CustomCellLong.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CustomCellLong.xib; path = Resources/CustomCellLong.xib; sourceTree = "<group>"; };
+		C9731B82106BA82500F62324 /* ExoneratieViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ExoneratieViewController.xib; path = Resources/ExoneratieViewController.xib; sourceTree = "<group>"; };
+		C9731B83106BA82500F62324 /* TableViewFromDatabaseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TableViewFromDatabaseViewController.xib; path = Resources/TableViewFromDatabaseViewController.xib; sourceTree = "<group>"; };
+		C9731B84106BA82500F62324 /* WetboekSearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = WetboekSearchViewController.xib; path = Resources/WetboekSearchViewController.xib; sourceTree = "<group>"; };
+		C9731B8C106BA83B00F62324 /* arrow-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "arrow-left.png"; path = "Resources/Images/arrow-left.png"; sourceTree = "<group>"; };
+		C9731B8D106BA83B00F62324 /* arrow-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "arrow-right.png"; path = "Resources/Images/arrow-right.png"; sourceTree = "<group>"; };
+		C9731B8E106BA83B00F62324 /* bg-sectionheader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg-sectionheader.png"; path = "Resources/Images/bg-sectionheader.png"; sourceTree = "<group>"; };
+		C9731B8F106BA83B00F62324 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Images/Default.png; sourceTree = "<group>"; };
+		C9731B90106BA83B00F62324 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = Resources/Images/home.png; sourceTree = "<group>"; };
+		C9731B91106BA83B00F62324 /* icon-about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-about.png"; path = "Resources/Images/icon-about.png"; sourceTree = "<group>"; };
+		C9731B92106BA83B00F62324 /* icon-website.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-website.png"; path = "Resources/Images/icon-website.png"; sourceTree = "<group>"; };
+		C9731B93106BA83B00F62324 /* Icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Icon.jpg; path = Resources/Images/Icon.jpg; sourceTree = "<group>"; };
+		C9731B94106BA83B00F62324 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Images/Icon.png; sourceTree = "<group>"; };
+		C9731B95106BA83B00F62324 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = info.png; path = Resources/Images/info.png; sourceTree = "<group>"; };
+		C9731BA0106BA84600F62324 /* obj-c.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "obj-c.cfg"; sourceTree = "<group>"; };
+		C9731BA1106BA84600F62324 /* testleaks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = testleaks.sh; sourceTree = "<group>"; };
+		C9731BA2106BA84600F62324 /* uncrust.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = uncrust.sh; sourceTree = "<group>"; };
+		C9731BCB106BA9EC00F62324 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		C9731BEC106BA9F800F62324 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C9731C03106BAA0200F62324 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C9731C19106BB6CF00F62324 /* besluitaanvullingomschrijvingslijtersbedrijf.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = besluitaanvullingomschrijvingslijtersbedrijf.db; path = db/besluitaanvullingomschrijvingslijtersbedrijf.db; sourceTree = "<group>"; };
+		C9731C1B106BB6CF00F62324 /* besluitbestuurlijkeboetedrankenhorecawet.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = besluitbestuurlijkeboetedrankenhorecawet.db; path = db/besluitbestuurlijkeboetedrankenhorecawet.db; sourceTree = "<group>"; };
+		C9731C1C106BB6CF00F62324 /* besluitbibob.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = besluitbibob.db; path = db/besluitbibob.db; sourceTree = "<group>"; };
+		C9731C1D106BB6CF00F62324 /* besluiteiseninrichtingendrankenhorecawet.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = besluiteiseninrichtingendrankenhorecawet.db; path = db/besluiteiseninrichtingendrankenhorecawet.db; sourceTree = "<group>"; };
+		C9731C1E106BB6CF00F62324 /* besluiteisenzedelijkgedragdrankenhorecawet1999.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = besluiteisenzedelijkgedragdrankenhorecawet1999.db; path = db/besluiteisenzedelijkgedragdrankenhorecawet1999.db; sourceTree = "<group>"; };
+		C9731C1F106BB6CF00F62324 /* besluitkenniseninzichtsocialehygienedrankenhorecawet.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = besluitkenniseninzichtsocialehygienedrankenhorecawet.db; path = db/besluitkenniseninzichtsocialehygienedrankenhorecawet.db; sourceTree = "<group>"; };
+		C9731C21106BB6CF00F62324 /* drankenhorecawet.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = drankenhorecawet.db; path = db/drankenhorecawet.db; sourceTree = "<group>"; };
+		C9731C22106BB6CF00F62324 /* regelingaanvraaggegevensenformulierendrankenhorecawet.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = regelingaanvraaggegevensenformulierendrankenhorecawet.db; path = db/regelingaanvraaggegevensenformulierendrankenhorecawet.db; sourceTree = "<group>"; };
+		C9731C23106BB6CF00F62324 /* regelingbewijsstukkensocialehygienedrankenhorecawet.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = regelingbewijsstukkensocialehygienedrankenhorecawet.db; path = db/regelingbewijsstukkensocialehygienedrankenhorecawet.db; sourceTree = "<group>"; };
+		C9731C24106BB6CF00F62324 /* speelautomatenbesluit2000.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = speelautomatenbesluit2000.db; path = db/speelautomatenbesluit2000.db; sourceTree = "<group>"; };
+		C9731C25106BB6CF00F62324 /* tabakswet.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = tabakswet.db; path = db/tabakswet.db; sourceTree = "<group>"; };
+		C9731C26106BB6CF00F62324 /* vrijstellingenbesluitwinkeltijdenwet.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = vrijstellingenbesluitwinkeltijdenwet.db; path = db/vrijstellingenbesluitwinkeltijdenwet.db; sourceTree = "<group>"; };
+		C9731C27106BB6CF00F62324 /* wetmilieubeheer.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = wetmilieubeheer.db; path = db/wetmilieubeheer.db; sourceTree = "<group>"; };
+		C9731C28106BB6CF00F62324 /* wetopdeeconomischedelicten.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = wetopdeeconomischedelicten.db; path = db/wetopdeeconomischedelicten.db; sourceTree = "<group>"; };
+		C9731C29106BB6CF00F62324 /* wetopdekansspelen.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = wetopdekansspelen.db; path = db/wetopdekansspelen.db; sourceTree = "<group>"; };
+		C9731C2A106BB6CF00F62324 /* wetten.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = wetten.db; path = db/wetten.db; sourceTree = "<group>"; };
+		C9731C2D106BB6CF00F62324 /* winkeltijdenwet.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = winkeltijdenwet.db; path = db/winkeltijdenwet.db; sourceTree = "<group>"; };
+		C9731C2E106BB6CF00F62324 /* woningwet.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = woningwet.db; path = db/woningwet.db; sourceTree = "<group>"; };
+		C9BB6BAE1219555E00719D35 /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default~ipad.png"; path = "Resources/Images/Default~ipad.png"; sourceTree = "<group>"; };
+		C9BB6BAF1219555E00719D35 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Resources/Images/Icon-72.png"; sourceTree = "<group>"; };
+		C9BB6BB01219555E00719D35 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "Resources/Images/Icon-Small-50.png"; sourceTree = "<group>"; };
+		C9BB6BB11219555E00719D35 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "Resources/Images/Icon-Small.png"; sourceTree = "<group>"; };
+		C9BB6BB21219555E00719D35 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "Resources/Images/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		C9BB6BB31219555E00719D35 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Images/Icon.png; sourceTree = "<group>"; };
+		C9BB6BB41219555E00719D35 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Images/Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				C9731BCC106BA9EC00F62324 /* libsqlite3.dylib in Frameworks */,
+				C9731BED106BA9F800F62324 /* CoreGraphics.framework in Frameworks */,
+				C9731C04106BAA0200F62324 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C9731B5D106BA72D00F62324 /* ArtikelViewControllerFromXIB.h */,
+				C9731B5E106BA72D00F62324 /* ArtikelViewControllerFromXIB.m */,
+				C9731B5F106BA72D00F62324 /* CustomCell.h */,
+				C9731B60106BA72D00F62324 /* CustomCell.m */,
+				C9731B61106BA72D00F62324 /* CustomCellLong.h */,
+				C9731B62106BA72D00F62324 /* CustomCellLong.m */,
+				C9731B63106BA72D00F62324 /* ExoneratieViewController.h */,
+				C9731B64106BA72D00F62324 /* ExoneratieViewController.m */,
+				C9731B69106BA72D00F62324 /* Sqlite.h */,
+				C9731B6A106BA72D00F62324 /* Sqlite.m */,
+				C9731B6D106BA72D00F62324 /* TableViewFromDatabaseViewController.h */,
+				C9731B6E106BA72D00F62324 /* TableViewFromDatabaseViewController.m */,
+				C9731B6F106BA72D00F62324 /* WetboekSearchViewController.h */,
+				C9731B70106BA72D00F62324 /* WetboekSearchViewController.m */,
+				1D3623240D0F684500981E51 /* HorecarechtAppDelegate.h */,
+				1D3623250D0F684500981E51 /* HorecarechtAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* HorecarechtViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* HorecarechtViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Horecarecht.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				C9731BA0106BA84600F62324 /* obj-c.cfg */,
+				C9731BA1106BA84600F62324 /* testleaks.sh */,
+				C9731BA2106BA84600F62324 /* uncrust.sh */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				C9296EA612154F3400A5E722 /* Resources-iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Horecarecht_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C9731C18106BB6C300F62324 /* db */,
+				C9731B8B106BA82C00F62324 /* Images */,
+				C9731B7F106BA82500F62324 /* ArtikelViewControllerFromXIB.xib */,
+				C9731B80106BA82500F62324 /* CustomCell.xib */,
+				C9731B81106BA82500F62324 /* CustomCellLong.xib */,
+				C9731B82106BA82500F62324 /* ExoneratieViewController.xib */,
+				C9731B83106BA82500F62324 /* TableViewFromDatabaseViewController.xib */,
+				C9731B84106BA82500F62324 /* WetboekSearchViewController.xib */,
+				2899E5210DE3E06400AC0155 /* HorecarechtViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Horecarecht-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9731C03106BAA0200F62324 /* QuartzCore.framework */,
+				C9731BCB106BA9EC00F62324 /* libsqlite3.dylib */,
+				C9731BEC106BA9F800F62324 /* CoreGraphics.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9296EA612154F3400A5E722 /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				C9296EA712154F3400A5E722 /* MainWindow-iPad.xib */,
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+		C9731B8B106BA82C00F62324 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C9BB6BAE1219555E00719D35 /* Default~ipad.png */,
+				C9BB6BAF1219555E00719D35 /* Icon-72.png */,
+				C9BB6BB01219555E00719D35 /* Icon-Small-50.png */,
+				C9BB6BB11219555E00719D35 /* Icon-Small.png */,
+				C9BB6BB21219555E00719D35 /* Icon-Small@2x.png */,
+				C9BB6BB31219555E00719D35 /* Icon.png */,
+				C9BB6BB41219555E00719D35 /* Icon@2x.png */,
+				C9731B8C106BA83B00F62324 /* arrow-left.png */,
+				C9731B8D106BA83B00F62324 /* arrow-right.png */,
+				C9731B8E106BA83B00F62324 /* bg-sectionheader.png */,
+				C9731B8F106BA83B00F62324 /* Default.png */,
+				C9731B90106BA83B00F62324 /* home.png */,
+				C9731B91106BA83B00F62324 /* icon-about.png */,
+				C9731B92106BA83B00F62324 /* icon-website.png */,
+				C9731B93106BA83B00F62324 /* Icon.jpg */,
+				C9731B94106BA83B00F62324 /* Icon.png */,
+				C9731B95106BA83B00F62324 /* info.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		C9731C18106BB6C300F62324 /* db */ = {
+			isa = PBXGroup;
+			children = (
+				C937BBAC113E65AA00F4A792 /* besluituitvoeringrookvrijewerkplekhorecaenandereruimten.db */,
+				C937BBAD113E65AA00F4A792 /* wijzigingswetdrankenhorecawetenz.db */,
+				C9731C19106BB6CF00F62324 /* besluitaanvullingomschrijvingslijtersbedrijf.db */,
+				C9731C1B106BB6CF00F62324 /* besluitbestuurlijkeboetedrankenhorecawet.db */,
+				C9731C1C106BB6CF00F62324 /* besluitbibob.db */,
+				C9731C1D106BB6CF00F62324 /* besluiteiseninrichtingendrankenhorecawet.db */,
+				C9731C1E106BB6CF00F62324 /* besluiteisenzedelijkgedragdrankenhorecawet1999.db */,
+				C9731C1F106BB6CF00F62324 /* besluitkenniseninzichtsocialehygienedrankenhorecawet.db */,
+				C9731C21106BB6CF00F62324 /* drankenhorecawet.db */,
+				C9731C22106BB6CF00F62324 /* regelingaanvraaggegevensenformulierendrankenhorecawet.db */,
+				C9731C23106BB6CF00F62324 /* regelingbewijsstukkensocialehygienedrankenhorecawet.db */,
+				C9731C24106BB6CF00F62324 /* speelautomatenbesluit2000.db */,
+				C9731C25106BB6CF00F62324 /* tabakswet.db */,
+				C9731C26106BB6CF00F62324 /* vrijstellingenbesluitwinkeltijdenwet.db */,
+				C9731C27106BB6CF00F62324 /* wetmilieubeheer.db */,
+				C9731C28106BB6CF00F62324 /* wetopdeeconomischedelicten.db */,
+				C9731C29106BB6CF00F62324 /* wetopdekansspelen.db */,
+				C9731C2A106BB6CF00F62324 /* wetten.db */,
+				C9731C2D106BB6CF00F62324 /* winkeltijdenwet.db */,
+				C9731C2E106BB6CF00F62324 /* woningwet.db */,
+			);
+			name = db;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Horecarecht */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Horecarecht" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Horecarecht;
+			productName = Horecarecht;
+			productReference = 1D6058910D05DD3D006BFB54 /* Horecarecht.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Horecarecht" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Horecarecht */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* HorecarechtViewController.xib in Resources */,
+				C9731B85106BA82500F62324 /* ArtikelViewControllerFromXIB.xib in Resources */,
+				C9731B86106BA82500F62324 /* CustomCell.xib in Resources */,
+				C9731B87106BA82500F62324 /* CustomCellLong.xib in Resources */,
+				C9731B88106BA82500F62324 /* ExoneratieViewController.xib in Resources */,
+				C9731B89106BA82500F62324 /* TableViewFromDatabaseViewController.xib in Resources */,
+				C9731B8A106BA82500F62324 /* WetboekSearchViewController.xib in Resources */,
+				C9731B96106BA83B00F62324 /* arrow-left.png in Resources */,
+				C9731B97106BA83B00F62324 /* arrow-right.png in Resources */,
+				C9731B98106BA83B00F62324 /* bg-sectionheader.png in Resources */,
+				C9731B99106BA83B00F62324 /* Default.png in Resources */,
+				C9731B9A106BA83B00F62324 /* home.png in Resources */,
+				C9731B9B106BA83B00F62324 /* icon-about.png in Resources */,
+				C9731B9C106BA83B00F62324 /* icon-website.png in Resources */,
+				C9731B9D106BA83B00F62324 /* Icon.jpg in Resources */,
+				C9731B9E106BA83B00F62324 /* Icon.png in Resources */,
+				C9731B9F106BA83B00F62324 /* info.png in Resources */,
+				C9731BA3106BA84600F62324 /* obj-c.cfg in Resources */,
+				C9731BA4106BA84600F62324 /* testleaks.sh in Resources */,
+				C9731BA5106BA84600F62324 /* uncrust.sh in Resources */,
+				C9731C2F106BB6CF00F62324 /* besluitaanvullingomschrijvingslijtersbedrijf.db in Resources */,
+				C9731C31106BB6CF00F62324 /* besluitbestuurlijkeboetedrankenhorecawet.db in Resources */,
+				C9731C32106BB6CF00F62324 /* besluitbibob.db in Resources */,
+				C9731C33106BB6CF00F62324 /* besluiteiseninrichtingendrankenhorecawet.db in Resources */,
+				C9731C34106BB6CF00F62324 /* besluiteisenzedelijkgedragdrankenhorecawet1999.db in Resources */,
+				C9731C35106BB6CF00F62324 /* besluitkenniseninzichtsocialehygienedrankenhorecawet.db in Resources */,
+				C9731C37106BB6CF00F62324 /* drankenhorecawet.db in Resources */,
+				C9731C38106BB6CF00F62324 /* regelingaanvraaggegevensenformulierendrankenhorecawet.db in Resources */,
+				C9731C39106BB6CF00F62324 /* regelingbewijsstukkensocialehygienedrankenhorecawet.db in Resources */,
+				C9731C3A106BB6CF00F62324 /* speelautomatenbesluit2000.db in Resources */,
+				C9731C3B106BB6CF00F62324 /* tabakswet.db in Resources */,
+				C9731C3C106BB6CF00F62324 /* vrijstellingenbesluitwinkeltijdenwet.db in Resources */,
+				C9731C3D106BB6CF00F62324 /* wetmilieubeheer.db in Resources */,
+				C9731C3E106BB6CF00F62324 /* wetopdeeconomischedelicten.db in Resources */,
+				C9731C3F106BB6CF00F62324 /* wetopdekansspelen.db in Resources */,
+				C9731C40106BB6CF00F62324 /* wetten.db in Resources */,
+				C9731C43106BB6CF00F62324 /* winkeltijdenwet.db in Resources */,
+				C9731C44106BB6CF00F62324 /* woningwet.db in Resources */,
+				C937BBAE113E65AA00F4A792 /* besluituitvoeringrookvrijewerkplekhorecaenandereruimten.db in Resources */,
+				C937BBAF113E65AA00F4A792 /* wijzigingswetdrankenhorecawetenz.db in Resources */,
+				C9296EA812154F3400A5E722 /* MainWindow-iPad.xib in Resources */,
+				C9BB6BB51219555E00719D35 /* Default~ipad.png in Resources */,
+				C9BB6BB61219555E00719D35 /* Icon-72.png in Resources */,
+				C9BB6BB71219555E00719D35 /* Icon-Small-50.png in Resources */,
+				C9BB6BB81219555E00719D35 /* Icon-Small.png in Resources */,
+				C9BB6BB91219555E00719D35 /* Icon-Small@2x.png in Resources */,
+				C9BB6BBA1219555E00719D35 /* Icon.png in Resources */,
+				C9BB6BBB1219555E00719D35 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* HorecarechtAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* HorecarechtViewController.m in Sources */,
+				C9731B71106BA72D00F62324 /* ArtikelViewControllerFromXIB.m in Sources */,
+				C9731B72106BA72D00F62324 /* CustomCell.m in Sources */,
+				C9731B73106BA72D00F62324 /* CustomCellLong.m in Sources */,
+				C9731B74106BA72D00F62324 /* ExoneratieViewController.m in Sources */,
+				C9731B77106BA72D00F62324 /* Sqlite.m in Sources */,
+				C9731B79106BA72D00F62324 /* TableViewFromDatabaseViewController.m in Sources */,
+				C9731B7A106BA72D00F62324 /* WetboekSearchViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Horecarecht_Prefix.pch;
+				INFOPLIST_FILE = "Horecarecht-Info.plist";
+				PRODUCT_NAME = Horecarecht;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Horecarecht_Prefix.pch;
+				INFOPLIST_FILE = "Horecarecht-Info.plist";
+				PRODUCT_NAME = Horecarecht;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		C9809A041070B41E009E2A99 /* Distribute */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribute;
+		};
+		C9809A051070B41E009E2A99 /* Distribute */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Horecarecht_Prefix.pch;
+				INFOPLIST_FILE = "Horecarecht-Info.plist";
+				PRODUCT_NAME = Horecarecht;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Distribute;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Horecarecht" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				C9809A051070B41E009E2A99 /* Distribute */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Horecarecht" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				C9809A041070B41E009E2A99 /* Distribute */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

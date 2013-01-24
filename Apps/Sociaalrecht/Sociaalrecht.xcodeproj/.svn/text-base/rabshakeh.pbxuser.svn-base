@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* SociaalrechtAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1244, 964}}";
+			sepNavSelRange = "{431, 0}";
+			sepNavVisRange = "{0, 599}";
+		};
+	};
+	1D3623250D0F684500981E51 /* SociaalrechtAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {891, 624}}";
+			sepNavSelRange = "{811, 0}";
+			sepNavVisRange = "{0, 812}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Sociaalrecht */ = {
+		activeExec = 0;
+		executables = (
+			C9091DA91062470900E902FB /* Sociaalrecht */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Distribute;
+		activeExecutable = C9091DA91062470900E902FB /* Sociaalrecht */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Sociaalrecht */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Sociaalrecht */,
+		);
+		breakpoints = (
+			C9809A271070C0FA009E2A99 /* ArtikelViewControllerFromXIB.m:63 */,
+			C9809A321070CAA7009E2A99 /* ArtikelViewControllerFromXIB.m:95 */,
+		);
+		codeSenseManager = C9091DC41062471400E902FB /* Code sense */;
+		executables = (
+			C9091DA91062470900E902FB /* Sociaalrecht */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1066,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1026,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 323871366;
+			PBXWorkspaceStateSaveDate = 323871366;
+		};
+		perUserProjectItems = {
+			C909D451134DD37E004FD731 /* PlistBookmark */ = C909D451134DD37E004FD731 /* PlistBookmark */;
+			C91202AF10CAE9E80098F6F4 /* PBXTextBookmark */ = C91202AF10CAE9E80098F6F4 /* PBXTextBookmark */;
+			C92F291912D33A37001F19F0 /* PBXTextBookmark */ = C92F291912D33A37001F19F0 /* PBXTextBookmark */;
+			C93438DD1157C23F0044CC37 /* PBXTextBookmark */ = C93438DD1157C23F0044CC37 /* PBXTextBookmark */;
+			C93438DE1157C23F0044CC37 /* PBXTextBookmark */ = C93438DE1157C23F0044CC37 /* PBXTextBookmark */;
+			C93E9C74116DFE0C006B79E7 /* PBXTextBookmark */ = C93E9C74116DFE0C006B79E7 /* PBXTextBookmark */;
+			C950509912378E1300D7523C /* PBXBookmark */ = C950509912378E1300D7523C /* PBXBookmark */;
+			C9717096134DE2B400657801 /* PlistBookmark */ = C9717096134DE2B400657801 /* PlistBookmark */;
+			C9953EB911295198000FB708 /* PBXTextBookmark */ = C9953EB911295198000FB708 /* PBXTextBookmark */;
+			C9953EBA11295198000FB708 /* PBXBookmark */ = C9953EBA11295198000FB708 /* PBXBookmark */;
+			C9953EBB11295198000FB708 /* PBXBookmark */ = C9953EBB11295198000FB708 /* PBXBookmark */;
+			C9BE5284121ACF8B0090560A /* PBXBookmark */ = C9BE5284121ACF8B0090560A /* PBXBookmark */;
+			C9BE5285121ACF8B0090560A /* PBXBookmark */ = C9BE5285121ACF8B0090560A /* PBXBookmark */;
+			C9EBF4161148E1F900F59230 /* PBXTextBookmark */ = C9EBF4161148E1F900F59230 /* PBXTextBookmark */;
+			C9EBF4511148ECB200F59230 /* PBXTextBookmark */ = C9EBF4511148ECB200F59230 /* PBXTextBookmark */;
+			C9EBF47A1148FE9400F59230 /* PBXTextBookmark */ = C9EBF47A1148FE9400F59230 /* PBXTextBookmark */;
+			C9F22E32134DD34000382EB4 /* PBXTextBookmark */ = C9F22E32134DD34000382EB4 /* PBXTextBookmark */;
+		};
+		sourceControlManager = C9091DC31062471400E902FB /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107310486CEB800E47090 /* Sociaalrecht-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{38, 567}, {1446, 985}}";
+		};
+	};
+	C9091DA91062470900E902FB /* Sociaalrecht */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Sociaalrecht;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	C9091DC31062471400E902FB /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	C9091DC41062471400E902FB /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	C909D451134DD37E004FD731 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Sociaalrecht-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			LSRequiresIPhoneOS,
+		);
+		name = "/Volumes/parallels/workspace/WetboekApps/2011/Apps/Sociaalrecht/Sociaalrecht-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	C91202AF10CAE9E80098F6F4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C9CD3AB8106250790011BD65 /* WetboekSearchViewController.m */;
+		name = "WetboekSearchViewController.m: 129";
+		rLen = 0;
+		rLoc = 5503;
+		rType = 0;
+		vrLen = 2166;
+		vrLoc = 4207;
+	};
+	C92F291912D33A37001F19F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* SociaalrechtAppDelegate.m */;
+		name = "SociaalrechtAppDelegate.m: 25";
+		rLen = 0;
+		rLoc = 817;
+		rType = 0;
+		vrLen = 1350;
+		vrLoc = 0;
+	};
+	C93438DD1157C23F0044CC37 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C9CD3AB6106250790011BD65 /* TableViewFromDatabaseViewController.m */;
+		name = "TableViewFromDatabaseViewController.m: 16";
+		rLen = 0;
+		rLoc = 454;
+		rType = 0;
+		vrLen = 4004;
+		vrLoc = 2503;
+	};
+	C93438DE1157C23F0044CC37 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C9CD3AAA106250790011BD65 /* ArtikelViewControllerFromXIB.m */;
+		name = "ArtikelViewControllerFromXIB.m: 215";
+		rLen = 505;
+		rLoc = 8078;
+		rType = 0;
+		vrLen = 3450;
+		vrLoc = 6516;
+	};
+	C93E9C74116DFE0C006B79E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C9CD3AA9106250790011BD65 /* ArtikelViewControllerFromXIB.h */;
+		name = "ArtikelViewControllerFromXIB.h: 47";
+		rLen = 195;
+		rLoc = 2033;
+		rType = 0;
+		vrLen = 2233;
+		vrLoc = 0;
+	};
+	C950509912378E1300D7523C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = C9CD3B391062515A0011BD65 /* Icon.png */;
+	};
+	C9717096134DE2B400657801 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Sociaalrecht-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			LSRequiresIPhoneOS,
+		);
+		name = "/Volumes/parallels/workspace/WetboekApps/2011/Apps/Sociaalrecht/Sociaalrecht-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	C9809A271070C0FA009E2A99 /* ArtikelViewControllerFromXIB.m:63 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = C9CD3AAA106250790011BD65 /* ArtikelViewControllerFromXIB.m */;
+		functionName = "-storeBookMark";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 63;
+		location = Sociaalrecht;
+		modificationTime = 303747165.73261;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	C9809A321070CAA7009E2A99 /* ArtikelViewControllerFromXIB.m:95 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = C9CD3AAA106250790011BD65 /* ArtikelViewControllerFromXIB.m */;
+		functionName = "-makeBookmark:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 95;
+		location = Sociaalrecht;
+		modificationTime = 303747165.751075;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	C9953EA611294FEF000FB708 /* uncrust.sh */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1045, 577}}";
+			sepNavSelRange = "{1254, 0}";
+			sepNavVisRange = "{0, 1254}";
+		};
+	};
+	C9953EB911295198000FB708 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C9953EA611294FEF000FB708 /* uncrust.sh */;
+		name = "uncrust.sh: 22";
+		rLen = 0;
+		rLoc = 1254;
+		rType = 0;
+		vrLen = 1254;
+		vrLoc = 0;
+	};
+	C9953EBA11295198000FB708 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = C9CD3B381062515A0011BD65 /* Icon.jpg */;
+	};
+	C9953EBB11295198000FB708 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = C9CD3B3A1062515A0011BD65 /* info.png */;
+	};
+	C9BE5284121ACF8B0090560A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = C9532652121987F300F727D4 /* Default~ipad.png */;
+	};
+	C9BE5285121ACF8B0090560A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = C9532653121987F300F727D4 /* Icon-72.png */;
+	};
+	C9CD3AA9106250790011BD65 /* ArtikelViewControllerFromXIB.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1036, 1217}}";
+			sepNavSelRange = "{2033, 195}";
+			sepNavVisRange = "{0, 2233}";
+		};
+	};
+	C9CD3AAA106250790011BD65 /* ArtikelViewControllerFromXIB.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1629, 4108}}";
+			sepNavSelRange = "{8078, 505}";
+			sepNavVisRange = "{6516, 3450}";
+			sepNavWindowFrame = "{{1042, 128}, {1446, 985}}";
+		};
+	};
+	C9CD3AB0106250790011BD65 /* ExoneratieViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {4191, 1872}}";
+			sepNavSelRange = "{3622, 0}";
+			sepNavVisRange = "{1847, 2974}";
+		};
+	};
+	C9CD3AB2106250790011BD65 /* Sqlite.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1461, 6279}}";
+			sepNavSelRange = "{1518, 17}";
+			sepNavVisRange = "{1291, 1273}";
+		};
+	};
+	C9CD3AB5106250790011BD65 /* TableViewFromDatabaseViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1016, 1217}}";
+			sepNavSelRange = "{319, 0}";
+			sepNavVisRange = "{0, 2632}";
+		};
+	};
+	C9CD3AB6106250790011BD65 /* TableViewFromDatabaseViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1391, 10101}}";
+			sepNavSelRange = "{454, 0}";
+			sepNavVisRange = "{2503, 4004}";
+		};
+	};
+	C9CD3AB7106250790011BD65 /* WetboekSearchViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {880, 973}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1000}";
+		};
+	};
+	C9CD3AB8106250790011BD65 /* WetboekSearchViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1321, 3939}}";
+			sepNavSelRange = "{5503, 0}";
+			sepNavVisRange = "{4207, 2166}";
+		};
+	};
+	C9EBF4161148E1F900F59230 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C9CD3AB7106250790011BD65 /* WetboekSearchViewController.h */;
+		name = "WetboekSearchViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1000;
+		vrLoc = 0;
+	};
+	C9EBF4511148ECB200F59230 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* SociaalrechtAppDelegate.h */;
+		name = "SociaalrechtAppDelegate.h: 16";
+		rLen = 0;
+		rLoc = 431;
+		rType = 0;
+		vrLen = 599;
+		vrLoc = 0;
+	};
+	C9EBF47A1148FE9400F59230 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C9CD3AB5106250790011BD65 /* TableViewFromDatabaseViewController.h */;
+		name = "TableViewFromDatabaseViewController.h: 11";
+		rLen = 0;
+		rLoc = 319;
+		rType = 0;
+		vrLen = 2632;
+		vrLoc = 0;
+	};
+	C9F22E32134DD34000382EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C9CD3AB0106250790011BD65 /* ExoneratieViewController.m */;
+		name = "ExoneratieViewController.m: 95";
+		rLen = 0;
+		rLoc = 3622;
+		rType = 0;
+		vrLen = 2974;
+		vrLoc = 1847;
+	};
+}

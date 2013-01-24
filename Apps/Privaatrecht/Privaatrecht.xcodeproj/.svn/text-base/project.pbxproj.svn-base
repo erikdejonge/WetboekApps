@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* PrivaatrechtAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* PrivaatrechtAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* PrivaatrechtViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* PrivaatrechtViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* PrivaatrechtViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* PrivaatrechtViewController.m */; };
+		C93C162612155210003ABBA1 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C93C162512155210003ABBA1 /* MainWindow-iPad.xib */; };
+		C95078151127481A00DD3DA8 /* uncrust.sh in Resources */ = {isa = PBXBuildFile; fileRef = C95078141127481A00DD3DA8 /* uncrust.sh */; };
+		C979CC241097296C00F54F05 /* ArtikelViewControllerFromXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = C979CC131097296C00F54F05 /* ArtikelViewControllerFromXIB.m */; };
+		C979CC271097296C00F54F05 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C979CC191097296C00F54F05 /* CustomCell.m */; };
+		C979CC281097296C00F54F05 /* CustomCellLong.m in Sources */ = {isa = PBXBuildFile; fileRef = C979CC1B1097296C00F54F05 /* CustomCellLong.m */; };
+		C979CC291097296C00F54F05 /* ExoneratieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C979CC1D1097296C00F54F05 /* ExoneratieViewController.m */; };
+		C979CC2A1097296C00F54F05 /* Sqlite.m in Sources */ = {isa = PBXBuildFile; fileRef = C979CC1F1097296C00F54F05 /* Sqlite.m */; };
+		C979CC2B1097296C00F54F05 /* TableViewFromDatabaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C979CC211097296C00F54F05 /* TableViewFromDatabaseViewController.m */; };
+		C979CC2C1097296C00F54F05 /* WetboekSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C979CC231097296C00F54F05 /* WetboekSearchViewController.m */; };
+		C979CC3F1097297E00F54F05 /* ArtikelViewControllerFromXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = C979CC2E1097297E00F54F05 /* ArtikelViewControllerFromXIB.xib */; };
+		C979CC401097297E00F54F05 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C979CC2F1097297E00F54F05 /* CustomCell.xib */; };
+		C979CC411097297E00F54F05 /* CustomCellLong.xib in Resources */ = {isa = PBXBuildFile; fileRef = C979CC301097297E00F54F05 /* CustomCellLong.xib */; };
+		C979CC421097297E00F54F05 /* ExoneratieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C979CC311097297E00F54F05 /* ExoneratieViewController.xib */; };
+		C979CC431097297E00F54F05 /* arrow-left.png in Resources */ = {isa = PBXBuildFile; fileRef = C979CC331097297E00F54F05 /* arrow-left.png */; };
+		C979CC441097297E00F54F05 /* arrow-right.png in Resources */ = {isa = PBXBuildFile; fileRef = C979CC341097297E00F54F05 /* arrow-right.png */; };
+		C979CC451097297E00F54F05 /* bg-sectionheader.png in Resources */ = {isa = PBXBuildFile; fileRef = C979CC351097297E00F54F05 /* bg-sectionheader.png */; };
+		C979CC461097297E00F54F05 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C979CC361097297E00F54F05 /* Default.png */; };
+		C979CC471097297E00F54F05 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = C979CC371097297E00F54F05 /* home.png */; };
+		C979CC481097297E00F54F05 /* icon-about.png in Resources */ = {isa = PBXBuildFile; fileRef = C979CC381097297E00F54F05 /* icon-about.png */; };
+		C979CC491097297E00F54F05 /* icon-website.png in Resources */ = {isa = PBXBuildFile; fileRef = C979CC391097297E00F54F05 /* icon-website.png */; };
+		C979CC4A1097297E00F54F05 /* Icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C979CC3A1097297E00F54F05 /* Icon.jpg */; };
+		C979CC4B1097297E00F54F05 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C979CC3B1097297E00F54F05 /* Icon.png */; };
+		C979CC4C1097297E00F54F05 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = C979CC3C1097297E00F54F05 /* info.png */; };
+		C979CC4D1097297E00F54F05 /* TableViewFromDatabaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C979CC3D1097297E00F54F05 /* TableViewFromDatabaseViewController.xib */; };
+		C979CC4E1097297E00F54F05 /* WetboekSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C979CC3E1097297E00F54F05 /* WetboekSearchViewController.xib */; };
+		C979CC8010972B4E00F54F05 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C979CC7F10972B4E00F54F05 /* CoreGraphics.framework */; };
+		C979CC8210972B5E00F54F05 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C979CC8110972B5E00F54F05 /* QuartzCore.framework */; };
+		C979CC9910972B6D00F54F05 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C979CC9810972B6D00F54F05 /* libsqlite3.dylib */; };
+		C998A82A113BFAEC00FF4451 /* advocatenwet.db in Resources */ = {isa = PBXBuildFile; fileRef = C998A815113BFAEC00FF4451 /* advocatenwet.db */; };
+		C998A82B113BFAEC00FF4451 /* auteurswet1912.db in Resources */ = {isa = PBXBuildFile; fileRef = C998A816113BFAEC00FF4451 /* auteurswet1912.db */; };
+		C998A82C113BFAEC00FF4451 /* beneluxverdraginzakedeintellectueleeigendommerkenentekeningenofmodellensgravenhage25022005.db in Resources */ = {isa = PBXBuildFile; fileRef = C998A817113BFAEC00FF4451 /* beneluxverdraginzakedeintellectueleeigendommerkenentekeningenofmodellensgravenhage25022005.db */; };
+		C998A82D113BFAEC00FF4451 /* besluitnevenvestigingsennevenzittingsplaatsen.db in Resources */ = {isa = PBXBuildFile; fileRef = C998A818113BFAEC00FF4451 /* besluitnevenvestigingsennevenzittingsplaatsen.db */; };
+		C998A82E113BFAEC00FF4451 /* besluittarieveninburgerlijkezaken.db in Resources */ = {isa = PBXBuildFile; fileRef = C998A819113BFAEC00FF4451 /* besluittarieveninburgerlijkezaken.db */; };
+		C998A82F113BFAEC00FF4451 /* gerechtsdeurwaarderswet.db in Resources */ = {isa = PBXBuildFile; fileRef = C998A81A113BFAEC00FF4451 /* gerechtsdeurwaarderswet.db */; };
+		C998A830113BFAEC00FF4451 /* handelsnaamwet.db in Resources */ = {isa = PBXBuildFile; fileRef = C998A81B113BFAEC00FF4451 /* handelsnaamwet.db */; };
+		C998A831113BFAEC00FF4451 /* handelsregisterbesluit2008.db in Resources */ = {isa = PBXBuildFile; fileRef = C998A81C113BFAEC00FF4451 /* handelsregisterbesluit2008.db */; };
+		C998A832113BFAEC00FF4451 /* handelsregisterwet2007.db in Resources */ = {isa = PBXBuildFile; fileRef = C998A81D113BFAEC00FF4451 /* handelsregisterwet2007.db */; };
+		C998A833113BFAEC00FF4451 /* mededingingswet.db in Resources */ = {isa = PBXBuildFile; fileRef = C998A81E113BFAEC00FF4451 /* mededingingswet.db */; };
+		C998A834113BFAEC00FF4451 /* reglementvoordebijzonderekamerbijhetgerechtshoftearnhem.db in Resources */ = {isa = PBXBuildFile; fileRef = C998A81F113BFAEC00FF4451 /* reglementvoordebijzonderekamerbijhetgerechtshoftearnhem.db */; };
+		C998A835113BFAEC00FF4451 /* rijksoctrooiwet1995.db in Resources */ = {isa = PBXBuildFile; fileRef = C998A820113BFAEC00FF4451 /* rijksoctrooiwet1995.db */; };
+		C998A836113BFAEC00FF4451 /* wetaansprakelijkheidsverzekeringmotorrijtuigen.db in Resources */ = {isa = PBXBuildFile; fileRef = C998A821113BFAEC00FF4451 /* wetaansprakelijkheidsverzekeringmotorrijtuigen.db */; };
+		C998A837113BFAEC00FF4451 /* wetboekvanburgerlijkerechtsvordering.db in Resources */ = {isa = PBXBuildFile; fileRef = C998A822113BFAEC00FF4451 /* wetboekvanburgerlijkerechtsvordering.db */; };
+		C998A838113BFAEC00FF4451 /* wetboekvankoophandel.db in Resources */ = {isa = PBXBuildFile; fileRef = C998A823113BFAEC00FF4451 /* wetboekvankoophandel.db */; };
+		C998A839113BFAEC00FF4451 /* wetopdenaburigerechten.db in Resources */ = {isa = PBXBuildFile; fileRef = C998A824113BFAEC00FF4451 /* wetopdenaburigerechten.db */; };
+		C998A83A113BFAEC00FF4451 /* wetopderechterlijkeorganisatie.db in Resources */ = {isa = PBXBuildFile; fileRef = C998A825113BFAEC00FF4451 /* wetopderechterlijkeorganisatie.db */; };
+		C998A83B113BFAEC00FF4451 /* wetopderechtsbijstand.db in Resources */ = {isa = PBXBuildFile; fileRef = C998A826113BFAEC00FF4451 /* wetopderechtsbijstand.db */; };
+		C998A83C113BFAEC00FF4451 /* wetophetnotarisambt.db in Resources */ = {isa = PBXBuildFile; fileRef = C998A827113BFAEC00FF4451 /* wetophetnotarisambt.db */; };
+		C998A83D113BFAEC00FF4451 /* wetrechtspositierechterlijkeambtenaren.db in Resources */ = {isa = PBXBuildFile; fileRef = C998A828113BFAEC00FF4451 /* wetrechtspositierechterlijkeambtenaren.db */; };
+		C998A83E113BFAEC00FF4451 /* wettarieveninburgerlijkezaken.db in Resources */ = {isa = PBXBuildFile; fileRef = C998A829113BFAEC00FF4451 /* wettarieveninburgerlijkezaken.db */; };
+		C9A60DDB1127497300AE6462 /* besluitmarktmisbruikwft.db in Resources */ = {isa = PBXBuildFile; fileRef = C9A60DBB1127497300AE6462 /* besluitmarktmisbruikwft.db */; };
+		C9A60DDC1127497300AE6462 /* besluitmeldingzeggenschapenkapitaalbelanginuitgevendeinstellingen.db in Resources */ = {isa = PBXBuildFile; fileRef = C9A60DBC1127497300AE6462 /* besluitmeldingzeggenschapenkapitaalbelanginuitgevendeinstellingen.db */; };
+		C9A60DDD1127497300AE6462 /* besluitopenbarebiedingenwft.db in Resources */ = {isa = PBXBuildFile; fileRef = C9A60DBD1127497300AE6462 /* besluitopenbarebiedingenwft.db */; };
+		C9A60DDE1127497300AE6462 /* buitengewoonbesluitarbeidsverhoudingen1945.db in Resources */ = {isa = PBXBuildFile; fileRef = C9A60DBE1127497300AE6462 /* buitengewoonbesluitarbeidsverhoudingen1945.db */; };
+		C9A60DDF1127497300AE6462 /* burgerlijkwetboekboek1.db in Resources */ = {isa = PBXBuildFile; fileRef = C9A60DBF1127497300AE6462 /* burgerlijkwetboekboek1.db */; };
+		C9A60DE01127497300AE6462 /* burgerlijkwetboekboek2.db in Resources */ = {isa = PBXBuildFile; fileRef = C9A60DC01127497300AE6462 /* burgerlijkwetboekboek2.db */; };
+		C9A60DE11127497300AE6462 /* burgerlijkwetboekboek3.db in Resources */ = {isa = PBXBuildFile; fileRef = C9A60DC11127497300AE6462 /* burgerlijkwetboekboek3.db */; };
+		C9A60DE21127497300AE6462 /* burgerlijkwetboekboek4.db in Resources */ = {isa = PBXBuildFile; fileRef = C9A60DC21127497300AE6462 /* burgerlijkwetboekboek4.db */; };
+		C9A60DE31127497300AE6462 /* burgerlijkwetboekboek5.db in Resources */ = {isa = PBXBuildFile; fileRef = C9A60DC31127497300AE6462 /* burgerlijkwetboekboek5.db */; };
+		C9A60DE41127497300AE6462 /* burgerlijkwetboekboek6.db in Resources */ = {isa = PBXBuildFile; fileRef = C9A60DC41127497300AE6462 /* burgerlijkwetboekboek6.db */; };
+		C9A60DE51127497300AE6462 /* burgerlijkwetboekboek7.db in Resources */ = {isa = PBXBuildFile; fileRef = C9A60DC51127497300AE6462 /* burgerlijkwetboekboek7.db */; };
+		C9A60DE61127497300AE6462 /* burgerlijkwetboekboek7a.db in Resources */ = {isa = PBXBuildFile; fileRef = C9A60DC61127497300AE6462 /* burgerlijkwetboekboek7a.db */; };
+		C9A60DE71127497300AE6462 /* burgerlijkwetboekboek8.db in Resources */ = {isa = PBXBuildFile; fileRef = C9A60DC71127497300AE6462 /* burgerlijkwetboekboek8.db */; };
+		C9A60DE81127497300AE6462 /* colportagewet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9A60DC81127497300AE6462 /* colportagewet.db */; };
+		C9A60DE91127497300AE6462 /* embryowet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9A60DC91127497300AE6462 /* embryowet.db */; };
+		C9A60DEA1127497300AE6462 /* faillissementswet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9A60DCA1127497300AE6462 /* faillissementswet.db */; };
+		C9A60DEB1127497300AE6462 /* invoeringswetboeken35en6nieuwbwtwaalfdegedeelte.db in Resources */ = {isa = PBXBuildFile; fileRef = C9A60DCB1127497300AE6462 /* invoeringswetboeken35en6nieuwbwtwaalfdegedeelte.db */; };
+		C9A60DEC1127497300AE6462 /* kadasterwet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9A60DCC1127497300AE6462 /* kadasterwet.db */; };
+		C9A60DED1127497300AE6462 /* leegstandwet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9A60DCD1127497300AE6462 /* leegstandwet.db */; };
+		C9A60DEE1127497300AE6462 /* overgangswetnieuwburgerlijkwetboek.db in Resources */ = {isa = PBXBuildFile; fileRef = C9A60DCE1127497300AE6462 /* overgangswetnieuwburgerlijkwetboek.db */; };
+		C9A60DEF1127497300AE6462 /* werkloosheidswet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9A60DCF1127497300AE6462 /* werkloosheidswet.db */; };
+		C9A60DF01127497300AE6462 /* wetdonorgegevenskunstmatigebevruchting.db in Resources */ = {isa = PBXBuildFile; fileRef = C9A60DD01127497300AE6462 /* wetdonorgegevenskunstmatigebevruchting.db */; };
+		C9A60DF11127497300AE6462 /* wetgiraaleffectenverkeer.db in Resources */ = {isa = PBXBuildFile; fileRef = C9A60DD11127497300AE6462 /* wetgiraaleffectenverkeer.db */; };
+		C9A60DF21127497300AE6462 /* wetmeldingcollectiefontslag.db in Resources */ = {isa = PBXBuildFile; fileRef = C9A60DD21127497300AE6462 /* wetmeldingcollectiefontslag.db */; };
+		C9A60DF31127497300AE6462 /* wetopdearbeidsongeschiktheidsverzekering.db in Resources */ = {isa = PBXBuildFile; fileRef = C9A60DD31127497300AE6462 /* wetopdearbeidsongeschiktheidsverzekering.db */; };
+		C9A60DF41127497300AE6462 /* wetopdecollectievearbeidsovereenkomst.db in Resources */ = {isa = PBXBuildFile; fileRef = C9A60DD41127497300AE6462 /* wetopdecollectievearbeidsovereenkomst.db */; };
+		C9A60DF51127497300AE6462 /* wetopdeeuropeseondernemingsraden.db in Resources */ = {isa = PBXBuildFile; fileRef = C9A60DD51127497300AE6462 /* wetopdeeuropeseondernemingsraden.db */; };
+		C9A60DF61127497300AE6462 /* wetopdeloonvorming.db in Resources */ = {isa = PBXBuildFile; fileRef = C9A60DD61127497300AE6462 /* wetopdeloonvorming.db */; };
+		C9A60DF71127497300AE6462 /* wetopdeondernemingsraden.db in Resources */ = {isa = PBXBuildFile; fileRef = C9A60DD71127497300AE6462 /* wetopdeondernemingsraden.db */; };
+		C9A60DF81127497300AE6462 /* wetophetalgemeenverbindendenhetonverbindendverklarenvanbepalingenvancollectievearbeidsovereenkomsten.db in Resources */ = {isa = PBXBuildFile; fileRef = C9A60DD81127497300AE6462 /* wetophetalgemeenverbindendenhetonverbindendverklarenvanbepalingenvancollectievearbeidsovereenkomsten.db */; };
+		C9A60DF91127497300AE6462 /* wetophetfinancieeltoezicht.db in Resources */ = {isa = PBXBuildFile; fileRef = C9A60DD91127497300AE6462 /* wetophetfinancieeltoezicht.db */; };
+		C9A60DFA1127497300AE6462 /* wetten.db in Resources */ = {isa = PBXBuildFile; fileRef = C9A60DDA1127497300AE6462 /* wetten.db */; };
+		C9E0648A1219789700484CF5 /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E064831219789700484CF5 /* Default~ipad.png */; };
+		C9E0648B1219789700484CF5 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E064841219789700484CF5 /* Icon-72.png */; };
+		C9E0648C1219789700484CF5 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E064851219789700484CF5 /* Icon-Small-50.png */; };
+		C9E0648D1219789700484CF5 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E064861219789700484CF5 /* Icon-Small.png */; };
+		C9E0648E1219789700484CF5 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E064871219789700484CF5 /* Icon-Small@2x.png */; };
+		C9E0648F1219789700484CF5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E064881219789700484CF5 /* Icon.png */; };
+		C9E064901219789700484CF5 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E064891219789700484CF5 /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* PrivaatrechtAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivaatrechtAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* PrivaatrechtAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivaatrechtAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Privaatrecht.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Privaatrecht.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* PrivaatrechtViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrivaatrechtViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* PrivaatrechtViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivaatrechtViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* PrivaatrechtViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivaatrechtViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Privaatrecht_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Privaatrecht_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Privaatrecht-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Privaatrecht-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C93C162512155210003ABBA1 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "Resources-iPad/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		C95078141127481A00DD3DA8 /* uncrust.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = uncrust.sh; sourceTree = "<group>"; };
+		C979CC121097296C00F54F05 /* ArtikelViewControllerFromXIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtikelViewControllerFromXIB.h; sourceTree = "<group>"; };
+		C979CC131097296C00F54F05 /* ArtikelViewControllerFromXIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtikelViewControllerFromXIB.m; sourceTree = "<group>"; };
+		C979CC181097296C00F54F05 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		C979CC191097296C00F54F05 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		C979CC1A1097296C00F54F05 /* CustomCellLong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellLong.h; sourceTree = "<group>"; };
+		C979CC1B1097296C00F54F05 /* CustomCellLong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellLong.m; sourceTree = "<group>"; };
+		C979CC1C1097296C00F54F05 /* ExoneratieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExoneratieViewController.h; sourceTree = "<group>"; };
+		C979CC1D1097296C00F54F05 /* ExoneratieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExoneratieViewController.m; sourceTree = "<group>"; };
+		C979CC1E1097296C00F54F05 /* Sqlite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sqlite.h; sourceTree = "<group>"; };
+		C979CC1F1097296C00F54F05 /* Sqlite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sqlite.m; sourceTree = "<group>"; };
+		C979CC201097296C00F54F05 /* TableViewFromDatabaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewFromDatabaseViewController.h; sourceTree = "<group>"; };
+		C979CC211097296C00F54F05 /* TableViewFromDatabaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewFromDatabaseViewController.m; sourceTree = "<group>"; };
+		C979CC221097296C00F54F05 /* WetboekSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WetboekSearchViewController.h; sourceTree = "<group>"; };
+		C979CC231097296C00F54F05 /* WetboekSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WetboekSearchViewController.m; sourceTree = "<group>"; };
+		C979CC2E1097297E00F54F05 /* ArtikelViewControllerFromXIB.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ArtikelViewControllerFromXIB.xib; path = Resources/ArtikelViewControllerFromXIB.xib; sourceTree = "<group>"; };
+		C979CC2F1097297E00F54F05 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CustomCell.xib; path = Resources/CustomCell.xib; sourceTree = "<group>"; };
+		C979CC301097297E00F54F05 /* CustomCellLong.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CustomCellLong.xib; path = Resources/CustomCellLong.xib; sourceTree = "<group>"; };
+		C979CC311097297E00F54F05 /* ExoneratieViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ExoneratieViewController.xib; path = Resources/ExoneratieViewController.xib; sourceTree = "<group>"; };
+		C979CC331097297E00F54F05 /* arrow-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-left.png"; sourceTree = "<group>"; };
+		C979CC341097297E00F54F05 /* arrow-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-right.png"; sourceTree = "<group>"; };
+		C979CC351097297E00F54F05 /* bg-sectionheader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-sectionheader.png"; sourceTree = "<group>"; };
+		C979CC361097297E00F54F05 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C979CC371097297E00F54F05 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		C979CC381097297E00F54F05 /* icon-about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-about.png"; sourceTree = "<group>"; };
+		C979CC391097297E00F54F05 /* icon-website.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-website.png"; sourceTree = "<group>"; };
+		C979CC3A1097297E00F54F05 /* Icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Icon.jpg; sourceTree = "<group>"; };
+		C979CC3B1097297E00F54F05 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C979CC3C1097297E00F54F05 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		C979CC3D1097297E00F54F05 /* TableViewFromDatabaseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TableViewFromDatabaseViewController.xib; path = Resources/TableViewFromDatabaseViewController.xib; sourceTree = "<group>"; };
+		C979CC3E1097297E00F54F05 /* WetboekSearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = WetboekSearchViewController.xib; path = Resources/WetboekSearchViewController.xib; sourceTree = "<group>"; };
+		C979CC7F10972B4E00F54F05 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C979CC8110972B5E00F54F05 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C979CC9810972B6D00F54F05 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		C998A815113BFAEC00FF4451 /* advocatenwet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = advocatenwet.db; sourceTree = "<group>"; };
+		C998A816113BFAEC00FF4451 /* auteurswet1912.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = auteurswet1912.db; sourceTree = "<group>"; };
+		C998A817113BFAEC00FF4451 /* beneluxverdraginzakedeintellectueleeigendommerkenentekeningenofmodellensgravenhage25022005.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = beneluxverdraginzakedeintellectueleeigendommerkenentekeningenofmodellensgravenhage25022005.db; sourceTree = "<group>"; };
+		C998A818113BFAEC00FF4451 /* besluitnevenvestigingsennevenzittingsplaatsen.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = besluitnevenvestigingsennevenzittingsplaatsen.db; sourceTree = "<group>"; };
+		C998A819113BFAEC00FF4451 /* besluittarieveninburgerlijkezaken.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = besluittarieveninburgerlijkezaken.db; sourceTree = "<group>"; };
+		C998A81A113BFAEC00FF4451 /* gerechtsdeurwaarderswet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = gerechtsdeurwaarderswet.db; sourceTree = "<group>"; };
+		C998A81B113BFAEC00FF4451 /* handelsnaamwet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = handelsnaamwet.db; sourceTree = "<group>"; };
+		C998A81C113BFAEC00FF4451 /* handelsregisterbesluit2008.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = handelsregisterbesluit2008.db; sourceTree = "<group>"; };
+		C998A81D113BFAEC00FF4451 /* handelsregisterwet2007.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = handelsregisterwet2007.db; sourceTree = "<group>"; };
+		C998A81E113BFAEC00FF4451 /* mededingingswet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = mededingingswet.db; sourceTree = "<group>"; };
+		C998A81F113BFAEC00FF4451 /* reglementvoordebijzonderekamerbijhetgerechtshoftearnhem.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = reglementvoordebijzonderekamerbijhetgerechtshoftearnhem.db; sourceTree = "<group>"; };
+		C998A820113BFAEC00FF4451 /* rijksoctrooiwet1995.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = rijksoctrooiwet1995.db; sourceTree = "<group>"; };
+		C998A821113BFAEC00FF4451 /* wetaansprakelijkheidsverzekeringmotorrijtuigen.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetaansprakelijkheidsverzekeringmotorrijtuigen.db; sourceTree = "<group>"; };
+		C998A822113BFAEC00FF4451 /* wetboekvanburgerlijkerechtsvordering.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetboekvanburgerlijkerechtsvordering.db; sourceTree = "<group>"; };
+		C998A823113BFAEC00FF4451 /* wetboekvankoophandel.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetboekvankoophandel.db; sourceTree = "<group>"; };
+		C998A824113BFAEC00FF4451 /* wetopdenaburigerechten.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetopdenaburigerechten.db; sourceTree = "<group>"; };
+		C998A825113BFAEC00FF4451 /* wetopderechterlijkeorganisatie.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetopderechterlijkeorganisatie.db; sourceTree = "<group>"; };
+		C998A826113BFAEC00FF4451 /* wetopderechtsbijstand.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetopderechtsbijstand.db; sourceTree = "<group>"; };
+		C998A827113BFAEC00FF4451 /* wetophetnotarisambt.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetophetnotarisambt.db; sourceTree = "<group>"; };
+		C998A828113BFAEC00FF4451 /* wetrechtspositierechterlijkeambtenaren.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetrechtspositierechterlijkeambtenaren.db; sourceTree = "<group>"; };
+		C998A829113BFAEC00FF4451 /* wettarieveninburgerlijkezaken.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wettarieveninburgerlijkezaken.db; sourceTree = "<group>"; };
+		C9A60DBB1127497300AE6462 /* besluitmarktmisbruikwft.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = besluitmarktmisbruikwft.db; sourceTree = "<group>"; };
+		C9A60DBC1127497300AE6462 /* besluitmeldingzeggenschapenkapitaalbelanginuitgevendeinstellingen.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = besluitmeldingzeggenschapenkapitaalbelanginuitgevendeinstellingen.db; sourceTree = "<group>"; };
+		C9A60DBD1127497300AE6462 /* besluitopenbarebiedingenwft.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = besluitopenbarebiedingenwft.db; sourceTree = "<group>"; };
+		C9A60DBE1127497300AE6462 /* buitengewoonbesluitarbeidsverhoudingen1945.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = buitengewoonbesluitarbeidsverhoudingen1945.db; sourceTree = "<group>"; };
+		C9A60DBF1127497300AE6462 /* burgerlijkwetboekboek1.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = burgerlijkwetboekboek1.db; sourceTree = "<group>"; };
+		C9A60DC01127497300AE6462 /* burgerlijkwetboekboek2.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = burgerlijkwetboekboek2.db; sourceTree = "<group>"; };
+		C9A60DC11127497300AE6462 /* burgerlijkwetboekboek3.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = burgerlijkwetboekboek3.db; sourceTree = "<group>"; };
+		C9A60DC21127497300AE6462 /* burgerlijkwetboekboek4.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = burgerlijkwetboekboek4.db; sourceTree = "<group>"; };
+		C9A60DC31127497300AE6462 /* burgerlijkwetboekboek5.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = burgerlijkwetboekboek5.db; sourceTree = "<group>"; };
+		C9A60DC41127497300AE6462 /* burgerlijkwetboekboek6.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = burgerlijkwetboekboek6.db; sourceTree = "<group>"; };
+		C9A60DC51127497300AE6462 /* burgerlijkwetboekboek7.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = burgerlijkwetboekboek7.db; sourceTree = "<group>"; };
+		C9A60DC61127497300AE6462 /* burgerlijkwetboekboek7a.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = burgerlijkwetboekboek7a.db; sourceTree = "<group>"; };
+		C9A60DC71127497300AE6462 /* burgerlijkwetboekboek8.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = burgerlijkwetboekboek8.db; sourceTree = "<group>"; };
+		C9A60DC81127497300AE6462 /* colportagewet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = colportagewet.db; sourceTree = "<group>"; };
+		C9A60DC91127497300AE6462 /* embryowet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = embryowet.db; sourceTree = "<group>"; };
+		C9A60DCA1127497300AE6462 /* faillissementswet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = faillissementswet.db; sourceTree = "<group>"; };
+		C9A60DCB1127497300AE6462 /* invoeringswetboeken35en6nieuwbwtwaalfdegedeelte.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = invoeringswetboeken35en6nieuwbwtwaalfdegedeelte.db; sourceTree = "<group>"; };
+		C9A60DCC1127497300AE6462 /* kadasterwet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = kadasterwet.db; sourceTree = "<group>"; };
+		C9A60DCD1127497300AE6462 /* leegstandwet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = leegstandwet.db; sourceTree = "<group>"; };
+		C9A60DCE1127497300AE6462 /* overgangswetnieuwburgerlijkwetboek.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = overgangswetnieuwburgerlijkwetboek.db; sourceTree = "<group>"; };
+		C9A60DCF1127497300AE6462 /* werkloosheidswet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = werkloosheidswet.db; sourceTree = "<group>"; };
+		C9A60DD01127497300AE6462 /* wetdonorgegevenskunstmatigebevruchting.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetdonorgegevenskunstmatigebevruchting.db; sourceTree = "<group>"; };
+		C9A60DD11127497300AE6462 /* wetgiraaleffectenverkeer.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetgiraaleffectenverkeer.db; sourceTree = "<group>"; };
+		C9A60DD21127497300AE6462 /* wetmeldingcollectiefontslag.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetmeldingcollectiefontslag.db; sourceTree = "<group>"; };
+		C9A60DD31127497300AE6462 /* wetopdearbeidsongeschiktheidsverzekering.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetopdearbeidsongeschiktheidsverzekering.db; sourceTree = "<group>"; };
+		C9A60DD41127497300AE6462 /* wetopdecollectievearbeidsovereenkomst.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetopdecollectievearbeidsovereenkomst.db; sourceTree = "<group>"; };
+		C9A60DD51127497300AE6462 /* wetopdeeuropeseondernemingsraden.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetopdeeuropeseondernemingsraden.db; sourceTree = "<group>"; };
+		C9A60DD61127497300AE6462 /* wetopdeloonvorming.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetopdeloonvorming.db; sourceTree = "<group>"; };
+		C9A60DD71127497300AE6462 /* wetopdeondernemingsraden.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetopdeondernemingsraden.db; sourceTree = "<group>"; };
+		C9A60DD81127497300AE6462 /* wetophetalgemeenverbindendenhetonverbindendverklarenvanbepalingenvancollectievearbeidsovereenkomsten.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetophetalgemeenverbindendenhetonverbindendverklarenvanbepalingenvancollectievearbeidsovereenkomsten.db; sourceTree = "<group>"; };
+		C9A60DD91127497300AE6462 /* wetophetfinancieeltoezicht.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetophetfinancieeltoezicht.db; sourceTree = "<group>"; };
+		C9A60DDA1127497300AE6462 /* wetten.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetten.db; sourceTree = "<group>"; };
+		C9E064831219789700484CF5 /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~ipad.png"; sourceTree = "<group>"; };
+		C9E064841219789700484CF5 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		C9E064851219789700484CF5 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		C9E064861219789700484CF5 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		C9E064871219789700484CF5 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		C9E064881219789700484CF5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C9E064891219789700484CF5 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				C979CC8010972B4E00F54F05 /* CoreGraphics.framework in Frameworks */,
+				C979CC8210972B5E00F54F05 /* QuartzCore.framework in Frameworks */,
+				C979CC9910972B6D00F54F05 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C979CC121097296C00F54F05 /* ArtikelViewControllerFromXIB.h */,
+				C979CC131097296C00F54F05 /* ArtikelViewControllerFromXIB.m */,
+				C979CC181097296C00F54F05 /* CustomCell.h */,
+				C979CC191097296C00F54F05 /* CustomCell.m */,
+				C979CC1A1097296C00F54F05 /* CustomCellLong.h */,
+				C979CC1B1097296C00F54F05 /* CustomCellLong.m */,
+				C979CC1C1097296C00F54F05 /* ExoneratieViewController.h */,
+				C979CC1D1097296C00F54F05 /* ExoneratieViewController.m */,
+				C979CC1E1097296C00F54F05 /* Sqlite.h */,
+				C979CC1F1097296C00F54F05 /* Sqlite.m */,
+				C979CC201097296C00F54F05 /* TableViewFromDatabaseViewController.h */,
+				C979CC211097296C00F54F05 /* TableViewFromDatabaseViewController.m */,
+				C979CC221097296C00F54F05 /* WetboekSearchViewController.h */,
+				C979CC231097296C00F54F05 /* WetboekSearchViewController.m */,
+				1D3623240D0F684500981E51 /* PrivaatrechtAppDelegate.h */,
+				1D3623250D0F684500981E51 /* PrivaatrechtAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* PrivaatrechtViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* PrivaatrechtViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Privaatrecht.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				C95078141127481A00DD3DA8 /* uncrust.sh */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				C93C16241215520F003ABBA1 /* Resources-iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Privaatrecht_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C979CCA61097304A00F54F05 /* db */,
+				C979CC2E1097297E00F54F05 /* ArtikelViewControllerFromXIB.xib */,
+				C979CC2F1097297E00F54F05 /* CustomCell.xib */,
+				C979CC301097297E00F54F05 /* CustomCellLong.xib */,
+				C979CC311097297E00F54F05 /* ExoneratieViewController.xib */,
+				C979CC321097297E00F54F05 /* Images */,
+				C979CC3D1097297E00F54F05 /* TableViewFromDatabaseViewController.xib */,
+				C979CC3E1097297E00F54F05 /* WetboekSearchViewController.xib */,
+				2899E5210DE3E06400AC0155 /* PrivaatrechtViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Privaatrecht-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C979CC9810972B6D00F54F05 /* libsqlite3.dylib */,
+				C979CC8110972B5E00F54F05 /* QuartzCore.framework */,
+				C979CC7F10972B4E00F54F05 /* CoreGraphics.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C93C16241215520F003ABBA1 /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				C93C162512155210003ABBA1 /* MainWindow-iPad.xib */,
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+		C979CC321097297E00F54F05 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C9E064831219789700484CF5 /* Default~ipad.png */,
+				C9E064841219789700484CF5 /* Icon-72.png */,
+				C9E064851219789700484CF5 /* Icon-Small-50.png */,
+				C9E064861219789700484CF5 /* Icon-Small.png */,
+				C9E064871219789700484CF5 /* Icon-Small@2x.png */,
+				C9E064881219789700484CF5 /* Icon.png */,
+				C9E064891219789700484CF5 /* Icon@2x.png */,
+				C979CC331097297E00F54F05 /* arrow-left.png */,
+				C979CC341097297E00F54F05 /* arrow-right.png */,
+				C979CC351097297E00F54F05 /* bg-sectionheader.png */,
+				C979CC361097297E00F54F05 /* Default.png */,
+				C979CC371097297E00F54F05 /* home.png */,
+				C979CC381097297E00F54F05 /* icon-about.png */,
+				C979CC391097297E00F54F05 /* icon-website.png */,
+				C979CC3A1097297E00F54F05 /* Icon.jpg */,
+				C979CC3B1097297E00F54F05 /* Icon.png */,
+				C979CC3C1097297E00F54F05 /* info.png */,
+			);
+			name = Images;
+			path = Resources/Images;
+			sourceTree = "<group>";
+		};
+		C979CCA61097304A00F54F05 /* db */ = {
+			isa = PBXGroup;
+			children = (
+				C998A815113BFAEC00FF4451 /* advocatenwet.db */,
+				C998A816113BFAEC00FF4451 /* auteurswet1912.db */,
+				C998A817113BFAEC00FF4451 /* beneluxverdraginzakedeintellectueleeigendommerkenentekeningenofmodellensgravenhage25022005.db */,
+				C998A818113BFAEC00FF4451 /* besluitnevenvestigingsennevenzittingsplaatsen.db */,
+				C998A819113BFAEC00FF4451 /* besluittarieveninburgerlijkezaken.db */,
+				C998A81A113BFAEC00FF4451 /* gerechtsdeurwaarderswet.db */,
+				C998A81B113BFAEC00FF4451 /* handelsnaamwet.db */,
+				C998A81C113BFAEC00FF4451 /* handelsregisterbesluit2008.db */,
+				C998A81D113BFAEC00FF4451 /* handelsregisterwet2007.db */,
+				C998A81E113BFAEC00FF4451 /* mededingingswet.db */,
+				C998A81F113BFAEC00FF4451 /* reglementvoordebijzonderekamerbijhetgerechtshoftearnhem.db */,
+				C998A820113BFAEC00FF4451 /* rijksoctrooiwet1995.db */,
+				C998A821113BFAEC00FF4451 /* wetaansprakelijkheidsverzekeringmotorrijtuigen.db */,
+				C998A822113BFAEC00FF4451 /* wetboekvanburgerlijkerechtsvordering.db */,
+				C998A823113BFAEC00FF4451 /* wetboekvankoophandel.db */,
+				C998A824113BFAEC00FF4451 /* wetopdenaburigerechten.db */,
+				C998A825113BFAEC00FF4451 /* wetopderechterlijkeorganisatie.db */,
+				C998A826113BFAEC00FF4451 /* wetopderechtsbijstand.db */,
+				C998A827113BFAEC00FF4451 /* wetophetnotarisambt.db */,
+				C998A828113BFAEC00FF4451 /* wetrechtspositierechterlijkeambtenaren.db */,
+				C998A829113BFAEC00FF4451 /* wettarieveninburgerlijkezaken.db */,
+				C9A60DBB1127497300AE6462 /* besluitmarktmisbruikwft.db */,
+				C9A60DBC1127497300AE6462 /* besluitmeldingzeggenschapenkapitaalbelanginuitgevendeinstellingen.db */,
+				C9A60DBD1127497300AE6462 /* besluitopenbarebiedingenwft.db */,
+				C9A60DBE1127497300AE6462 /* buitengewoonbesluitarbeidsverhoudingen1945.db */,
+				C9A60DBF1127497300AE6462 /* burgerlijkwetboekboek1.db */,
+				C9A60DC01127497300AE6462 /* burgerlijkwetboekboek2.db */,
+				C9A60DC11127497300AE6462 /* burgerlijkwetboekboek3.db */,
+				C9A60DC21127497300AE6462 /* burgerlijkwetboekboek4.db */,
+				C9A60DC31127497300AE6462 /* burgerlijkwetboekboek5.db */,
+				C9A60DC41127497300AE6462 /* burgerlijkwetboekboek6.db */,
+				C9A60DC51127497300AE6462 /* burgerlijkwetboekboek7.db */,
+				C9A60DC61127497300AE6462 /* burgerlijkwetboekboek7a.db */,
+				C9A60DC71127497300AE6462 /* burgerlijkwetboekboek8.db */,
+				C9A60DC81127497300AE6462 /* colportagewet.db */,
+				C9A60DC91127497300AE6462 /* embryowet.db */,
+				C9A60DCA1127497300AE6462 /* faillissementswet.db */,
+				C9A60DCB1127497300AE6462 /* invoeringswetboeken35en6nieuwbwtwaalfdegedeelte.db */,
+				C9A60DCC1127497300AE6462 /* kadasterwet.db */,
+				C9A60DCD1127497300AE6462 /* leegstandwet.db */,
+				C9A60DCE1127497300AE6462 /* overgangswetnieuwburgerlijkwetboek.db */,
+				C9A60DCF1127497300AE6462 /* werkloosheidswet.db */,
+				C9A60DD01127497300AE6462 /* wetdonorgegevenskunstmatigebevruchting.db */,
+				C9A60DD11127497300AE6462 /* wetgiraaleffectenverkeer.db */,
+				C9A60DD21127497300AE6462 /* wetmeldingcollectiefontslag.db */,
+				C9A60DD31127497300AE6462 /* wetopdearbeidsongeschiktheidsverzekering.db */,
+				C9A60DD41127497300AE6462 /* wetopdecollectievearbeidsovereenkomst.db */,
+				C9A60DD51127497300AE6462 /* wetopdeeuropeseondernemingsraden.db */,
+				C9A60DD61127497300AE6462 /* wetopdeloonvorming.db */,
+				C9A60DD71127497300AE6462 /* wetopdeondernemingsraden.db */,
+				C9A60DD81127497300AE6462 /* wetophetalgemeenverbindendenhetonverbindendverklarenvanbepalingenvancollectievearbeidsovereenkomsten.db */,
+				C9A60DD91127497300AE6462 /* wetophetfinancieeltoezicht.db */,
+				C9A60DDA1127497300AE6462 /* wetten.db */,
+			);
+			path = db;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Privaatrecht */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Privaatrecht" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Privaatrecht;
+			productName = Privaatrecht;
+			productReference = 1D6058910D05DD3D006BFB54 /* Privaatrecht.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Privaatrecht" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Privaatrecht */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* PrivaatrechtViewController.xib in Resources */,
+				C979CC3F1097297E00F54F05 /* ArtikelViewControllerFromXIB.xib in Resources */,
+				C979CC401097297E00F54F05 /* CustomCell.xib in Resources */,
+				C979CC411097297E00F54F05 /* CustomCellLong.xib in Resources */,
+				C979CC421097297E00F54F05 /* ExoneratieViewController.xib in Resources */,
+				C979CC431097297E00F54F05 /* arrow-left.png in Resources */,
+				C979CC441097297E00F54F05 /* arrow-right.png in Resources */,
+				C979CC451097297E00F54F05 /* bg-sectionheader.png in Resources */,
+				C979CC461097297E00F54F05 /* Default.png in Resources */,
+				C979CC471097297E00F54F05 /* home.png in Resources */,
+				C979CC481097297E00F54F05 /* icon-about.png in Resources */,
+				C979CC491097297E00F54F05 /* icon-website.png in Resources */,
+				C979CC4A1097297E00F54F05 /* Icon.jpg in Resources */,
+				C979CC4B1097297E00F54F05 /* Icon.png in Resources */,
+				C979CC4C1097297E00F54F05 /* info.png in Resources */,
+				C979CC4D1097297E00F54F05 /* TableViewFromDatabaseViewController.xib in Resources */,
+				C979CC4E1097297E00F54F05 /* WetboekSearchViewController.xib in Resources */,
+				C95078151127481A00DD3DA8 /* uncrust.sh in Resources */,
+				C9A60DDB1127497300AE6462 /* besluitmarktmisbruikwft.db in Resources */,
+				C9A60DDC1127497300AE6462 /* besluitmeldingzeggenschapenkapitaalbelanginuitgevendeinstellingen.db in Resources */,
+				C9A60DDD1127497300AE6462 /* besluitopenbarebiedingenwft.db in Resources */,
+				C9A60DDE1127497300AE6462 /* buitengewoonbesluitarbeidsverhoudingen1945.db in Resources */,
+				C9A60DDF1127497300AE6462 /* burgerlijkwetboekboek1.db in Resources */,
+				C9A60DE01127497300AE6462 /* burgerlijkwetboekboek2.db in Resources */,
+				C9A60DE11127497300AE6462 /* burgerlijkwetboekboek3.db in Resources */,
+				C9A60DE21127497300AE6462 /* burgerlijkwetboekboek4.db in Resources */,
+				C9A60DE31127497300AE6462 /* burgerlijkwetboekboek5.db in Resources */,
+				C9A60DE41127497300AE6462 /* burgerlijkwetboekboek6.db in Resources */,
+				C9A60DE51127497300AE6462 /* burgerlijkwetboekboek7.db in Resources */,
+				C9A60DE61127497300AE6462 /* burgerlijkwetboekboek7a.db in Resources */,
+				C9A60DE71127497300AE6462 /* burgerlijkwetboekboek8.db in Resources */,
+				C9A60DE81127497300AE6462 /* colportagewet.db in Resources */,
+				C9A60DE91127497300AE6462 /* embryowet.db in Resources */,
+				C9A60DEA1127497300AE6462 /* faillissementswet.db in Resources */,
+				C9A60DEB1127497300AE6462 /* invoeringswetboeken35en6nieuwbwtwaalfdegedeelte.db in Resources */,
+				C9A60DEC1127497300AE6462 /* kadasterwet.db in Resources */,
+				C9A60DED1127497300AE6462 /* leegstandwet.db in Resources */,
+				C9A60DEE1127497300AE6462 /* overgangswetnieuwburgerlijkwetboek.db in Resources */,
+				C9A60DEF1127497300AE6462 /* werkloosheidswet.db in Resources */,
+				C9A60DF01127497300AE6462 /* wetdonorgegevenskunstmatigebevruchting.db in Resources */,
+				C9A60DF11127497300AE6462 /* wetgiraaleffectenverkeer.db in Resources */,
+				C9A60DF21127497300AE6462 /* wetmeldingcollectiefontslag.db in Resources */,
+				C9A60DF31127497300AE6462 /* wetopdearbeidsongeschiktheidsverzekering.db in Resources */,
+				C9A60DF41127497300AE6462 /* wetopdecollectievearbeidsovereenkomst.db in Resources */,
+				C9A60DF51127497300AE6462 /* wetopdeeuropeseondernemingsraden.db in Resources */,
+				C9A60DF61127497300AE6462 /* wetopdeloonvorming.db in Resources */,
+				C9A60DF71127497300AE6462 /* wetopdeondernemingsraden.db in Resources */,
+				C9A60DF81127497300AE6462 /* wetophetalgemeenverbindendenhetonverbindendverklarenvanbepalingenvancollectievearbeidsovereenkomsten.db in Resources */,
+				C9A60DF91127497300AE6462 /* wetophetfinancieeltoezicht.db in Resources */,
+				C9A60DFA1127497300AE6462 /* wetten.db in Resources */,
+				C998A82A113BFAEC00FF4451 /* advocatenwet.db in Resources */,
+				C998A82B113BFAEC00FF4451 /* auteurswet1912.db in Resources */,
+				C998A82C113BFAEC00FF4451 /* beneluxverdraginzakedeintellectueleeigendommerkenentekeningenofmodellensgravenhage25022005.db in Resources */,
+				C998A82D113BFAEC00FF4451 /* besluitnevenvestigingsennevenzittingsplaatsen.db in Resources */,
+				C998A82E113BFAEC00FF4451 /* besluittarieveninburgerlijkezaken.db in Resources */,
+				C998A82F113BFAEC00FF4451 /* gerechtsdeurwaarderswet.db in Resources */,
+				C998A830113BFAEC00FF4451 /* handelsnaamwet.db in Resources */,
+				C998A831113BFAEC00FF4451 /* handelsregisterbesluit2008.db in Resources */,
+				C998A832113BFAEC00FF4451 /* handelsregisterwet2007.db in Resources */,
+				C998A833113BFAEC00FF4451 /* mededingingswet.db in Resources */,
+				C998A834113BFAEC00FF4451 /* reglementvoordebijzonderekamerbijhetgerechtshoftearnhem.db in Resources */,
+				C998A835113BFAEC00FF4451 /* rijksoctrooiwet1995.db in Resources */,
+				C998A836113BFAEC00FF4451 /* wetaansprakelijkheidsverzekeringmotorrijtuigen.db in Resources */,
+				C998A837113BFAEC00FF4451 /* wetboekvanburgerlijkerechtsvordering.db in Resources */,
+				C998A838113BFAEC00FF4451 /* wetboekvankoophandel.db in Resources */,
+				C998A839113BFAEC00FF4451 /* wetopdenaburigerechten.db in Resources */,
+				C998A83A113BFAEC00FF4451 /* wetopderechterlijkeorganisatie.db in Resources */,
+				C998A83B113BFAEC00FF4451 /* wetopderechtsbijstand.db in Resources */,
+				C998A83C113BFAEC00FF4451 /* wetophetnotarisambt.db in Resources */,
+				C998A83D113BFAEC00FF4451 /* wetrechtspositierechterlijkeambtenaren.db in Resources */,
+				C998A83E113BFAEC00FF4451 /* wettarieveninburgerlijkezaken.db in Resources */,
+				C93C162612155210003ABBA1 /* MainWindow-iPad.xib in Resources */,
+				C9E0648A1219789700484CF5 /* Default~ipad.png in Resources */,
+				C9E0648B1219789700484CF5 /* Icon-72.png in Resources */,
+				C9E0648C1219789700484CF5 /* Icon-Small-50.png in Resources */,
+				C9E0648D1219789700484CF5 /* Icon-Small.png in Resources */,
+				C9E0648E1219789700484CF5 /* Icon-Small@2x.png in Resources */,
+				C9E0648F1219789700484CF5 /* Icon.png in Resources */,
+				C9E064901219789700484CF5 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* PrivaatrechtAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* PrivaatrechtViewController.m in Sources */,
+				C979CC241097296C00F54F05 /* ArtikelViewControllerFromXIB.m in Sources */,
+				C979CC271097296C00F54F05 /* CustomCell.m in Sources */,
+				C979CC281097296C00F54F05 /* CustomCellLong.m in Sources */,
+				C979CC291097296C00F54F05 /* ExoneratieViewController.m in Sources */,
+				C979CC2A1097296C00F54F05 /* Sqlite.m in Sources */,
+				C979CC2B1097296C00F54F05 /* TableViewFromDatabaseViewController.m in Sources */,
+				C979CC2C1097296C00F54F05 /* WetboekSearchViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Privaatrecht_Prefix.pch;
+				INFOPLIST_FILE = "Privaatrecht-Info.plist";
+				PRODUCT_NAME = Privaatrecht;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Privaatrecht_Prefix.pch;
+				INFOPLIST_FILE = "Privaatrecht-Info.plist";
+				PRODUCT_NAME = Privaatrecht;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9AE11DB10973E9B0012F6FE /* Distribute */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribute;
+		};
+		C9AE11DC10973E9B0012F6FE /* Distribute */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Privaatrecht_Prefix.pch;
+				INFOPLIST_FILE = "Privaatrecht-Info.plist";
+				PRODUCT_NAME = Privaatrecht;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Distribute;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Privaatrecht" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				C9AE11DC10973E9B0012F6FE /* Distribute */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Privaatrecht" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				C9AE11DB10973E9B0012F6FE /* Distribute */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

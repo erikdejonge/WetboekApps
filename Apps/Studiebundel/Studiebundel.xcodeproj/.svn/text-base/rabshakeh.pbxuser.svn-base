@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* StudiebundelAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {929, 719}}";
+			sepNavSelRange = "{577, 0}";
+			sepNavVisRange = "{0, 594}";
+		};
+	};
+	1D3623250D0F684500981E51 /* StudiebundelAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1158, 958}}";
+			sepNavSelRange = "{811, 0}";
+			sepNavVisRange = "{0, 1353}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Studiebundel */ = {
+		activeExec = 0;
+		executables = (
+			C9674CDE1043F9D80065A638 /* Studiebundel */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = C9674CDE1043F9D80065A638 /* Studiebundel */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Studiebundel */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Studiebundel */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = C9674CFC1043F9EF0065A638 /* Code sense */;
+		executables = (
+			C9674CDE1043F9D80065A638 /* Studiebundel */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					980,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					940,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 324809252;
+			PBXWorkspaceStateSaveDate = 324809252;
+		};
+		perUserProjectItems = {
+			C904A1A5128C260F006528A3 /* PBXTextBookmark */ = C904A1A5128C260F006528A3 /* PBXTextBookmark */;
+			C94979D7135C339000D6BDFF /* PBXTextBookmark */ = C94979D7135C339000D6BDFF /* PBXTextBookmark */;
+			C967F3D31358868E004A0AE2 /* PBXTextBookmark */ = C967F3D31358868E004A0AE2 /* PBXTextBookmark */;
+			C981AC7812198BEC008F3DA3 /* PBXTextBookmark */ = C981AC7812198BEC008F3DA3 /* PBXTextBookmark */;
+			C9917BC010CAD35700DE6F50 /* PBXTextBookmark */ = C9917BC010CAD35700DE6F50 /* PBXTextBookmark */;
+			C9A60FD9112840C000AE6462 /* PBXTextBookmark */ = C9A60FD9112840C000AE6462 /* PBXTextBookmark */;
+			C9BE5324121AD4AC0090560A /* PBXBookmark */ = C9BE5324121AD4AC0090560A /* PBXBookmark */;
+			C9BE5325121AD4AC0090560A /* PBXBookmark */ = C9BE5325121AD4AC0090560A /* PBXBookmark */;
+			C9D3395910B16036003F586B /* PBXTextBookmark */ = C9D3395910B16036003F586B /* PBXTextBookmark */;
+			C9E0880D121575C60074BBCD /* PBXTextBookmark */ = C9E0880D121575C60074BBCD /* PBXTextBookmark */;
+			C9E661FC12D206A100BC0753 /* PBXTextBookmark */ = C9E661FC12D206A100BC0753 /* PBXTextBookmark */;
+			C9E6620112D2071B00BC0753 /* PlistBookmark */ = C9E6620112D2071B00BC0753 /* PlistBookmark */;
+		};
+		sourceControlManager = C9674CFB1043F9EF0065A638 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107310486CEB800E47090 /* Studiebundel-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{38, 86}, {1386, 1466}}";
+		};
+	};
+	C904A1A5128C260F006528A3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C9674D0D10440C2A0065A638 /* TableViewFromDatabaseViewController.h */;
+		name = "TableViewFromDatabaseViewController.h: 11";
+		rLen = 44;
+		rLoc = 275;
+		rType = 0;
+		vrLen = 2632;
+		vrLoc = 0;
+	};
+	C94979D7135C339000D6BDFF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* StudiebundelAppDelegate.m */;
+		name = "StudiebundelAppDelegate.m: 25";
+		rLen = 0;
+		rLoc = 811;
+		rType = 0;
+		vrLen = 1353;
+		vrLoc = 0;
+	};
+	C9674CDE1043F9D80065A638 /* Studiebundel */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Studiebundel;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	C9674CFB1043F9EF0065A638 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	C9674CFC1043F9EF0065A638 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	C9674D0310440C2A0065A638 /* ArtikelViewControllerFromXIB.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1114, 1129}}";
+			sepNavSelRange = "{2208, 0}";
+			sepNavVisRange = "{0, 2208}";
+		};
+	};
+	C9674D0410440C2A0065A638 /* ArtikelViewControllerFromXIB.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1629, 3913}}";
+			sepNavSelRange = "{2980, 0}";
+			sepNavVisRange = "{6680, 2649}";
+		};
+	};
+	C9674D0A10440C2A0065A638 /* ExoneratieViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {4191, 1703}}";
+			sepNavSelRange = "{3623, 0}";
+			sepNavVisRange = "{3090, 1387}";
+		};
+	};
+	C9674D0C10440C2A0065A638 /* Sqlite.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1534, 5733}}";
+			sepNavSelRange = "{1893, 0}";
+			sepNavVisRange = "{1489, 932}";
+		};
+	};
+	C9674D0D10440C2A0065A638 /* TableViewFromDatabaseViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1158, 970}}";
+			sepNavSelRange = "{275, 44}";
+			sepNavVisRange = "{0, 2632}";
+		};
+	};
+	C9674D0E10440C2A0065A638 /* TableViewFromDatabaseViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1391, 11531}}";
+			sepNavSelRange = "{33387, 0}";
+			sepNavVisRange = "{2503, 2994}";
+		};
+	};
+	C9674D1010440C2A0065A638 /* WetboekSearchViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1307, 3783}}";
+			sepNavSelRange = "{10751, 1}";
+			sepNavVisRange = "{7721, 3448}";
+		};
+	};
+	C967F3D31358868E004A0AE2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* StudiebundelAppDelegate.m */;
+		name = "StudiebundelAppDelegate.m: 25";
+		rLen = 0;
+		rLoc = 811;
+		rType = 0;
+		vrLen = 1353;
+		vrLoc = 0;
+	};
+	C981AC7812198BEC008F3DA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C9674D0A10440C2A0065A638 /* ExoneratieViewController.m */;
+		name = "ExoneratieViewController.m: 96";
+		rLen = 0;
+		rLoc = 113;
+		rType = 0;
+		vrLen = 3007;
+		vrLoc = 1816;
+	};
+	C9917BB010CAD2F200DE6F50 /* uncrust.sh */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1114, 813}}";
+			sepNavSelRange = "{774, 0}";
+			sepNavVisRange = "{0, 1108}";
+		};
+	};
+	C9917BC010CAD35700DE6F50 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C9917BB010CAD2F200DE6F50 /* uncrust.sh */;
+		name = "uncrust.sh: 13";
+		rLen = 0;
+		rLoc = 774;
+		rType = 0;
+		vrLen = 1108;
+		vrLoc = 0;
+	};
+	C9A60FD9112840C000AE6462 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C9674D1010440C2A0065A638 /* WetboekSearchViewController.m */;
+		name = "WetboekSearchViewController.m: 267";
+		rLen = 1;
+		rLoc = 10751;
+		rType = 0;
+		vrLen = 3448;
+		vrLoc = 7721;
+	};
+	C9BE5324121AD4AC0090560A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = C9674D3010440C4E0065A638 /* Icon.png */;
+	};
+	C9BE5325121AD4AC0090560A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = C981AC6412198BC9008F3DA3 /* Icon-72.png */;
+	};
+	C9D3395910B16036003F586B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C9674D0310440C2A0065A638 /* ArtikelViewControllerFromXIB.h */;
+		name = "ArtikelViewControllerFromXIB.h: 53";
+		rLen = 0;
+		rLoc = 2208;
+		rType = 0;
+		vrLen = 2208;
+		vrLoc = 0;
+	};
+	C9E0880D121575C60074BBCD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C9674D0410440C2A0065A638 /* ArtikelViewControllerFromXIB.m */;
+		name = "ArtikelViewControllerFromXIB.m: 76";
+		rLen = 0;
+		rLoc = 2980;
+		rType = 0;
+		vrLen = 2649;
+		vrLoc = 6680;
+	};
+	C9E661FC12D206A100BC0753 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C9674D0E10440C2A0065A638 /* TableViewFromDatabaseViewController.m */;
+		name = "TableViewFromDatabaseViewController.m: 850";
+		rLen = 0;
+		rLoc = 33387;
+		rType = 0;
+		vrLen = 2994;
+		vrLoc = 2503;
+	};
+	C9E6620112D2071B00BC0753 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Studiebundel-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			LSRequiresIPhoneOS,
+		);
+		name = "/Volumes/parallels/workspace/WetboekApps/2011/Apps/Studiebundel/Studiebundel-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+}

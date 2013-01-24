@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* RechtAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* RechtAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* RechtViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* RechtViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* RechtViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* RechtViewController.m */; };
+		C92CB7921085C90500678198 /* ArtikelViewControllerFromXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = C92CB77B1085C90500678198 /* ArtikelViewControllerFromXIB.m */; };
+		C92CB7931085C90500678198 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C92CB77D1085C90500678198 /* CustomCell.m */; };
+		C92CB7941085C90500678198 /* CustomCellLong.m in Sources */ = {isa = PBXBuildFile; fileRef = C92CB77F1085C90500678198 /* CustomCellLong.m */; };
+		C92CB7951085C90500678198 /* ExoneratieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C92CB7811085C90500678198 /* ExoneratieViewController.m */; };
+		C92CB79A1085C90500678198 /* Sqlite.m in Sources */ = {isa = PBXBuildFile; fileRef = C92CB78B1085C90500678198 /* Sqlite.m */; };
+		C92CB79C1085C90500678198 /* TableViewFromDatabaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C92CB78F1085C90500678198 /* TableViewFromDatabaseViewController.m */; };
+		C92CB79D1085C90500678198 /* WetboekSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C92CB7911085C90500678198 /* WetboekSearchViewController.m */; };
+		C92CB7AF1085C95700678198 /* ArtikelViewControllerFromXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = C92CB79E1085C95700678198 /* ArtikelViewControllerFromXIB.xib */; };
+		C92CB7B01085C95700678198 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C92CB79F1085C95700678198 /* CustomCell.xib */; };
+		C92CB7B11085C95700678198 /* CustomCellLong.xib in Resources */ = {isa = PBXBuildFile; fileRef = C92CB7A01085C95700678198 /* CustomCellLong.xib */; };
+		C92CB7B21085C95700678198 /* ExoneratieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C92CB7A11085C95700678198 /* ExoneratieViewController.xib */; };
+		C92CB7B31085C95700678198 /* arrow-left.png in Resources */ = {isa = PBXBuildFile; fileRef = C92CB7A31085C95700678198 /* arrow-left.png */; };
+		C92CB7B41085C95700678198 /* arrow-right.png in Resources */ = {isa = PBXBuildFile; fileRef = C92CB7A41085C95700678198 /* arrow-right.png */; };
+		C92CB7B51085C95700678198 /* bg-sectionheader.png in Resources */ = {isa = PBXBuildFile; fileRef = C92CB7A51085C95700678198 /* bg-sectionheader.png */; };
+		C92CB7B61085C95700678198 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C92CB7A61085C95700678198 /* Default.png */; };
+		C92CB7B71085C95700678198 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = C92CB7A71085C95700678198 /* home.png */; };
+		C92CB7B81085C95700678198 /* icon-about.png in Resources */ = {isa = PBXBuildFile; fileRef = C92CB7A81085C95700678198 /* icon-about.png */; };
+		C92CB7B91085C95700678198 /* icon-website.png in Resources */ = {isa = PBXBuildFile; fileRef = C92CB7A91085C95700678198 /* icon-website.png */; };
+		C92CB7BA1085C95700678198 /* Icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C92CB7AA1085C95700678198 /* Icon.jpg */; };
+		C92CB7BB1085C95700678198 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C92CB7AB1085C95700678198 /* Icon.png */; };
+		C92CB7BC1085C95700678198 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = C92CB7AC1085C95700678198 /* info.png */; };
+		C92CB7BD1085C95700678198 /* TableViewFromDatabaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C92CB7AD1085C95700678198 /* TableViewFromDatabaseViewController.xib */; };
+		C92CB7BE1085C95700678198 /* WetboekSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C92CB7AE1085C95700678198 /* WetboekSearchViewController.xib */; };
+		C92CB8091085C9AE00678198 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C92CB8081085C9AE00678198 /* libsqlite3.dylib */; };
+		C92CB8301085C9B900678198 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92CB82F1085C9B900678198 /* CoreGraphics.framework */; };
+		C92CB8471085C9C300678198 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92CB8461085C9C300678198 /* QuartzCore.framework */; };
+		C93C164C12155331003ABBA1 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C93C164B12155331003ABBA1 /* MainWindow-iPad.xib */; };
+		C9555C501125863A00FE3CA5 /* uncrust.sh in Resources */ = {isa = PBXBuildFile; fileRef = C9555C4F1125863A00FE3CA5 /* uncrust.sh */; };
+		C9555C6A112587FD00FE3CA5 /* algemenewetgelijkebehandeling.db in Resources */ = {isa = PBXBuildFile; fileRef = C9555C5A112587FD00FE3CA5 /* algemenewetgelijkebehandeling.db */; };
+		C9555C6B112587FD00FE3CA5 /* algemenewetinzakerijksbelastingen.db in Resources */ = {isa = PBXBuildFile; fileRef = C9555C5B112587FD00FE3CA5 /* algemenewetinzakerijksbelastingen.db */; };
+		C9555C6C112587FD00FE3CA5 /* auteurswet1912.db in Resources */ = {isa = PBXBuildFile; fileRef = C9555C5C112587FD00FE3CA5 /* auteurswet1912.db */; };
+		C9555C6D112587FD00FE3CA5 /* burgerlijkwetboekboek1.db in Resources */ = {isa = PBXBuildFile; fileRef = C9555C5D112587FD00FE3CA5 /* burgerlijkwetboekboek1.db */; };
+		C9555C6E112587FD00FE3CA5 /* burgerlijkwetboekboek4.db in Resources */ = {isa = PBXBuildFile; fileRef = C9555C5E112587FD00FE3CA5 /* burgerlijkwetboekboek4.db */; };
+		C9555C6F112587FD00FE3CA5 /* burgerlijkwetboekboek7.db in Resources */ = {isa = PBXBuildFile; fileRef = C9555C5F112587FD00FE3CA5 /* burgerlijkwetboekboek7.db */; };
+		C9555C70112587FD00FE3CA5 /* gemeentewet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9555C60112587FD00FE3CA5 /* gemeentewet.db */; };
+		C9555C71112587FD00FE3CA5 /* grondwet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9555C61112587FD00FE3CA5 /* grondwet.db */; };
+		C9555C72112587FD00FE3CA5 /* rijkswetophetnederlanderschap.db in Resources */ = {isa = PBXBuildFile; fileRef = C9555C62112587FD00FE3CA5 /* rijkswetophetnederlanderschap.db */; };
+		C9555C73112587FD00FE3CA5 /* verdragbetreffendedeeuropeseuniemaastricht07021992.db in Resources */ = {isa = PBXBuildFile; fileRef = C9555C63112587FD00FE3CA5 /* verdragbetreffendedeeuropeseuniemaastricht07021992.db */; };
+		C9555C74112587FD00FE3CA5 /* verdragtotoprichtingvandeeuropesegemeenschaprome25031957.db in Resources */ = {isa = PBXBuildFile; fileRef = C9555C64112587FD00FE3CA5 /* verdragtotoprichtingvandeeuropesegemeenschaprome25031957.db */; };
+		C9555C75112587FD00FE3CA5 /* vreemdelingenwet2000.db in Resources */ = {isa = PBXBuildFile; fileRef = C9555C65112587FD00FE3CA5 /* vreemdelingenwet2000.db */; };
+		C9555C76112587FD00FE3CA5 /* wegenverkeerswet1994.db in Resources */ = {isa = PBXBuildFile; fileRef = C9555C66112587FD00FE3CA5 /* wegenverkeerswet1994.db */; };
+		C9555C77112587FD00FE3CA5 /* wetboekvanstrafrecht.db in Resources */ = {isa = PBXBuildFile; fileRef = C9555C67112587FD00FE3CA5 /* wetboekvanstrafrecht.db */; };
+		C9555C78112587FD00FE3CA5 /* wetopenbaarheidvanbestuur.db in Resources */ = {isa = PBXBuildFile; fileRef = C9555C68112587FD00FE3CA5 /* wetopenbaarheidvanbestuur.db */; };
+		C9555C79112587FD00FE3CA5 /* wetten.db in Resources */ = {isa = PBXBuildFile; fileRef = C9555C69112587FD00FE3CA5 /* wetten.db */; };
+		C9E064B212197AE100484CF5 /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E064AB12197AE100484CF5 /* Default~ipad.png */; };
+		C9E064B312197AE100484CF5 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E064AC12197AE100484CF5 /* Icon-72.png */; };
+		C9E064B412197AE100484CF5 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E064AD12197AE100484CF5 /* Icon-Small-50.png */; };
+		C9E064B512197AE100484CF5 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E064AE12197AE100484CF5 /* Icon-Small.png */; };
+		C9E064B612197AE100484CF5 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E064AF12197AE100484CF5 /* Icon-Small@2x.png */; };
+		C9E064B712197AE100484CF5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E064B012197AE100484CF5 /* Icon.png */; };
+		C9E064B812197AE100484CF5 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E064B112197AE100484CF5 /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* RechtAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RechtAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* RechtAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RechtAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Recht.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recht.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* RechtViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RechtViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* RechtViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RechtViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* RechtViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RechtViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Recht_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recht_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Recht-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Recht-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C92CB77A1085C90500678198 /* ArtikelViewControllerFromXIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtikelViewControllerFromXIB.h; sourceTree = "<group>"; };
+		C92CB77B1085C90500678198 /* ArtikelViewControllerFromXIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtikelViewControllerFromXIB.m; sourceTree = "<group>"; };
+		C92CB77C1085C90500678198 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		C92CB77D1085C90500678198 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		C92CB77E1085C90500678198 /* CustomCellLong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellLong.h; sourceTree = "<group>"; };
+		C92CB77F1085C90500678198 /* CustomCellLong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellLong.m; sourceTree = "<group>"; };
+		C92CB7801085C90500678198 /* ExoneratieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExoneratieViewController.h; sourceTree = "<group>"; };
+		C92CB7811085C90500678198 /* ExoneratieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExoneratieViewController.m; sourceTree = "<group>"; };
+		C92CB78A1085C90500678198 /* Sqlite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sqlite.h; sourceTree = "<group>"; };
+		C92CB78B1085C90500678198 /* Sqlite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sqlite.m; sourceTree = "<group>"; };
+		C92CB78E1085C90500678198 /* TableViewFromDatabaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewFromDatabaseViewController.h; sourceTree = "<group>"; };
+		C92CB78F1085C90500678198 /* TableViewFromDatabaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewFromDatabaseViewController.m; sourceTree = "<group>"; };
+		C92CB7901085C90500678198 /* WetboekSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WetboekSearchViewController.h; sourceTree = "<group>"; };
+		C92CB7911085C90500678198 /* WetboekSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WetboekSearchViewController.m; sourceTree = "<group>"; };
+		C92CB79E1085C95700678198 /* ArtikelViewControllerFromXIB.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ArtikelViewControllerFromXIB.xib; path = Resources/ArtikelViewControllerFromXIB.xib; sourceTree = "<group>"; };
+		C92CB79F1085C95700678198 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CustomCell.xib; path = Resources/CustomCell.xib; sourceTree = "<group>"; };
+		C92CB7A01085C95700678198 /* CustomCellLong.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CustomCellLong.xib; path = Resources/CustomCellLong.xib; sourceTree = "<group>"; };
+		C92CB7A11085C95700678198 /* ExoneratieViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ExoneratieViewController.xib; path = Resources/ExoneratieViewController.xib; sourceTree = "<group>"; };
+		C92CB7A31085C95700678198 /* arrow-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-left.png"; sourceTree = "<group>"; };
+		C92CB7A41085C95700678198 /* arrow-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-right.png"; sourceTree = "<group>"; };
+		C92CB7A51085C95700678198 /* bg-sectionheader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-sectionheader.png"; sourceTree = "<group>"; };
+		C92CB7A61085C95700678198 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C92CB7A71085C95700678198 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		C92CB7A81085C95700678198 /* icon-about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-about.png"; sourceTree = "<group>"; };
+		C92CB7A91085C95700678198 /* icon-website.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-website.png"; sourceTree = "<group>"; };
+		C92CB7AA1085C95700678198 /* Icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Icon.jpg; sourceTree = "<group>"; };
+		C92CB7AB1085C95700678198 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C92CB7AC1085C95700678198 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		C92CB7AD1085C95700678198 /* TableViewFromDatabaseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TableViewFromDatabaseViewController.xib; path = Resources/TableViewFromDatabaseViewController.xib; sourceTree = "<group>"; };
+		C92CB7AE1085C95700678198 /* WetboekSearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = WetboekSearchViewController.xib; path = Resources/WetboekSearchViewController.xib; sourceTree = "<group>"; };
+		C92CB8081085C9AE00678198 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		C92CB82F1085C9B900678198 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C92CB8461085C9C300678198 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C93C164B12155331003ABBA1 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "Resources-iPad/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		C9555C4F1125863A00FE3CA5 /* uncrust.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = uncrust.sh; sourceTree = "<group>"; };
+		C9555C5A112587FD00FE3CA5 /* algemenewetgelijkebehandeling.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = algemenewetgelijkebehandeling.db; sourceTree = "<group>"; };
+		C9555C5B112587FD00FE3CA5 /* algemenewetinzakerijksbelastingen.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = algemenewetinzakerijksbelastingen.db; sourceTree = "<group>"; };
+		C9555C5C112587FD00FE3CA5 /* auteurswet1912.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = auteurswet1912.db; sourceTree = "<group>"; };
+		C9555C5D112587FD00FE3CA5 /* burgerlijkwetboekboek1.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = burgerlijkwetboekboek1.db; sourceTree = "<group>"; };
+		C9555C5E112587FD00FE3CA5 /* burgerlijkwetboekboek4.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = burgerlijkwetboekboek4.db; sourceTree = "<group>"; };
+		C9555C5F112587FD00FE3CA5 /* burgerlijkwetboekboek7.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = burgerlijkwetboekboek7.db; sourceTree = "<group>"; };
+		C9555C60112587FD00FE3CA5 /* gemeentewet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = gemeentewet.db; sourceTree = "<group>"; };
+		C9555C61112587FD00FE3CA5 /* grondwet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = grondwet.db; sourceTree = "<group>"; };
+		C9555C62112587FD00FE3CA5 /* rijkswetophetnederlanderschap.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = rijkswetophetnederlanderschap.db; sourceTree = "<group>"; };
+		C9555C63112587FD00FE3CA5 /* verdragbetreffendedeeuropeseuniemaastricht07021992.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = verdragbetreffendedeeuropeseuniemaastricht07021992.db; sourceTree = "<group>"; };
+		C9555C64112587FD00FE3CA5 /* verdragtotoprichtingvandeeuropesegemeenschaprome25031957.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = verdragtotoprichtingvandeeuropesegemeenschaprome25031957.db; sourceTree = "<group>"; };
+		C9555C65112587FD00FE3CA5 /* vreemdelingenwet2000.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = vreemdelingenwet2000.db; sourceTree = "<group>"; };
+		C9555C66112587FD00FE3CA5 /* wegenverkeerswet1994.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wegenverkeerswet1994.db; sourceTree = "<group>"; };
+		C9555C67112587FD00FE3CA5 /* wetboekvanstrafrecht.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetboekvanstrafrecht.db; sourceTree = "<group>"; };
+		C9555C68112587FD00FE3CA5 /* wetopenbaarheidvanbestuur.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetopenbaarheidvanbestuur.db; sourceTree = "<group>"; };
+		C9555C69112587FD00FE3CA5 /* wetten.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetten.db; sourceTree = "<group>"; };
+		C9E064AB12197AE100484CF5 /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~ipad.png"; sourceTree = "<group>"; };
+		C9E064AC12197AE100484CF5 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		C9E064AD12197AE100484CF5 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		C9E064AE12197AE100484CF5 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		C9E064AF12197AE100484CF5 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		C9E064B012197AE100484CF5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C9E064B112197AE100484CF5 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				C92CB8091085C9AE00678198 /* libsqlite3.dylib in Frameworks */,
+				C92CB8301085C9B900678198 /* CoreGraphics.framework in Frameworks */,
+				C92CB8471085C9C300678198 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C92CB77A1085C90500678198 /* ArtikelViewControllerFromXIB.h */,
+				C92CB77B1085C90500678198 /* ArtikelViewControllerFromXIB.m */,
+				C92CB77C1085C90500678198 /* CustomCell.h */,
+				C92CB77D1085C90500678198 /* CustomCell.m */,
+				C92CB77E1085C90500678198 /* CustomCellLong.h */,
+				C92CB77F1085C90500678198 /* CustomCellLong.m */,
+				C92CB7801085C90500678198 /* ExoneratieViewController.h */,
+				C92CB7811085C90500678198 /* ExoneratieViewController.m */,
+				C92CB78A1085C90500678198 /* Sqlite.h */,
+				C92CB78B1085C90500678198 /* Sqlite.m */,
+				C92CB78E1085C90500678198 /* TableViewFromDatabaseViewController.h */,
+				C92CB78F1085C90500678198 /* TableViewFromDatabaseViewController.m */,
+				C92CB7901085C90500678198 /* WetboekSearchViewController.h */,
+				C92CB7911085C90500678198 /* WetboekSearchViewController.m */,
+				1D3623240D0F684500981E51 /* RechtAppDelegate.h */,
+				1D3623250D0F684500981E51 /* RechtAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* RechtViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* RechtViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Recht.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				C9555C4F1125863A00FE3CA5 /* uncrust.sh */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				C93C164A12155331003ABBA1 /* Resources-iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Recht_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C92CB7BF1085C96000678198 /* db */,
+				C92CB79E1085C95700678198 /* ArtikelViewControllerFromXIB.xib */,
+				C92CB79F1085C95700678198 /* CustomCell.xib */,
+				C92CB7A01085C95700678198 /* CustomCellLong.xib */,
+				C92CB7A11085C95700678198 /* ExoneratieViewController.xib */,
+				C92CB7A21085C95700678198 /* Images */,
+				C92CB7AD1085C95700678198 /* TableViewFromDatabaseViewController.xib */,
+				C92CB7AE1085C95700678198 /* WetboekSearchViewController.xib */,
+				2899E5210DE3E06400AC0155 /* RechtViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Recht-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C92CB8461085C9C300678198 /* QuartzCore.framework */,
+				C92CB82F1085C9B900678198 /* CoreGraphics.framework */,
+				C92CB8081085C9AE00678198 /* libsqlite3.dylib */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C92CB7A21085C95700678198 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C9E064AB12197AE100484CF5 /* Default~ipad.png */,
+				C9E064AC12197AE100484CF5 /* Icon-72.png */,
+				C9E064AD12197AE100484CF5 /* Icon-Small-50.png */,
+				C9E064AE12197AE100484CF5 /* Icon-Small.png */,
+				C9E064AF12197AE100484CF5 /* Icon-Small@2x.png */,
+				C9E064B012197AE100484CF5 /* Icon.png */,
+				C9E064B112197AE100484CF5 /* Icon@2x.png */,
+				C92CB7A31085C95700678198 /* arrow-left.png */,
+				C92CB7A41085C95700678198 /* arrow-right.png */,
+				C92CB7A51085C95700678198 /* bg-sectionheader.png */,
+				C92CB7A61085C95700678198 /* Default.png */,
+				C92CB7A71085C95700678198 /* home.png */,
+				C92CB7A81085C95700678198 /* icon-about.png */,
+				C92CB7A91085C95700678198 /* icon-website.png */,
+				C92CB7AA1085C95700678198 /* Icon.jpg */,
+				C92CB7AB1085C95700678198 /* Icon.png */,
+				C92CB7AC1085C95700678198 /* info.png */,
+			);
+			name = Images;
+			path = Resources/Images;
+			sourceTree = "<group>";
+		};
+		C92CB7BF1085C96000678198 /* db */ = {
+			isa = PBXGroup;
+			children = (
+				C9555C5A112587FD00FE3CA5 /* algemenewetgelijkebehandeling.db */,
+				C9555C5B112587FD00FE3CA5 /* algemenewetinzakerijksbelastingen.db */,
+				C9555C5C112587FD00FE3CA5 /* auteurswet1912.db */,
+				C9555C5D112587FD00FE3CA5 /* burgerlijkwetboekboek1.db */,
+				C9555C5E112587FD00FE3CA5 /* burgerlijkwetboekboek4.db */,
+				C9555C5F112587FD00FE3CA5 /* burgerlijkwetboekboek7.db */,
+				C9555C60112587FD00FE3CA5 /* gemeentewet.db */,
+				C9555C61112587FD00FE3CA5 /* grondwet.db */,
+				C9555C62112587FD00FE3CA5 /* rijkswetophetnederlanderschap.db */,
+				C9555C63112587FD00FE3CA5 /* verdragbetreffendedeeuropeseuniemaastricht07021992.db */,
+				C9555C64112587FD00FE3CA5 /* verdragtotoprichtingvandeeuropesegemeenschaprome25031957.db */,
+				C9555C65112587FD00FE3CA5 /* vreemdelingenwet2000.db */,
+				C9555C66112587FD00FE3CA5 /* wegenverkeerswet1994.db */,
+				C9555C67112587FD00FE3CA5 /* wetboekvanstrafrecht.db */,
+				C9555C68112587FD00FE3CA5 /* wetopenbaarheidvanbestuur.db */,
+				C9555C69112587FD00FE3CA5 /* wetten.db */,
+			);
+			path = db;
+			sourceTree = "<group>";
+		};
+		C93C164A12155331003ABBA1 /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				C93C164B12155331003ABBA1 /* MainWindow-iPad.xib */,
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Recht */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Recht" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Recht;
+			productName = Recht;
+			productReference = 1D6058910D05DD3D006BFB54 /* Recht.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Recht" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Recht */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* RechtViewController.xib in Resources */,
+				C92CB7AF1085C95700678198 /* ArtikelViewControllerFromXIB.xib in Resources */,
+				C92CB7B01085C95700678198 /* CustomCell.xib in Resources */,
+				C92CB7B11085C95700678198 /* CustomCellLong.xib in Resources */,
+				C92CB7B21085C95700678198 /* ExoneratieViewController.xib in Resources */,
+				C92CB7B31085C95700678198 /* arrow-left.png in Resources */,
+				C92CB7B41085C95700678198 /* arrow-right.png in Resources */,
+				C92CB7B51085C95700678198 /* bg-sectionheader.png in Resources */,
+				C92CB7B61085C95700678198 /* Default.png in Resources */,
+				C92CB7B71085C95700678198 /* home.png in Resources */,
+				C92CB7B81085C95700678198 /* icon-about.png in Resources */,
+				C92CB7B91085C95700678198 /* icon-website.png in Resources */,
+				C92CB7BA1085C95700678198 /* Icon.jpg in Resources */,
+				C92CB7BB1085C95700678198 /* Icon.png in Resources */,
+				C92CB7BC1085C95700678198 /* info.png in Resources */,
+				C92CB7BD1085C95700678198 /* TableViewFromDatabaseViewController.xib in Resources */,
+				C92CB7BE1085C95700678198 /* WetboekSearchViewController.xib in Resources */,
+				C9555C501125863A00FE3CA5 /* uncrust.sh in Resources */,
+				C9555C6A112587FD00FE3CA5 /* algemenewetgelijkebehandeling.db in Resources */,
+				C9555C6B112587FD00FE3CA5 /* algemenewetinzakerijksbelastingen.db in Resources */,
+				C9555C6C112587FD00FE3CA5 /* auteurswet1912.db in Resources */,
+				C9555C6D112587FD00FE3CA5 /* burgerlijkwetboekboek1.db in Resources */,
+				C9555C6E112587FD00FE3CA5 /* burgerlijkwetboekboek4.db in Resources */,
+				C9555C6F112587FD00FE3CA5 /* burgerlijkwetboekboek7.db in Resources */,
+				C9555C70112587FD00FE3CA5 /* gemeentewet.db in Resources */,
+				C9555C71112587FD00FE3CA5 /* grondwet.db in Resources */,
+				C9555C72112587FD00FE3CA5 /* rijkswetophetnederlanderschap.db in Resources */,
+				C9555C73112587FD00FE3CA5 /* verdragbetreffendedeeuropeseuniemaastricht07021992.db in Resources */,
+				C9555C74112587FD00FE3CA5 /* verdragtotoprichtingvandeeuropesegemeenschaprome25031957.db in Resources */,
+				C9555C75112587FD00FE3CA5 /* vreemdelingenwet2000.db in Resources */,
+				C9555C76112587FD00FE3CA5 /* wegenverkeerswet1994.db in Resources */,
+				C9555C77112587FD00FE3CA5 /* wetboekvanstrafrecht.db in Resources */,
+				C9555C78112587FD00FE3CA5 /* wetopenbaarheidvanbestuur.db in Resources */,
+				C9555C79112587FD00FE3CA5 /* wetten.db in Resources */,
+				C93C164C12155331003ABBA1 /* MainWindow-iPad.xib in Resources */,
+				C9E064B212197AE100484CF5 /* Default~ipad.png in Resources */,
+				C9E064B312197AE100484CF5 /* Icon-72.png in Resources */,
+				C9E064B412197AE100484CF5 /* Icon-Small-50.png in Resources */,
+				C9E064B512197AE100484CF5 /* Icon-Small.png in Resources */,
+				C9E064B612197AE100484CF5 /* Icon-Small@2x.png in Resources */,
+				C9E064B712197AE100484CF5 /* Icon.png in Resources */,
+				C9E064B812197AE100484CF5 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* RechtAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* RechtViewController.m in Sources */,
+				C92CB7921085C90500678198 /* ArtikelViewControllerFromXIB.m in Sources */,
+				C92CB7931085C90500678198 /* CustomCell.m in Sources */,
+				C92CB7941085C90500678198 /* CustomCellLong.m in Sources */,
+				C92CB7951085C90500678198 /* ExoneratieViewController.m in Sources */,
+				C92CB79A1085C90500678198 /* Sqlite.m in Sources */,
+				C92CB79C1085C90500678198 /* TableViewFromDatabaseViewController.m in Sources */,
+				C92CB79D1085C90500678198 /* WetboekSearchViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Recht_Prefix.pch;
+				INFOPLIST_FILE = "Recht-Info.plist";
+				PRODUCT_NAME = Recht;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Recht_Prefix.pch;
+				INFOPLIST_FILE = "Recht-Info.plist";
+				PRODUCT_NAME = Recht;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		C92CB9671085DE6B00678198 /* Distribute */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribute;
+		};
+		C92CB9681085DE6B00678198 /* Distribute */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Recht_Prefix.pch;
+				INFOPLIST_FILE = "Recht-Info.plist";
+				PRODUCT_NAME = Recht;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Distribute;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Recht" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				C92CB9681085DE6B00678198 /* Distribute */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Recht" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				C92CB9671085DE6B00678198 /* Distribute */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

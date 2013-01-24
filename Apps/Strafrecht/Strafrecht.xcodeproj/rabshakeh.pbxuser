@@ -1,0 +1,245 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* StrafrechtAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1125, 858}}";
+			sepNavSelRange = "{1386, 0}";
+			sepNavVisRange = "{0, 1386}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Strafrecht */ = {
+		activeExec = 0;
+		executables = (
+			C932DA65121581E400DDE831 /* Strafrecht */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Distribute;
+		activeExecutable = C932DA65121581E400DDE831 /* Strafrecht */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Strafrecht */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Strafrecht */,
+		);
+		codeSenseManager = C932DA75121581EB00DDE831 /* Code sense */;
+		executables = (
+			C932DA65121581E400DDE831 /* Strafrecht */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					552,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					947,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					624,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 323874581;
+			PBXWorkspaceStateSaveDate = 323874581;
+		};
+		perUserProjectItems = {
+			C909D452134DD38B004FD731 /* PBXTextBookmark */ = C909D452134DD38B004FD731 /* PBXTextBookmark */;
+			C93D1CF3134DF173009CF4CC /* PlistBookmark */ = C93D1CF3134DF173009CF4CC /* PlistBookmark */;
+			C95050C61237901E00D7523C /* PBXTextBookmark */ = C95050C61237901E00D7523C /* PBXTextBookmark */;
+			C95050C71237901E00D7523C /* PBXTextBookmark */ = C95050C71237901E00D7523C /* PBXTextBookmark */;
+			C9717218134DE36400657801 /* PlistBookmark */ = C9717218134DE36400657801 /* PlistBookmark */;
+			C981AC7F12198C88008F3DA3 /* PBXBookmark */ = C981AC7F12198C88008F3DA3 /* PBXBookmark */;
+			C9BE52B5121AD0F40090560A /* PBXBookmark */ = C9BE52B5121AD0F40090560A /* PBXBookmark */;
+			C9BE5300121AD18A0090560A /* PBXBookmark */ = C9BE5300121AD18A0090560A /* PBXBookmark */;
+			C9F0F8AA12D22D2B0070F3DF /* PBXTextBookmark */ = C9F0F8AA12D22D2B0070F3DF /* PBXTextBookmark */;
+		};
+		sourceControlManager = C932DA74121581EB00DDE831 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	C909D452134DD38B004FD731 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* StrafrechtAppDelegate.m */;
+		name = "StrafrechtAppDelegate.m: 48";
+		rLen = 0;
+		rLoc = 1386;
+		rType = 0;
+		vrLen = 1386;
+		vrLoc = 0;
+	};
+	C932DA65121581E400DDE831 /* Strafrecht */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Strafrecht;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	C932DA74121581EB00DDE831 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	C932DA75121581EB00DDE831 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	C932DA781215829B00DDE831 /* ArtikelViewControllerFromXIB.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1629, 4823}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{10315, 1809}";
+		};
+	};
+	C932DA7E1215829B00DDE831 /* ExoneratieViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {4191, 1872}}";
+			sepNavSelRange = "{3616, 0}";
+			sepNavVisRange = "{0, 2637}";
+		};
+	};
+	C932DA821215829B00DDE831 /* TableViewFromDatabaseViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1398, 11284}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{31139, 2526}";
+		};
+	};
+	C93D1CF3134DF173009CF4CC /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Strafrecht-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/parallels/workspace/WetboekApps/2011/Apps/Strafrecht/Strafrecht-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	C95050C61237901E00D7523C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C932DA781215829B00DDE831 /* ArtikelViewControllerFromXIB.m */;
+		name = "ArtikelViewControllerFromXIB.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1809;
+		vrLoc = 10315;
+	};
+	C95050C71237901E00D7523C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C932DA821215829B00DDE831 /* TableViewFromDatabaseViewController.m */;
+		name = "TableViewFromDatabaseViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2526;
+		vrLoc = 31139;
+	};
+	C9717218134DE36400657801 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Strafrecht-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			LSRequiresIPhoneOS,
+		);
+		name = "/Volumes/parallels/workspace/WetboekApps/2011/Apps/Strafrecht/Strafrecht-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	C981AC7F12198C88008F3DA3 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = C932DA93121582A600DDE831 /* bg-sectionheader.png */;
+	};
+	C9BE52B5121AD0F40090560A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = C932DA96121582A600DDE831 /* Icon-72.png */;
+	};
+	C9BE5300121AD18A0090560A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = C932DA9D121582A600DDE831 /* Icon.png */;
+	};
+	C9F0F8AA12D22D2B0070F3DF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C932DA7E1215829B00DDE831 /* ExoneratieViewController.m */;
+		name = "ExoneratieViewController.m: 95";
+		rLen = 0;
+		rLoc = 3616;
+		rType = 0;
+		vrLen = 2637;
+		vrLoc = 0;
+	};
+}

@@ -1,0 +1,1079 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* StudiebundelAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* StudiebundelAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		C9674D1310440C2A0065A638 /* ArtikelViewControllerFromXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = C9674D0410440C2A0065A638 /* ArtikelViewControllerFromXIB.m */; };
+		C9674D1410440C2A0065A638 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C9674D0610440C2A0065A638 /* CustomCell.m */; };
+		C9674D1510440C2A0065A638 /* CustomCellLong.m in Sources */ = {isa = PBXBuildFile; fileRef = C9674D0810440C2A0065A638 /* CustomCellLong.m */; };
+		C9674D1610440C2A0065A638 /* ExoneratieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9674D0A10440C2A0065A638 /* ExoneratieViewController.m */; };
+		C9674D1710440C2A0065A638 /* Sqlite.m in Sources */ = {isa = PBXBuildFile; fileRef = C9674D0C10440C2A0065A638 /* Sqlite.m */; };
+		C9674D1810440C2A0065A638 /* TableViewFromDatabaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9674D0E10440C2A0065A638 /* TableViewFromDatabaseViewController.m */; };
+		C9674D1910440C2A0065A638 /* WetboekSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9674D1010440C2A0065A638 /* WetboekSearchViewController.m */; };
+		C9674D2110440C370065A638 /* ArtikelViewControllerFromXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9674D1B10440C370065A638 /* ArtikelViewControllerFromXIB.xib */; };
+		C9674D2210440C370065A638 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9674D1C10440C370065A638 /* CustomCell.xib */; };
+		C9674D2310440C370065A638 /* CustomCellLong.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9674D1D10440C370065A638 /* CustomCellLong.xib */; };
+		C9674D2410440C370065A638 /* ExoneratieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9674D1E10440C370065A638 /* ExoneratieViewController.xib */; };
+		C9674D2510440C370065A638 /* TableViewFromDatabaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9674D1F10440C370065A638 /* TableViewFromDatabaseViewController.xib */; };
+		C9674D2610440C370065A638 /* WetboekSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9674D2010440C370065A638 /* WetboekSearchViewController.xib */; };
+		C9674D3210440C4E0065A638 /* arrow-left.png in Resources */ = {isa = PBXBuildFile; fileRef = C9674D2910440C4E0065A638 /* arrow-left.png */; };
+		C9674D3310440C4E0065A638 /* arrow-right.png in Resources */ = {isa = PBXBuildFile; fileRef = C9674D2A10440C4E0065A638 /* arrow-right.png */; };
+		C9674D3410440C4E0065A638 /* bg-sectionheader.png in Resources */ = {isa = PBXBuildFile; fileRef = C9674D2B10440C4E0065A638 /* bg-sectionheader.png */; };
+		C9674D3510440C4E0065A638 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C9674D2C10440C4E0065A638 /* Default.png */; };
+		C9674D3610440C4E0065A638 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = C9674D2D10440C4E0065A638 /* home.png */; };
+		C9674D3710440C4E0065A638 /* icon-about.png in Resources */ = {isa = PBXBuildFile; fileRef = C9674D2E10440C4E0065A638 /* icon-about.png */; };
+		C9674D3810440C4E0065A638 /* Icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9674D2F10440C4E0065A638 /* Icon.jpg */; };
+		C9674D3910440C4E0065A638 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C9674D3010440C4E0065A638 /* Icon.png */; };
+		C9674D3A10440C4E0065A638 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = C9674D3110440C4E0065A638 /* info.png */; };
+		C9674E6E10440CEB0065A638 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9674E6D10440CEB0065A638 /* QuartzCore.framework */; };
+		C9674E7010440D160065A638 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C9674E6F10440D160065A638 /* libsqlite3.0.dylib */; };
+		C981AC6B12198BC9008F3DA3 /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = C981AC6312198BC9008F3DA3 /* Default~ipad.png */; };
+		C981AC6C12198BC9008F3DA3 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = C981AC6412198BC9008F3DA3 /* Icon-72.png */; };
+		C981AC6D12198BC9008F3DA3 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = C981AC6512198BC9008F3DA3 /* Icon-Small-50.png */; };
+		C981AC6E12198BC9008F3DA3 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = C981AC6612198BC9008F3DA3 /* Icon-Small.png */; };
+		C981AC6F12198BC9008F3DA3 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C981AC6712198BC9008F3DA3 /* Icon-Small@2x.png */; };
+		C981AC7012198BC9008F3DA3 /* icon-website.png in Resources */ = {isa = PBXBuildFile; fileRef = C981AC6812198BC9008F3DA3 /* icon-website.png */; };
+		C981AC7112198BC9008F3DA3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C981AC6912198BC9008F3DA3 /* Icon.png */; };
+		C981AC7212198BC9008F3DA3 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C981AC6A12198BC9008F3DA3 /* Icon@2x.png */; };
+		C9917BB110CAD2F200DE6F50 /* obj-c.cfg in Resources */ = {isa = PBXBuildFile; fileRef = C9917BAF10CAD2F200DE6F50 /* obj-c.cfg */; };
+		C9917BB210CAD2F200DE6F50 /* uncrust.sh in Resources */ = {isa = PBXBuildFile; fileRef = C9917BB010CAD2F200DE6F50 /* uncrust.sh */; };
+		C9AC66D8118F269C0078EF72 /* aanvullendprotocolbijheteuropeessociaalhandvestbetreffendeeensysteemvoorcollectieveklachtenstraatsburg09111995.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC663F118F269C0078EF72 /* aanvullendprotocolbijheteuropeessociaalhandvestbetreffendeeensysteemvoorcollectieveklachtenstraatsburg09111995.db */; };
+		C9AC66D9118F269C0078EF72 /* aanvullendprotocolbijhetverdragbetreffendedeovereenkomsttotinternationaalvervoervangoederenoverdewegcmrinzakededigitale.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6640118F269C0078EF72 /* aanvullendprotocolbijhetverdragbetreffendedeovereenkomsttotinternationaalvervoervangoederenoverdewegcmrinzakededigitale.db */; };
+		C9AC66DA118F269C0078EF72 /* advocatenwet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6641118F269C0078EF72 /* advocatenwet.db */; };
+		C9AC66DB118F269C0078EF72 /* algemenetermijnenwet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6642118F269C0078EF72 /* algemenetermijnenwet.db */; };
+		C9AC66DC118F269C0078EF72 /* algemenewetbestuursrecht.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6643118F269C0078EF72 /* algemenewetbestuursrecht.db */; };
+		C9AC66DD118F269C0078EF72 /* algemenewetgelijkebehandeling.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6644118F269C0078EF72 /* algemenewetgelijkebehandeling.db */; };
+		C9AC66DE118F269C0078EF72 /* algemenewetinzakerijksbelastingen.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6645118F269C0078EF72 /* algemenewetinzakerijksbelastingen.db */; };
+		C9AC66DF118F269C0078EF72 /* algemenewetophetbinnentreden.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6646118F269C0078EF72 /* algemenewetophetbinnentreden.db */; };
+		C9AC66E0118F269C0078EF72 /* ambtenarenwet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6647118F269C0078EF72 /* ambtenarenwet.db */; };
+		C9AC66E1118F269C0078EF72 /* ambtsinstructiecommissarisvandekoning.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6648118F269C0078EF72 /* ambtsinstructiecommissarisvandekoning.db */; };
+		C9AC66E2118F269C0078EF72 /* ambtsinstructievoordepolitiedekoninklijkemarechausseeendebuitengewoonopsporingsambtenaar.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6649118F269C0078EF72 /* ambtsinstructievoordepolitiedekoninklijkemarechausseeendebuitengewoonopsporingsambtenaar.db */; };
+		C9AC66E3118F269C0078EF72 /* auteurswet1912.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC664A118F269C0078EF72 /* auteurswet1912.db */; };
+		C9AC66E4118F269C0078EF72 /* beginselenwetverplegingterbeschikkinggestelden.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC664B118F269C0078EF72 /* beginselenwetverplegingterbeschikkinggestelden.db */; };
+		C9AC66E5118F269C0078EF72 /* bekendmakingswet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC664C118F269C0078EF72 /* bekendmakingswet.db */; };
+		C9AC66E6118F269C0078EF72 /* beneluxverdraginzakedeintellectueleeigendommerkenentekeningenofmodellensgravenhage25022005.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC664D118F269C0078EF72 /* beneluxverdraginzakedeintellectueleeigendommerkenentekeningenofmodellensgravenhage25022005.db */; };
+		C9AC66E7118F269C0078EF72 /* beroepswet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC664E118F269C0078EF72 /* beroepswet.db */; };
+		C9AC66E8118F269C0078EF72 /* besluitalcoholonderzoeken.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC664F118F269C0078EF72 /* besluitalcoholonderzoeken.db */; };
+		C9AC66E9118F269C0078EF72 /* besluitgetuigenbescherming.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6650118F269C0078EF72 /* besluitgetuigenbescherming.db */; };
+		C9AC66EA118F269C0078EF72 /* besluitmarktmisbruikwft.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6651118F269C0078EF72 /* besluitmarktmisbruikwft.db */; };
+		C9AC66EB118F269C0078EF72 /* besluitmeldingzeggenschapenkapitaalbelanginuitgevendeinstellingen.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6652118F269C0078EF72 /* besluitmeldingzeggenschapenkapitaalbelanginuitgevendeinstellingen.db */; };
+		C9AC66EC118F269C0078EF72 /* besluitopenbarebiedingenwft.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6653118F269C0078EF72 /* besluitopenbarebiedingenwft.db */; };
+		C9AC66ED118F269C0078EF72 /* buitengewoonbesluitarbeidsverhoudingen1945.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6654118F269C0078EF72 /* buitengewoonbesluitarbeidsverhoudingen1945.db */; };
+		C9AC66EE118F269C0078EF72 /* burgerlijkwetboekboek1.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6655118F269C0078EF72 /* burgerlijkwetboekboek1.db */; };
+		C9AC66EF118F269C0078EF72 /* burgerlijkwetboekboek2.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6656118F269C0078EF72 /* burgerlijkwetboekboek2.db */; };
+		C9AC66F0118F269C0078EF72 /* burgerlijkwetboekboek3.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6657118F269C0078EF72 /* burgerlijkwetboekboek3.db */; };
+		C9AC66F1118F269C0078EF72 /* burgerlijkwetboekboek4.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6658118F269C0078EF72 /* burgerlijkwetboekboek4.db */; };
+		C9AC66F2118F269C0078EF72 /* burgerlijkwetboekboek5.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6659118F269C0078EF72 /* burgerlijkwetboekboek5.db */; };
+		C9AC66F3118F269C0078EF72 /* burgerlijkwetboekboek6.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC665A118F269C0078EF72 /* burgerlijkwetboekboek6.db */; };
+		C9AC66F4118F269C0078EF72 /* burgerlijkwetboekboek7.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC665B118F269C0078EF72 /* burgerlijkwetboekboek7.db */; };
+		C9AC66F5118F269C0078EF72 /* burgerlijkwetboekboek7a.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC665C118F269C0078EF72 /* burgerlijkwetboekboek7a.db */; };
+		C9AC66F6118F269C0078EF72 /* burgerlijkwetboekboek8.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC665D118F269C0078EF72 /* burgerlijkwetboekboek8.db */; };
+		C9AC66F7118F269C0078EF72 /* colportagewet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC665E118F269C0078EF72 /* colportagewet.db */; };
+		C9AC66F8118F269C0078EF72 /* comptabiliteitswet2001.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC665F118F269C0078EF72 /* comptabiliteitswet2001.db */; };
+		C9AC66F9118F269C0078EF72 /* embryowet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6660118F269C0078EF72 /* embryowet.db */; };
+		C9AC66FA118F269C0078EF72 /* europeessociaalhandvestherzienstraatsburg03051996.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6661118F269C0078EF72 /* europeessociaalhandvestherzienstraatsburg03051996.db */; };
+		C9AC66FB118F269C0078EF72 /* europeesverdraginzakedeerkenningvanderechtspersoonlijkheidvaninternationalenietgouvernementeleorganisatiesstraatsburg24041.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6662118F269C0078EF72 /* europeesverdraginzakedeerkenningvanderechtspersoonlijkheidvaninternationalenietgouvernementeleorganisatiesstraatsburg24041.db */; };
+		C9AC66FC118F269C0078EF72 /* europeesverdragtervoorkomingvanfolteringenonmenselijkeofvernederendebehandelingofbestraffingzoalsgewijzigddoorprotocol1en.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6663118F269C0078EF72 /* europeesverdragtervoorkomingvanfolteringenonmenselijkeofvernederendebehandelingofbestraffingzoalsgewijzigddoorprotocol1en.db */; };
+		C9AC66FD118F269C0078EF72 /* facultatiefprotocolbijhetverdraginzakedeuitbanningvanallevormenvandiscriminatievanvrouwennewyork06101999.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6664118F269C0078EF72 /* facultatiefprotocolbijhetverdraginzakedeuitbanningvanallevormenvandiscriminatievanvrouwennewyork06101999.db */; };
+		C9AC66FE118F269C0078EF72 /* facultatiefprotocolinzakedeverkoopvankinderenkinderprostitutieenkinderpornografiebijhetverdraginzakederechtenvanhetkind.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6665118F269C0078EF72 /* facultatiefprotocolinzakedeverkoopvankinderenkinderprostitutieenkinderpornografiebijhetverdraginzakederechtenvanhetkind.db */; };
+		C9AC66FF118F269C0078EF72 /* faillissementswet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6666118F269C0078EF72 /* faillissementswet.db */; };
+		C9AC6700118F269C0078EF72 /* gemeentewet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6667118F269C0078EF72 /* gemeentewet.db */; };
+		C9AC6701118F269C0078EF72 /* gerechtsdeurwaarderswet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6668118F269C0078EF72 /* gerechtsdeurwaarderswet.db */; };
+		C9AC6702118F269C0078EF72 /* grondwet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6669118F269C0078EF72 /* grondwet.db */; };
+		C9AC6703118F269C0078EF72 /* handelsnaamwet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC666A118F269C0078EF72 /* handelsnaamwet.db */; };
+		C9AC6704118F269C0078EF72 /* handelsregisterbesluit2008.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC666B118F269C0078EF72 /* handelsregisterbesluit2008.db */; };
+		C9AC6705118F269C0078EF72 /* handelsregisterwet2007.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC666C118F269C0078EF72 /* handelsregisterwet2007.db */; };
+		C9AC6706118F269C0078EF72 /* internationaalverdraginzakeburgerrechtenenpolitiekerechtennewyork16121966.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC666D118F269C0078EF72 /* internationaalverdraginzakeburgerrechtenenpolitiekerechtennewyork16121966.db */; };
+		C9AC6707118F269C0078EF72 /* internationaalverdraginzakedeuitbanningvanallevormenvanrassendiscriminatienewyork07031966.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC666E118F269C0078EF72 /* internationaalverdraginzakedeuitbanningvanallevormenvanrassendiscriminatienewyork07031966.db */; };
+		C9AC6708118F269C0078EF72 /* internationaalverdraginzakeeconomischesocialeenculturelerechtennewyork16121966.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC666F118F269C0078EF72 /* internationaalverdraginzakeeconomischesocialeenculturelerechtennewyork16121966.db */; };
+		C9AC6709118F269C0078EF72 /* invorderingswet1990.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6670118F269C0078EF72 /* invorderingswet1990.db */; };
+		C9AC670A118F269C0078EF72 /* kadasterwet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6671118F269C0078EF72 /* kadasterwet.db */; };
+		C9AC670B118F269C0078EF72 /* kaderwetzelfstandigebestuursorganen.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6672118F269C0078EF72 /* kaderwetzelfstandigebestuursorganen.db */; };
+		C9AC670C118F269C0078EF72 /* kieswet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6673118F269C0078EF72 /* kieswet.db */; };
+		C9AC670D118F269C0078EF72 /* leegstandwet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6674118F269C0078EF72 /* leegstandwet.db */; };
+		C9AC670E118F269C0078EF72 /* mededingingswet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6675118F269C0078EF72 /* mededingingswet.db */; };
+		C9AC670F118F269C0078EF72 /* onteigeningswet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6676118F269C0078EF72 /* onteigeningswet.db */; };
+		C9AC6710118F269C0078EF72 /* opiumwet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6677118F269C0078EF72 /* opiumwet.db */; };
+		C9AC6711118F269C0078EF72 /* penitentiairebeginselenwet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6678118F269C0078EF72 /* penitentiairebeginselenwet.db */; };
+		C9AC6712118F269C0078EF72 /* penitentiairemaatregel.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6679118F269C0078EF72 /* penitentiairemaatregel.db */; };
+		C9AC6713118F269C0078EF72 /* politiewet1993.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC667A118F269C0078EF72 /* politiewet1993.db */; };
+		C9AC6714118F269C0078EF72 /* prijzenwet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC667B118F269C0078EF72 /* prijzenwet.db */; };
+		C9AC6715118F269C0078EF72 /* protocolbijhetverdragtotbeschermingvanderechtenvandemensendefundamentelevrijhedenparijs20031952.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC667C118F269C0078EF72 /* protocolbijhetverdragtotbeschermingvanderechtenvandemensendefundamentelevrijhedenparijs20031952.db */; };
+		C9AC6716118F269C0078EF72 /* protocolno13bijhetverdragtotbeschermingvanderechtenvandemensendefundamentelevrijhedeninzakedeafschaffingvandedoodst.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC667D118F269C0078EF72 /* protocolno13bijhetverdragtotbeschermingvanderechtenvandemensendefundamentelevrijhedeninzakedeafschaffingvandedoodst.db */; };
+		C9AC6717118F269C0078EF72 /* protocolnr12bijhetverdragtotbeschermingvanderechtenvandemensendefundamentelevrijhedenrome04112000.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC667E118F269C0078EF72 /* protocolnr12bijhetverdragtotbeschermingvanderechtenvandemensendefundamentelevrijhedenrome04112000.db */; };
+		C9AC6718118F269C0078EF72 /* protocolnr14bijhetverdragtotbeschermingvanderechtenvandemensendefundamentalevrijhedenbetreffendewijzigingvanhetcontr.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC667F118F269C0078EF72 /* protocolnr14bijhetverdragtotbeschermingvanderechtenvandemensendefundamentalevrijhedenbetreffendewijzigingvanhetcontr.db */; };
+		C9AC6719118F269C0078EF72 /* provinciewet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6680118F269C0078EF72 /* provinciewet.db */; };
+		C9AC671A118F269C0078EF72 /* regelingbetreffendedeverklaringhoudendetoestemmingtotadoptie.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6681118F269C0078EF72 /* regelingbetreffendedeverklaringhoudendetoestemmingtotadoptie.db */; };
+		C9AC671B118F269C0078EF72 /* reglementvanordevoordeministerraad.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6682118F269C0078EF72 /* reglementvanordevoordeministerraad.db */; };
+		C9AC671C118F269C0078EF72 /* rijksoctrooiwet1995.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6683118F269C0078EF72 /* rijksoctrooiwet1995.db */; };
+		C9AC671D118F269C0078EF72 /* rijkswetgoedkeuringenbekendmakingverdragen.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6684118F269C0078EF72 /* rijkswetgoedkeuringenbekendmakingverdragen.db */; };
+		C9AC671E118F269C0078EF72 /* rijkswetophetnederlanderschap.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6685118F269C0078EF72 /* rijkswetophetnederlanderschap.db */; };
+		C9AC671F118F269C0078EF72 /* statuutvanromeinzakehetinternationaalstrafhofrome17071998.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6686118F269C0078EF72 /* statuutvanromeinzakehetinternationaalstrafhofrome17071998.db */; };
+		C9AC6720118F269C0078EF72 /* statuutvoorhetkoninkrijkdernederlanden.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6687118F269C0078EF72 /* statuutvoorhetkoninkrijkdernederlanden.db */; };
+		C9AC6721118F269C0078EF72 /* tweedefacultatieveprotocolbijhetinternationaalverdraginzakeburgerrechtenenpolitiekerechtengerichtopdeafschaffingvandedood.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6688118F269C0078EF72 /* tweedefacultatieveprotocolbijhetinternationaalverdraginzakeburgerrechtenenpolitiekerechtengerichtopdeafschaffingvandedood.db */; };
+		C9AC6722118F269C0078EF72 /* uitvoeringswethaagstestamentenverdrag.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6689118F269C0078EF72 /* uitvoeringswethaagstestamentenverdrag.db */; };
+		C9AC6723118F269C0078EF72 /* uitvoeringswetinternationalekinderbescherming.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC668A118F269C0078EF72 /* uitvoeringswetinternationalekinderbescherming.db */; };
+		C9AC6724118F269C0078EF72 /* universeleverklaringvanderechtenvandemensnewyork10121948.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC668B118F269C0078EF72 /* universeleverklaringvanderechtenvandemensnewyork10121948.db */; };
+		C9AC6725118F269C0078EF72 /* verdragbetreffendedebevoegdheidderautoriteitenendetoepasselijkewetinzakedebeschermingvanminderjarigensgravenhage051019.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC668C118F269C0078EF72 /* verdragbetreffendedebevoegdheidderautoriteitenendetoepasselijkewetinzakedebeschermingvanminderjarigensgravenhage051019.db */; };
+		C9AC6726118F269C0078EF72 /* verdragbetreffendedeeuropeseuniemaastricht07021992.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC668D118F269C0078EF72 /* verdragbetreffendedeeuropeseuniemaastricht07021992.db */; };
+		C9AC6727118F269C0078EF72 /* verdragbetreffendedestatusvanvluchtelingengeneve28071951.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC668E118F269C0078EF72 /* verdragbetreffendedestatusvanvluchtelingengeneve28071951.db */; };
+		C9AC6728118F269C0078EF72 /* verdraginzakedebeschermingvankinderenendesamenwerkingophetgebiedvandeinterlandelijkeadoptiesgravenhage29051993.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC668F118F269C0078EF72 /* verdraginzakedebeschermingvankinderenendesamenwerkingophetgebiedvandeinterlandelijkeadoptiesgravenhage29051993.db */; };
+		C9AC6729118F269C0078EF72 /* verdraginzakedeerkenningvanechtscheidingenenscheidingenvantafelenbedsgravenhage01061970.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6690118F269C0078EF72 /* verdraginzakedeerkenningvanechtscheidingenenscheidingenvantafelenbedsgravenhage01061970.db */; };
+		C9AC672A118F269C0078EF72 /* verdraginzakederechtenvanhetkindnewyork20111989.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6691118F269C0078EF72 /* verdraginzakederechtenvanhetkindnewyork20111989.db */; };
+		C9AC672B118F269C0078EF72 /* verdraginzakedeuitbanningvanallevormenvandiscriminatievanvrouwennewyork18121979.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6692118F269C0078EF72 /* verdraginzakedeuitbanningvanallevormenvandiscriminatievanvrouwennewyork18121979.db */; };
+		C9AC672C118F269C0078EF72 /* verdraginzakedewetwelkevantoepassingisopverkeersongevallenopdewegsgravenhage04051971.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6693118F269C0078EF72 /* verdraginzakedewetwelkevantoepassingisopverkeersongevallenopdewegsgravenhage04051971.db */; };
+		C9AC672D118F269C0078EF72 /* verdragnopensdeerkenningendetenuitvoerleggingvanbeslissingenoveronderhoudsverplichtingenjegenskinderensgravenhage150419.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6694118F269C0078EF72 /* verdragnopensdeerkenningendetenuitvoerleggingvanbeslissingenoveronderhoudsverplichtingenjegenskinderensgravenhage150419.db */; };
+		C9AC672E118F269C0078EF72 /* verdragnopensdewetwelkeopalimentatieverplichtingenjegenskinderentoepasselijkissgravenhage24101956.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6695118F269C0078EF72 /* verdragnopensdewetwelkeopalimentatieverplichtingenjegenskinderentoepasselijkissgravenhage24101956.db */; };
+		C9AC672F118F269C0078EF72 /* verdragtegenfolteringenanderewredeonmenselijkeenonterendebehandelingofbestraffingnewyork10121984.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6696118F269C0078EF72 /* verdragtegenfolteringenanderewredeonmenselijkeenonterendebehandelingofbestraffingnewyork10121984.db */; };
+		C9AC6730118F269C0078EF72 /* verdragtotbeschermingvanderechtenvandemensendefundamentelevrijhedenrome04111950.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6697118F269C0078EF72 /* verdragtotbeschermingvanderechtenvandemensendefundamentelevrijhedenrome04111950.db */; };
+		C9AC6731118F269C0078EF72 /* verdragtotoprichtingvandeeuropesegemeenschaprome25031957.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6698118F269C0078EF72 /* verdragtotoprichtingvandeeuropesegemeenschaprome25031957.db */; };
+		C9AC6732118F269C0078EF72 /* verdragvanweneninzakehetverdragenrechttussenstateneninternationaleorganisatiesoftusseninternationaleorganisatieswenen2103.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC6699118F269C0078EF72 /* verdragvanweneninzakehetverdragenrechttussenstateneninternationaleorganisatiesoftusseninternationaleorganisatieswenen2103.db */; };
+		C9AC6733118F269C0078EF72 /* vierdeprotocolbijhetverdragtotbeschermingvanderechtenvandemensendefundamentelevrijhedentothetwaarborgenvanbepaalderec.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC669A118F269C0078EF72 /* vierdeprotocolbijhetverdragtotbeschermingvanderechtenvandemensendefundamentelevrijhedentothetwaarborgenvanbepaalderec.db */; };
+		C9AC6734118F269C0078EF72 /* vreemdelingenbesluit2000.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC669B118F269C0078EF72 /* vreemdelingenbesluit2000.db */; };
+		C9AC6735118F269C0078EF72 /* vreemdelingenwet2000.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC669C118F269C0078EF72 /* vreemdelingenwet2000.db */; };
+		C9AC6736118F269C0078EF72 /* waterschapswet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC669D118F269C0078EF72 /* waterschapswet.db */; };
+		C9AC6737118F269C0078EF72 /* wegenverkeerswet1994.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC669E118F269C0078EF72 /* wegenverkeerswet1994.db */; };
+		C9AC6738118F269C0078EF72 /* wegenwet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC669F118F269C0078EF72 /* wegenwet.db */; };
+		C9AC6739118F269C0078EF72 /* werkloosheidswet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66A0118F269C0078EF72 /* werkloosheidswet.db */; };
+		C9AC673A118F269C0078EF72 /* wetadministratiefrechtelijkehandhavingverkeersvoorschriften.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66A1118F269C0078EF72 /* wetadministratiefrechtelijkehandhavingverkeersvoorschriften.db */; };
+		C9AC673B118F269C0078EF72 /* wetalgemenebepalingen.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66A2118F269C0078EF72 /* wetalgemenebepalingen.db */; };
+		C9AC673C118F269C0078EF72 /* wetbeschermingpersoonsgegevens.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66A3118F269C0078EF72 /* wetbeschermingpersoonsgegevens.db */; };
+		C9AC673D118F269C0078EF72 /* wetbijzondereopnemingeninpsychiatrischeziekenhuizen.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66A4118F269C0078EF72 /* wetbijzondereopnemingeninpsychiatrischeziekenhuizen.db */; };
+		C9AC673E118F269C0078EF72 /* wetboekvanburgerlijkerechtsvordering.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66A5118F269C0078EF72 /* wetboekvanburgerlijkerechtsvordering.db */; };
+		C9AC673F118F269C0078EF72 /* wetboekvankoophandel.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66A6118F269C0078EF72 /* wetboekvankoophandel.db */; };
+		C9AC6740118F269C0078EF72 /* wetboekvanstrafrecht.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66A7118F269C0078EF72 /* wetboekvanstrafrecht.db */; };
+		C9AC6741118F269C0078EF72 /* wetboekvanstrafvordering.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66A8118F269C0078EF72 /* wetboekvanstrafvordering.db */; };
+		C9AC6742118F269C0078EF72 /* wetconflictenrechtadoptie.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66A9118F269C0078EF72 /* wetconflictenrechtadoptie.db */; };
+		C9AC6743118F269C0078EF72 /* wetconflictenrechtafstamming.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66AA118F269C0078EF72 /* wetconflictenrechtafstamming.db */; };
+		C9AC6744118F269C0078EF72 /* wetconflictenrechtcorporaties.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66AB118F269C0078EF72 /* wetconflictenrechtcorporaties.db */; };
+		C9AC6745118F269C0078EF72 /* wetconflictenrechterfopvolging.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66AC118F269C0078EF72 /* wetconflictenrechterfopvolging.db */; };
+		C9AC6746118F269C0078EF72 /* wetconflictenrechtgeregistreerdpartnerschap.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66AD118F269C0078EF72 /* wetconflictenrechtgeregistreerdpartnerschap.db */; };
+		C9AC6747118F269C0078EF72 /* wetconflictenrechtgoederenrecht.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66AE118F269C0078EF72 /* wetconflictenrechtgoederenrecht.db */; };
+		C9AC6748118F269C0078EF72 /* wetconflictenrechthuwelijksbetrekkingen.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66AF118F269C0078EF72 /* wetconflictenrechthuwelijksbetrekkingen.db */; };
+		C9AC6749118F269C0078EF72 /* wetconflictenrechthuwelijksvermogensregime.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66B0118F269C0078EF72 /* wetconflictenrechthuwelijksvermogensregime.db */; };
+		C9AC674A118F269C0078EF72 /* wetconflictenrechtinzakeontbindinghuwelijkenscheidingvantafelenbed.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66B1118F269C0078EF72 /* wetconflictenrechtinzakeontbindinghuwelijkenscheidingvantafelenbed.db */; };
+		C9AC674B118F269C0078EF72 /* wetconflictenrechtnamen.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66B2118F269C0078EF72 /* wetconflictenrechtnamen.db */; };
+		C9AC674C118F269C0078EF72 /* wetconflictenrechtonrechtmatigedaad.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66B3118F269C0078EF72 /* wetconflictenrechtonrechtmatigedaad.db */; };
+		C9AC674D118F269C0078EF72 /* wetconflictenrechttrusts.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66B4118F269C0078EF72 /* wetconflictenrechttrusts.db */; };
+		C9AC674E118F269C0078EF72 /* wetdonorgegevenskunstmatigebevruchting.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66B5118F269C0078EF72 /* wetdonorgegevenskunstmatigebevruchting.db */; };
+		C9AC674F118F269C0078EF72 /* wetgelijkebehandelingvanmannenenvrouwen.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66B6118F269C0078EF72 /* wetgelijkebehandelingvanmannenenvrouwen.db */; };
+		C9AC6750118F269C0078EF72 /* wetgemeenschappelijkeregelingen.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66B7118F269C0078EF72 /* wetgemeenschappelijkeregelingen.db */; };
+		C9AC6751118F269C0078EF72 /* wetgiraaleffectenverkeer.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66B8118F269C0078EF72 /* wetgiraaleffectenverkeer.db */; };
+		C9AC6752118F269C0078EF72 /* wetinternationalemisdrijven.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66B9118F269C0078EF72 /* wetinternationalemisdrijven.db */; };
+		C9AC6753118F269C0078EF72 /* wetmeldingcollectiefontslag.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66BA118F269C0078EF72 /* wetmeldingcollectiefontslag.db */; };
+		C9AC6754118F269C0078EF72 /* wetmilieubeheer.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66BB118F269C0078EF72 /* wetmilieubeheer.db */; };
+		C9AC6755118F269C0078EF72 /* wetnationaleombudsman.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66BC118F269C0078EF72 /* wetnationaleombudsman.db */; };
+		C9AC6756118F269C0078EF72 /* wetopdearbeidsongeschiktheidsverzekering.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66BD118F269C0078EF72 /* wetopdearbeidsongeschiktheidsverzekering.db */; };
+		C9AC6757118F269C0078EF72 /* wetopdebedrijfsorganisatie.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66BE118F269C0078EF72 /* wetopdebedrijfsorganisatie.db */; };
+		C9AC6758118F269C0078EF72 /* wetopdecollectievearbeidsovereenkomst.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66BF118F269C0078EF72 /* wetopdecollectievearbeidsovereenkomst.db */; };
+		C9AC6759118F269C0078EF72 /* wetopdeeconomischedelicten.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66C0118F269C0078EF72 /* wetopdeeconomischedelicten.db */; };
+		C9AC675A118F269C0078EF72 /* wetopdeeuropeseondernemingsraden.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66C1118F269C0078EF72 /* wetopdeeuropeseondernemingsraden.db */; };
+		C9AC675B118F269C0078EF72 /* wetopdeformeelbuitenlandsevennootschappen.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66C2118F269C0078EF72 /* wetopdeformeelbuitenlandsevennootschappen.db */; };
+		C9AC675C118F269C0078EF72 /* wetopdeloonvorming.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66C3118F269C0078EF72 /* wetopdeloonvorming.db */; };
+		C9AC675D118F269C0078EF72 /* wetopdeondernemingsraden.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66C4118F269C0078EF72 /* wetopdeondernemingsraden.db */; };
+		C9AC675E118F269C0078EF72 /* wetopdeparlementaireenquete2008.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66C5118F269C0078EF72 /* wetopdeparlementaireenquete2008.db */; };
+		C9AC675F118F269C0078EF72 /* wetopderaadvanstate.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66C6118F269C0078EF72 /* wetopderaadvanstate.db */; };
+		C9AC6760118F269C0078EF72 /* wetopderechterlijkeorganisatie.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66C7118F269C0078EF72 /* wetopderechterlijkeorganisatie.db */; };
+		C9AC6761118F269C0078EF72 /* wetopderechtsbijstand.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66C8118F269C0078EF72 /* wetopderechtsbijstand.db */; };
+		C9AC6762118F269C0078EF72 /* wetopenbaarheidvanbestuur.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66C9118F269C0078EF72 /* wetopenbaarheidvanbestuur.db */; };
+		C9AC6763118F269C0078EF72 /* wetophetalgemeenverbindendenhetonverbindendverklarenvanbepalingenvancollectievearbeidsovereenkomsten.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66CA118F269C0078EF72 /* wetophetalgemeenverbindendenhetonverbindendverklarenvanbepalingenvancollectievearbeidsovereenkomsten.db */; };
+		C9AC6764118F269C0078EF72 /* wetophetconsumentenkrediet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66CB118F269C0078EF72 /* wetophetconsumentenkrediet.db */; };
+		C9AC6765118F269C0078EF72 /* wetophetfinancieeltoezicht.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66CC118F269C0078EF72 /* wetophetfinancieeltoezicht.db */; };
+		C9AC6766118F269C0078EF72 /* wetophetnotarisambt.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66CD118F269C0078EF72 /* wetophetnotarisambt.db */; };
+		C9AC6767118F269C0078EF72 /* wetopnemingbuitenlandsekinderenteradoptie.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66CE118F269C0078EF72 /* wetopnemingbuitenlandsekinderenteradoptie.db */; };
+		C9AC6768118F269C0078EF72 /* wetpolitiegegevens.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66CF118F269C0078EF72 /* wetpolitiegegevens.db */; };
+		C9AC6769118F269C0078EF72 /* wetruimtelijkeordening.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66D0118F269C0078EF72 /* wetruimtelijkeordening.db */; };
+		C9AC676A118F269C0078EF72 /* wetten.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66D1118F269C0078EF72 /* wetten.db */; };
+		C9AC676B118F269C0078EF72 /* wetvereveningpensioenrechtenbijscheiding.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66D2118F269C0078EF72 /* wetvereveningpensioenrechtenbijscheiding.db */; };
+		C9AC676C118F269C0078EF72 /* wetwapensenmunitie.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66D3118F269C0078EF72 /* wetwapensenmunitie.db */; };
+		C9AC676D118F269C0078EF72 /* wetwerkenbijstand.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66D4118F269C0078EF72 /* wetwerkenbijstand.db */; };
+		C9AC676E118F269C0078EF72 /* wetwerkeninkomennaararbeidsvermogen.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66D5118F269C0078EF72 /* wetwerkeninkomennaararbeidsvermogen.db */; };
+		C9AC676F118F269C0078EF72 /* woningwet.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66D6118F269C0078EF72 /* woningwet.db */; };
+		C9AC6770118F269C0078EF72 /* zesdeprotocolbijhetverdragtotbeschermingvanderechtenvandemensendefundamentalevrijhedeninzakedeafschaffingvandedoodstr.db in Resources */ = {isa = PBXBuildFile; fileRef = C9AC66D7118F269C0078EF72 /* zesdeprotocolbijhetverdragtotbeschermingvanderechtenvandemensendefundamentalevrijhedeninzakedeafschaffingvandedoodstr.db */; };
+		C9E087E112156F170074BBCD /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9E087E012156F170074BBCD /* MainWindow-iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* StudiebundelAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudiebundelAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* StudiebundelAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudiebundelAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Studiebundel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Studiebundel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Studiebundel_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Studiebundel_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Studiebundel-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Studiebundel-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C9674D0310440C2A0065A638 /* ArtikelViewControllerFromXIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtikelViewControllerFromXIB.h; sourceTree = "<group>"; };
+		C9674D0410440C2A0065A638 /* ArtikelViewControllerFromXIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtikelViewControllerFromXIB.m; sourceTree = "<group>"; };
+		C9674D0510440C2A0065A638 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		C9674D0610440C2A0065A638 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		C9674D0710440C2A0065A638 /* CustomCellLong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellLong.h; sourceTree = "<group>"; };
+		C9674D0810440C2A0065A638 /* CustomCellLong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellLong.m; sourceTree = "<group>"; };
+		C9674D0910440C2A0065A638 /* ExoneratieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExoneratieViewController.h; sourceTree = "<group>"; };
+		C9674D0A10440C2A0065A638 /* ExoneratieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExoneratieViewController.m; sourceTree = "<group>"; };
+		C9674D0B10440C2A0065A638 /* Sqlite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sqlite.h; sourceTree = "<group>"; };
+		C9674D0C10440C2A0065A638 /* Sqlite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sqlite.m; sourceTree = "<group>"; };
+		C9674D0D10440C2A0065A638 /* TableViewFromDatabaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewFromDatabaseViewController.h; sourceTree = "<group>"; };
+		C9674D0E10440C2A0065A638 /* TableViewFromDatabaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewFromDatabaseViewController.m; sourceTree = "<group>"; };
+		C9674D0F10440C2A0065A638 /* WetboekSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WetboekSearchViewController.h; sourceTree = "<group>"; };
+		C9674D1010440C2A0065A638 /* WetboekSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WetboekSearchViewController.m; sourceTree = "<group>"; };
+		C9674D1B10440C370065A638 /* ArtikelViewControllerFromXIB.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ArtikelViewControllerFromXIB.xib; path = Resources/ArtikelViewControllerFromXIB.xib; sourceTree = "<group>"; };
+		C9674D1C10440C370065A638 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CustomCell.xib; path = Resources/CustomCell.xib; sourceTree = "<group>"; };
+		C9674D1D10440C370065A638 /* CustomCellLong.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CustomCellLong.xib; path = Resources/CustomCellLong.xib; sourceTree = "<group>"; };
+		C9674D1E10440C370065A638 /* ExoneratieViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ExoneratieViewController.xib; path = Resources/ExoneratieViewController.xib; sourceTree = "<group>"; };
+		C9674D1F10440C370065A638 /* TableViewFromDatabaseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TableViewFromDatabaseViewController.xib; path = Resources/TableViewFromDatabaseViewController.xib; sourceTree = "<group>"; };
+		C9674D2010440C370065A638 /* WetboekSearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = WetboekSearchViewController.xib; path = Resources/WetboekSearchViewController.xib; sourceTree = "<group>"; };
+		C9674D2910440C4E0065A638 /* arrow-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "arrow-left.png"; path = "Resources/Images/arrow-left.png"; sourceTree = "<group>"; };
+		C9674D2A10440C4E0065A638 /* arrow-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "arrow-right.png"; path = "Resources/Images/arrow-right.png"; sourceTree = "<group>"; };
+		C9674D2B10440C4E0065A638 /* bg-sectionheader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg-sectionheader.png"; path = "Resources/Images/bg-sectionheader.png"; sourceTree = "<group>"; };
+		C9674D2C10440C4E0065A638 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Images/Default.png; sourceTree = "<group>"; };
+		C9674D2D10440C4E0065A638 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = Resources/Images/home.png; sourceTree = "<group>"; };
+		C9674D2E10440C4E0065A638 /* icon-about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-about.png"; path = "Resources/Images/icon-about.png"; sourceTree = "<group>"; };
+		C9674D2F10440C4E0065A638 /* Icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Icon.jpg; path = Resources/Images/Icon.jpg; sourceTree = "<group>"; };
+		C9674D3010440C4E0065A638 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Images/Icon.png; sourceTree = "<group>"; };
+		C9674D3110440C4E0065A638 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = info.png; path = Resources/Images/info.png; sourceTree = "<group>"; };
+		C9674E6D10440CEB0065A638 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		C9674E6F10440D160065A638 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		C981AC6312198BC9008F3DA3 /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default~ipad.png"; path = "Resources/Images/Default~ipad.png"; sourceTree = "<group>"; };
+		C981AC6412198BC9008F3DA3 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Resources/Images/Icon-72.png"; sourceTree = "<group>"; };
+		C981AC6512198BC9008F3DA3 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "Resources/Images/Icon-Small-50.png"; sourceTree = "<group>"; };
+		C981AC6612198BC9008F3DA3 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "Resources/Images/Icon-Small.png"; sourceTree = "<group>"; };
+		C981AC6712198BC9008F3DA3 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "Resources/Images/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		C981AC6812198BC9008F3DA3 /* icon-website.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-website.png"; path = "Resources/Images/icon-website.png"; sourceTree = "<group>"; };
+		C981AC6912198BC9008F3DA3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Images/Icon.png; sourceTree = "<group>"; };
+		C981AC6A12198BC9008F3DA3 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Images/Icon@2x.png"; sourceTree = "<group>"; };
+		C9917BAF10CAD2F200DE6F50 /* obj-c.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "obj-c.cfg"; sourceTree = "<group>"; };
+		C9917BB010CAD2F200DE6F50 /* uncrust.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = uncrust.sh; sourceTree = "<group>"; };
+		C9AC663F118F269C0078EF72 /* aanvullendprotocolbijheteuropeessociaalhandvestbetreffendeeensysteemvoorcollectieveklachtenstraatsburg09111995.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = aanvullendprotocolbijheteuropeessociaalhandvestbetreffendeeensysteemvoorcollectieveklachtenstraatsburg09111995.db; sourceTree = "<group>"; };
+		C9AC6640118F269C0078EF72 /* aanvullendprotocolbijhetverdragbetreffendedeovereenkomsttotinternationaalvervoervangoederenoverdewegcmrinzakededigitale.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = aanvullendprotocolbijhetverdragbetreffendedeovereenkomsttotinternationaalvervoervangoederenoverdewegcmrinzakededigitale.db; sourceTree = "<group>"; };
+		C9AC6641118F269C0078EF72 /* advocatenwet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = advocatenwet.db; sourceTree = "<group>"; };
+		C9AC6642118F269C0078EF72 /* algemenetermijnenwet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = algemenetermijnenwet.db; sourceTree = "<group>"; };
+		C9AC6643118F269C0078EF72 /* algemenewetbestuursrecht.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = algemenewetbestuursrecht.db; sourceTree = "<group>"; };
+		C9AC6644118F269C0078EF72 /* algemenewetgelijkebehandeling.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = algemenewetgelijkebehandeling.db; sourceTree = "<group>"; };
+		C9AC6645118F269C0078EF72 /* algemenewetinzakerijksbelastingen.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = algemenewetinzakerijksbelastingen.db; sourceTree = "<group>"; };
+		C9AC6646118F269C0078EF72 /* algemenewetophetbinnentreden.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = algemenewetophetbinnentreden.db; sourceTree = "<group>"; };
+		C9AC6647118F269C0078EF72 /* ambtenarenwet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = ambtenarenwet.db; sourceTree = "<group>"; };
+		C9AC6648118F269C0078EF72 /* ambtsinstructiecommissarisvandekoning.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = ambtsinstructiecommissarisvandekoning.db; sourceTree = "<group>"; };
+		C9AC6649118F269C0078EF72 /* ambtsinstructievoordepolitiedekoninklijkemarechausseeendebuitengewoonopsporingsambtenaar.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = ambtsinstructievoordepolitiedekoninklijkemarechausseeendebuitengewoonopsporingsambtenaar.db; sourceTree = "<group>"; };
+		C9AC664A118F269C0078EF72 /* auteurswet1912.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = auteurswet1912.db; sourceTree = "<group>"; };
+		C9AC664B118F269C0078EF72 /* beginselenwetverplegingterbeschikkinggestelden.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = beginselenwetverplegingterbeschikkinggestelden.db; sourceTree = "<group>"; };
+		C9AC664C118F269C0078EF72 /* bekendmakingswet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = bekendmakingswet.db; sourceTree = "<group>"; };
+		C9AC664D118F269C0078EF72 /* beneluxverdraginzakedeintellectueleeigendommerkenentekeningenofmodellensgravenhage25022005.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = beneluxverdraginzakedeintellectueleeigendommerkenentekeningenofmodellensgravenhage25022005.db; sourceTree = "<group>"; };
+		C9AC664E118F269C0078EF72 /* beroepswet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = beroepswet.db; sourceTree = "<group>"; };
+		C9AC664F118F269C0078EF72 /* besluitalcoholonderzoeken.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = besluitalcoholonderzoeken.db; sourceTree = "<group>"; };
+		C9AC6650118F269C0078EF72 /* besluitgetuigenbescherming.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = besluitgetuigenbescherming.db; sourceTree = "<group>"; };
+		C9AC6651118F269C0078EF72 /* besluitmarktmisbruikwft.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = besluitmarktmisbruikwft.db; sourceTree = "<group>"; };
+		C9AC6652118F269C0078EF72 /* besluitmeldingzeggenschapenkapitaalbelanginuitgevendeinstellingen.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = besluitmeldingzeggenschapenkapitaalbelanginuitgevendeinstellingen.db; sourceTree = "<group>"; };
+		C9AC6653118F269C0078EF72 /* besluitopenbarebiedingenwft.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = besluitopenbarebiedingenwft.db; sourceTree = "<group>"; };
+		C9AC6654118F269C0078EF72 /* buitengewoonbesluitarbeidsverhoudingen1945.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = buitengewoonbesluitarbeidsverhoudingen1945.db; sourceTree = "<group>"; };
+		C9AC6655118F269C0078EF72 /* burgerlijkwetboekboek1.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = burgerlijkwetboekboek1.db; sourceTree = "<group>"; };
+		C9AC6656118F269C0078EF72 /* burgerlijkwetboekboek2.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = burgerlijkwetboekboek2.db; sourceTree = "<group>"; };
+		C9AC6657118F269C0078EF72 /* burgerlijkwetboekboek3.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = burgerlijkwetboekboek3.db; sourceTree = "<group>"; };
+		C9AC6658118F269C0078EF72 /* burgerlijkwetboekboek4.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = burgerlijkwetboekboek4.db; sourceTree = "<group>"; };
+		C9AC6659118F269C0078EF72 /* burgerlijkwetboekboek5.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = burgerlijkwetboekboek5.db; sourceTree = "<group>"; };
+		C9AC665A118F269C0078EF72 /* burgerlijkwetboekboek6.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = burgerlijkwetboekboek6.db; sourceTree = "<group>"; };
+		C9AC665B118F269C0078EF72 /* burgerlijkwetboekboek7.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = burgerlijkwetboekboek7.db; sourceTree = "<group>"; };
+		C9AC665C118F269C0078EF72 /* burgerlijkwetboekboek7a.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = burgerlijkwetboekboek7a.db; sourceTree = "<group>"; };
+		C9AC665D118F269C0078EF72 /* burgerlijkwetboekboek8.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = burgerlijkwetboekboek8.db; sourceTree = "<group>"; };
+		C9AC665E118F269C0078EF72 /* colportagewet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = colportagewet.db; sourceTree = "<group>"; };
+		C9AC665F118F269C0078EF72 /* comptabiliteitswet2001.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = comptabiliteitswet2001.db; sourceTree = "<group>"; };
+		C9AC6660118F269C0078EF72 /* embryowet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = embryowet.db; sourceTree = "<group>"; };
+		C9AC6661118F269C0078EF72 /* europeessociaalhandvestherzienstraatsburg03051996.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = europeessociaalhandvestherzienstraatsburg03051996.db; sourceTree = "<group>"; };
+		C9AC6662118F269C0078EF72 /* europeesverdraginzakedeerkenningvanderechtspersoonlijkheidvaninternationalenietgouvernementeleorganisatiesstraatsburg24041.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = europeesverdraginzakedeerkenningvanderechtspersoonlijkheidvaninternationalenietgouvernementeleorganisatiesstraatsburg24041.db; sourceTree = "<group>"; };
+		C9AC6663118F269C0078EF72 /* europeesverdragtervoorkomingvanfolteringenonmenselijkeofvernederendebehandelingofbestraffingzoalsgewijzigddoorprotocol1en.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = europeesverdragtervoorkomingvanfolteringenonmenselijkeofvernederendebehandelingofbestraffingzoalsgewijzigddoorprotocol1en.db; sourceTree = "<group>"; };
+		C9AC6664118F269C0078EF72 /* facultatiefprotocolbijhetverdraginzakedeuitbanningvanallevormenvandiscriminatievanvrouwennewyork06101999.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = facultatiefprotocolbijhetverdraginzakedeuitbanningvanallevormenvandiscriminatievanvrouwennewyork06101999.db; sourceTree = "<group>"; };
+		C9AC6665118F269C0078EF72 /* facultatiefprotocolinzakedeverkoopvankinderenkinderprostitutieenkinderpornografiebijhetverdraginzakederechtenvanhetkind.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = facultatiefprotocolinzakedeverkoopvankinderenkinderprostitutieenkinderpornografiebijhetverdraginzakederechtenvanhetkind.db; sourceTree = "<group>"; };
+		C9AC6666118F269C0078EF72 /* faillissementswet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = faillissementswet.db; sourceTree = "<group>"; };
+		C9AC6667118F269C0078EF72 /* gemeentewet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = gemeentewet.db; sourceTree = "<group>"; };
+		C9AC6668118F269C0078EF72 /* gerechtsdeurwaarderswet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = gerechtsdeurwaarderswet.db; sourceTree = "<group>"; };
+		C9AC6669118F269C0078EF72 /* grondwet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = grondwet.db; sourceTree = "<group>"; };
+		C9AC666A118F269C0078EF72 /* handelsnaamwet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = handelsnaamwet.db; sourceTree = "<group>"; };
+		C9AC666B118F269C0078EF72 /* handelsregisterbesluit2008.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = handelsregisterbesluit2008.db; sourceTree = "<group>"; };
+		C9AC666C118F269C0078EF72 /* handelsregisterwet2007.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = handelsregisterwet2007.db; sourceTree = "<group>"; };
+		C9AC666D118F269C0078EF72 /* internationaalverdraginzakeburgerrechtenenpolitiekerechtennewyork16121966.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = internationaalverdraginzakeburgerrechtenenpolitiekerechtennewyork16121966.db; sourceTree = "<group>"; };
+		C9AC666E118F269C0078EF72 /* internationaalverdraginzakedeuitbanningvanallevormenvanrassendiscriminatienewyork07031966.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = internationaalverdraginzakedeuitbanningvanallevormenvanrassendiscriminatienewyork07031966.db; sourceTree = "<group>"; };
+		C9AC666F118F269C0078EF72 /* internationaalverdraginzakeeconomischesocialeenculturelerechtennewyork16121966.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = internationaalverdraginzakeeconomischesocialeenculturelerechtennewyork16121966.db; sourceTree = "<group>"; };
+		C9AC6670118F269C0078EF72 /* invorderingswet1990.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = invorderingswet1990.db; sourceTree = "<group>"; };
+		C9AC6671118F269C0078EF72 /* kadasterwet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = kadasterwet.db; sourceTree = "<group>"; };
+		C9AC6672118F269C0078EF72 /* kaderwetzelfstandigebestuursorganen.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = kaderwetzelfstandigebestuursorganen.db; sourceTree = "<group>"; };
+		C9AC6673118F269C0078EF72 /* kieswet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = kieswet.db; sourceTree = "<group>"; };
+		C9AC6674118F269C0078EF72 /* leegstandwet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = leegstandwet.db; sourceTree = "<group>"; };
+		C9AC6675118F269C0078EF72 /* mededingingswet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = mededingingswet.db; sourceTree = "<group>"; };
+		C9AC6676118F269C0078EF72 /* onteigeningswet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = onteigeningswet.db; sourceTree = "<group>"; };
+		C9AC6677118F269C0078EF72 /* opiumwet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = opiumwet.db; sourceTree = "<group>"; };
+		C9AC6678118F269C0078EF72 /* penitentiairebeginselenwet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = penitentiairebeginselenwet.db; sourceTree = "<group>"; };
+		C9AC6679118F269C0078EF72 /* penitentiairemaatregel.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = penitentiairemaatregel.db; sourceTree = "<group>"; };
+		C9AC667A118F269C0078EF72 /* politiewet1993.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = politiewet1993.db; sourceTree = "<group>"; };
+		C9AC667B118F269C0078EF72 /* prijzenwet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = prijzenwet.db; sourceTree = "<group>"; };
+		C9AC667C118F269C0078EF72 /* protocolbijhetverdragtotbeschermingvanderechtenvandemensendefundamentelevrijhedenparijs20031952.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = protocolbijhetverdragtotbeschermingvanderechtenvandemensendefundamentelevrijhedenparijs20031952.db; sourceTree = "<group>"; };
+		C9AC667D118F269C0078EF72 /* protocolno13bijhetverdragtotbeschermingvanderechtenvandemensendefundamentelevrijhedeninzakedeafschaffingvandedoodst.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = protocolno13bijhetverdragtotbeschermingvanderechtenvandemensendefundamentelevrijhedeninzakedeafschaffingvandedoodst.db; sourceTree = "<group>"; };
+		C9AC667E118F269C0078EF72 /* protocolnr12bijhetverdragtotbeschermingvanderechtenvandemensendefundamentelevrijhedenrome04112000.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = protocolnr12bijhetverdragtotbeschermingvanderechtenvandemensendefundamentelevrijhedenrome04112000.db; sourceTree = "<group>"; };
+		C9AC667F118F269C0078EF72 /* protocolnr14bijhetverdragtotbeschermingvanderechtenvandemensendefundamentalevrijhedenbetreffendewijzigingvanhetcontr.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = protocolnr14bijhetverdragtotbeschermingvanderechtenvandemensendefundamentalevrijhedenbetreffendewijzigingvanhetcontr.db; sourceTree = "<group>"; };
+		C9AC6680118F269C0078EF72 /* provinciewet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = provinciewet.db; sourceTree = "<group>"; };
+		C9AC6681118F269C0078EF72 /* regelingbetreffendedeverklaringhoudendetoestemmingtotadoptie.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = regelingbetreffendedeverklaringhoudendetoestemmingtotadoptie.db; sourceTree = "<group>"; };
+		C9AC6682118F269C0078EF72 /* reglementvanordevoordeministerraad.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = reglementvanordevoordeministerraad.db; sourceTree = "<group>"; };
+		C9AC6683118F269C0078EF72 /* rijksoctrooiwet1995.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = rijksoctrooiwet1995.db; sourceTree = "<group>"; };
+		C9AC6684118F269C0078EF72 /* rijkswetgoedkeuringenbekendmakingverdragen.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = rijkswetgoedkeuringenbekendmakingverdragen.db; sourceTree = "<group>"; };
+		C9AC6685118F269C0078EF72 /* rijkswetophetnederlanderschap.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = rijkswetophetnederlanderschap.db; sourceTree = "<group>"; };
+		C9AC6686118F269C0078EF72 /* statuutvanromeinzakehetinternationaalstrafhofrome17071998.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = statuutvanromeinzakehetinternationaalstrafhofrome17071998.db; sourceTree = "<group>"; };
+		C9AC6687118F269C0078EF72 /* statuutvoorhetkoninkrijkdernederlanden.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = statuutvoorhetkoninkrijkdernederlanden.db; sourceTree = "<group>"; };
+		C9AC6688118F269C0078EF72 /* tweedefacultatieveprotocolbijhetinternationaalverdraginzakeburgerrechtenenpolitiekerechtengerichtopdeafschaffingvandedood.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = tweedefacultatieveprotocolbijhetinternationaalverdraginzakeburgerrechtenenpolitiekerechtengerichtopdeafschaffingvandedood.db; sourceTree = "<group>"; };
+		C9AC6689118F269C0078EF72 /* uitvoeringswethaagstestamentenverdrag.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = uitvoeringswethaagstestamentenverdrag.db; sourceTree = "<group>"; };
+		C9AC668A118F269C0078EF72 /* uitvoeringswetinternationalekinderbescherming.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = uitvoeringswetinternationalekinderbescherming.db; sourceTree = "<group>"; };
+		C9AC668B118F269C0078EF72 /* universeleverklaringvanderechtenvandemensnewyork10121948.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = universeleverklaringvanderechtenvandemensnewyork10121948.db; sourceTree = "<group>"; };
+		C9AC668C118F269C0078EF72 /* verdragbetreffendedebevoegdheidderautoriteitenendetoepasselijkewetinzakedebeschermingvanminderjarigensgravenhage051019.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = verdragbetreffendedebevoegdheidderautoriteitenendetoepasselijkewetinzakedebeschermingvanminderjarigensgravenhage051019.db; sourceTree = "<group>"; };
+		C9AC668D118F269C0078EF72 /* verdragbetreffendedeeuropeseuniemaastricht07021992.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = verdragbetreffendedeeuropeseuniemaastricht07021992.db; sourceTree = "<group>"; };
+		C9AC668E118F269C0078EF72 /* verdragbetreffendedestatusvanvluchtelingengeneve28071951.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = verdragbetreffendedestatusvanvluchtelingengeneve28071951.db; sourceTree = "<group>"; };
+		C9AC668F118F269C0078EF72 /* verdraginzakedebeschermingvankinderenendesamenwerkingophetgebiedvandeinterlandelijkeadoptiesgravenhage29051993.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = verdraginzakedebeschermingvankinderenendesamenwerkingophetgebiedvandeinterlandelijkeadoptiesgravenhage29051993.db; sourceTree = "<group>"; };
+		C9AC6690118F269C0078EF72 /* verdraginzakedeerkenningvanechtscheidingenenscheidingenvantafelenbedsgravenhage01061970.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = verdraginzakedeerkenningvanechtscheidingenenscheidingenvantafelenbedsgravenhage01061970.db; sourceTree = "<group>"; };
+		C9AC6691118F269C0078EF72 /* verdraginzakederechtenvanhetkindnewyork20111989.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = verdraginzakederechtenvanhetkindnewyork20111989.db; sourceTree = "<group>"; };
+		C9AC6692118F269C0078EF72 /* verdraginzakedeuitbanningvanallevormenvandiscriminatievanvrouwennewyork18121979.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = verdraginzakedeuitbanningvanallevormenvandiscriminatievanvrouwennewyork18121979.db; sourceTree = "<group>"; };
+		C9AC6693118F269C0078EF72 /* verdraginzakedewetwelkevantoepassingisopverkeersongevallenopdewegsgravenhage04051971.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = verdraginzakedewetwelkevantoepassingisopverkeersongevallenopdewegsgravenhage04051971.db; sourceTree = "<group>"; };
+		C9AC6694118F269C0078EF72 /* verdragnopensdeerkenningendetenuitvoerleggingvanbeslissingenoveronderhoudsverplichtingenjegenskinderensgravenhage150419.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = verdragnopensdeerkenningendetenuitvoerleggingvanbeslissingenoveronderhoudsverplichtingenjegenskinderensgravenhage150419.db; sourceTree = "<group>"; };
+		C9AC6695118F269C0078EF72 /* verdragnopensdewetwelkeopalimentatieverplichtingenjegenskinderentoepasselijkissgravenhage24101956.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = verdragnopensdewetwelkeopalimentatieverplichtingenjegenskinderentoepasselijkissgravenhage24101956.db; sourceTree = "<group>"; };
+		C9AC6696118F269C0078EF72 /* verdragtegenfolteringenanderewredeonmenselijkeenonterendebehandelingofbestraffingnewyork10121984.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = verdragtegenfolteringenanderewredeonmenselijkeenonterendebehandelingofbestraffingnewyork10121984.db; sourceTree = "<group>"; };
+		C9AC6697118F269C0078EF72 /* verdragtotbeschermingvanderechtenvandemensendefundamentelevrijhedenrome04111950.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = verdragtotbeschermingvanderechtenvandemensendefundamentelevrijhedenrome04111950.db; sourceTree = "<group>"; };
+		C9AC6698118F269C0078EF72 /* verdragtotoprichtingvandeeuropesegemeenschaprome25031957.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = verdragtotoprichtingvandeeuropesegemeenschaprome25031957.db; sourceTree = "<group>"; };
+		C9AC6699118F269C0078EF72 /* verdragvanweneninzakehetverdragenrechttussenstateneninternationaleorganisatiesoftusseninternationaleorganisatieswenen2103.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = verdragvanweneninzakehetverdragenrechttussenstateneninternationaleorganisatiesoftusseninternationaleorganisatieswenen2103.db; sourceTree = "<group>"; };
+		C9AC669A118F269C0078EF72 /* vierdeprotocolbijhetverdragtotbeschermingvanderechtenvandemensendefundamentelevrijhedentothetwaarborgenvanbepaalderec.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = vierdeprotocolbijhetverdragtotbeschermingvanderechtenvandemensendefundamentelevrijhedentothetwaarborgenvanbepaalderec.db; sourceTree = "<group>"; };
+		C9AC669B118F269C0078EF72 /* vreemdelingenbesluit2000.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = vreemdelingenbesluit2000.db; sourceTree = "<group>"; };
+		C9AC669C118F269C0078EF72 /* vreemdelingenwet2000.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = vreemdelingenwet2000.db; sourceTree = "<group>"; };
+		C9AC669D118F269C0078EF72 /* waterschapswet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = waterschapswet.db; sourceTree = "<group>"; };
+		C9AC669E118F269C0078EF72 /* wegenverkeerswet1994.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wegenverkeerswet1994.db; sourceTree = "<group>"; };
+		C9AC669F118F269C0078EF72 /* wegenwet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wegenwet.db; sourceTree = "<group>"; };
+		C9AC66A0118F269C0078EF72 /* werkloosheidswet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = werkloosheidswet.db; sourceTree = "<group>"; };
+		C9AC66A1118F269C0078EF72 /* wetadministratiefrechtelijkehandhavingverkeersvoorschriften.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetadministratiefrechtelijkehandhavingverkeersvoorschriften.db; sourceTree = "<group>"; };
+		C9AC66A2118F269C0078EF72 /* wetalgemenebepalingen.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetalgemenebepalingen.db; sourceTree = "<group>"; };
+		C9AC66A3118F269C0078EF72 /* wetbeschermingpersoonsgegevens.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetbeschermingpersoonsgegevens.db; sourceTree = "<group>"; };
+		C9AC66A4118F269C0078EF72 /* wetbijzondereopnemingeninpsychiatrischeziekenhuizen.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetbijzondereopnemingeninpsychiatrischeziekenhuizen.db; sourceTree = "<group>"; };
+		C9AC66A5118F269C0078EF72 /* wetboekvanburgerlijkerechtsvordering.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetboekvanburgerlijkerechtsvordering.db; sourceTree = "<group>"; };
+		C9AC66A6118F269C0078EF72 /* wetboekvankoophandel.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetboekvankoophandel.db; sourceTree = "<group>"; };
+		C9AC66A7118F269C0078EF72 /* wetboekvanstrafrecht.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetboekvanstrafrecht.db; sourceTree = "<group>"; };
+		C9AC66A8118F269C0078EF72 /* wetboekvanstrafvordering.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetboekvanstrafvordering.db; sourceTree = "<group>"; };
+		C9AC66A9118F269C0078EF72 /* wetconflictenrechtadoptie.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetconflictenrechtadoptie.db; sourceTree = "<group>"; };
+		C9AC66AA118F269C0078EF72 /* wetconflictenrechtafstamming.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetconflictenrechtafstamming.db; sourceTree = "<group>"; };
+		C9AC66AB118F269C0078EF72 /* wetconflictenrechtcorporaties.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetconflictenrechtcorporaties.db; sourceTree = "<group>"; };
+		C9AC66AC118F269C0078EF72 /* wetconflictenrechterfopvolging.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetconflictenrechterfopvolging.db; sourceTree = "<group>"; };
+		C9AC66AD118F269C0078EF72 /* wetconflictenrechtgeregistreerdpartnerschap.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetconflictenrechtgeregistreerdpartnerschap.db; sourceTree = "<group>"; };
+		C9AC66AE118F269C0078EF72 /* wetconflictenrechtgoederenrecht.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetconflictenrechtgoederenrecht.db; sourceTree = "<group>"; };
+		C9AC66AF118F269C0078EF72 /* wetconflictenrechthuwelijksbetrekkingen.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetconflictenrechthuwelijksbetrekkingen.db; sourceTree = "<group>"; };
+		C9AC66B0118F269C0078EF72 /* wetconflictenrechthuwelijksvermogensregime.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetconflictenrechthuwelijksvermogensregime.db; sourceTree = "<group>"; };
+		C9AC66B1118F269C0078EF72 /* wetconflictenrechtinzakeontbindinghuwelijkenscheidingvantafelenbed.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetconflictenrechtinzakeontbindinghuwelijkenscheidingvantafelenbed.db; sourceTree = "<group>"; };
+		C9AC66B2118F269C0078EF72 /* wetconflictenrechtnamen.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetconflictenrechtnamen.db; sourceTree = "<group>"; };
+		C9AC66B3118F269C0078EF72 /* wetconflictenrechtonrechtmatigedaad.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetconflictenrechtonrechtmatigedaad.db; sourceTree = "<group>"; };
+		C9AC66B4118F269C0078EF72 /* wetconflictenrechttrusts.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetconflictenrechttrusts.db; sourceTree = "<group>"; };
+		C9AC66B5118F269C0078EF72 /* wetdonorgegevenskunstmatigebevruchting.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetdonorgegevenskunstmatigebevruchting.db; sourceTree = "<group>"; };
+		C9AC66B6118F269C0078EF72 /* wetgelijkebehandelingvanmannenenvrouwen.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetgelijkebehandelingvanmannenenvrouwen.db; sourceTree = "<group>"; };
+		C9AC66B7118F269C0078EF72 /* wetgemeenschappelijkeregelingen.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetgemeenschappelijkeregelingen.db; sourceTree = "<group>"; };
+		C9AC66B8118F269C0078EF72 /* wetgiraaleffectenverkeer.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetgiraaleffectenverkeer.db; sourceTree = "<group>"; };
+		C9AC66B9118F269C0078EF72 /* wetinternationalemisdrijven.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetinternationalemisdrijven.db; sourceTree = "<group>"; };
+		C9AC66BA118F269C0078EF72 /* wetmeldingcollectiefontslag.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetmeldingcollectiefontslag.db; sourceTree = "<group>"; };
+		C9AC66BB118F269C0078EF72 /* wetmilieubeheer.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetmilieubeheer.db; sourceTree = "<group>"; };
+		C9AC66BC118F269C0078EF72 /* wetnationaleombudsman.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetnationaleombudsman.db; sourceTree = "<group>"; };
+		C9AC66BD118F269C0078EF72 /* wetopdearbeidsongeschiktheidsverzekering.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetopdearbeidsongeschiktheidsverzekering.db; sourceTree = "<group>"; };
+		C9AC66BE118F269C0078EF72 /* wetopdebedrijfsorganisatie.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetopdebedrijfsorganisatie.db; sourceTree = "<group>"; };
+		C9AC66BF118F269C0078EF72 /* wetopdecollectievearbeidsovereenkomst.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetopdecollectievearbeidsovereenkomst.db; sourceTree = "<group>"; };
+		C9AC66C0118F269C0078EF72 /* wetopdeeconomischedelicten.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetopdeeconomischedelicten.db; sourceTree = "<group>"; };
+		C9AC66C1118F269C0078EF72 /* wetopdeeuropeseondernemingsraden.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetopdeeuropeseondernemingsraden.db; sourceTree = "<group>"; };
+		C9AC66C2118F269C0078EF72 /* wetopdeformeelbuitenlandsevennootschappen.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetopdeformeelbuitenlandsevennootschappen.db; sourceTree = "<group>"; };
+		C9AC66C3118F269C0078EF72 /* wetopdeloonvorming.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetopdeloonvorming.db; sourceTree = "<group>"; };
+		C9AC66C4118F269C0078EF72 /* wetopdeondernemingsraden.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetopdeondernemingsraden.db; sourceTree = "<group>"; };
+		C9AC66C5118F269C0078EF72 /* wetopdeparlementaireenquete2008.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetopdeparlementaireenquete2008.db; sourceTree = "<group>"; };
+		C9AC66C6118F269C0078EF72 /* wetopderaadvanstate.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetopderaadvanstate.db; sourceTree = "<group>"; };
+		C9AC66C7118F269C0078EF72 /* wetopderechterlijkeorganisatie.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetopderechterlijkeorganisatie.db; sourceTree = "<group>"; };
+		C9AC66C8118F269C0078EF72 /* wetopderechtsbijstand.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetopderechtsbijstand.db; sourceTree = "<group>"; };
+		C9AC66C9118F269C0078EF72 /* wetopenbaarheidvanbestuur.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetopenbaarheidvanbestuur.db; sourceTree = "<group>"; };
+		C9AC66CA118F269C0078EF72 /* wetophetalgemeenverbindendenhetonverbindendverklarenvanbepalingenvancollectievearbeidsovereenkomsten.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetophetalgemeenverbindendenhetonverbindendverklarenvanbepalingenvancollectievearbeidsovereenkomsten.db; sourceTree = "<group>"; };
+		C9AC66CB118F269C0078EF72 /* wetophetconsumentenkrediet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetophetconsumentenkrediet.db; sourceTree = "<group>"; };
+		C9AC66CC118F269C0078EF72 /* wetophetfinancieeltoezicht.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetophetfinancieeltoezicht.db; sourceTree = "<group>"; };
+		C9AC66CD118F269C0078EF72 /* wetophetnotarisambt.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetophetnotarisambt.db; sourceTree = "<group>"; };
+		C9AC66CE118F269C0078EF72 /* wetopnemingbuitenlandsekinderenteradoptie.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetopnemingbuitenlandsekinderenteradoptie.db; sourceTree = "<group>"; };
+		C9AC66CF118F269C0078EF72 /* wetpolitiegegevens.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetpolitiegegevens.db; sourceTree = "<group>"; };
+		C9AC66D0118F269C0078EF72 /* wetruimtelijkeordening.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetruimtelijkeordening.db; sourceTree = "<group>"; };
+		C9AC66D1118F269C0078EF72 /* wetten.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetten.db; sourceTree = "<group>"; };
+		C9AC66D2118F269C0078EF72 /* wetvereveningpensioenrechtenbijscheiding.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetvereveningpensioenrechtenbijscheiding.db; sourceTree = "<group>"; };
+		C9AC66D3118F269C0078EF72 /* wetwapensenmunitie.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetwapensenmunitie.db; sourceTree = "<group>"; };
+		C9AC66D4118F269C0078EF72 /* wetwerkenbijstand.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetwerkenbijstand.db; sourceTree = "<group>"; };
+		C9AC66D5118F269C0078EF72 /* wetwerkeninkomennaararbeidsvermogen.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetwerkeninkomennaararbeidsvermogen.db; sourceTree = "<group>"; };
+		C9AC66D6118F269C0078EF72 /* woningwet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = woningwet.db; sourceTree = "<group>"; };
+		C9AC66D7118F269C0078EF72 /* zesdeprotocolbijhetverdragtotbeschermingvanderechtenvandemensendefundamentalevrijhedeninzakedeafschaffingvandedoodstr.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = zesdeprotocolbijhetverdragtotbeschermingvanderechtenvandemensendefundamentalevrijhedeninzakedeafschaffingvandedoodstr.db; sourceTree = "<group>"; };
+		C9E087E012156F170074BBCD /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "Resources-iPad/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				C9674E6E10440CEB0065A638 /* QuartzCore.framework in Frameworks */,
+				C9674E7010440D160065A638 /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C9674D0310440C2A0065A638 /* ArtikelViewControllerFromXIB.h */,
+				C9674D0410440C2A0065A638 /* ArtikelViewControllerFromXIB.m */,
+				C9674D0510440C2A0065A638 /* CustomCell.h */,
+				C9674D0610440C2A0065A638 /* CustomCell.m */,
+				C9674D0710440C2A0065A638 /* CustomCellLong.h */,
+				C9674D0810440C2A0065A638 /* CustomCellLong.m */,
+				C9674D0910440C2A0065A638 /* ExoneratieViewController.h */,
+				C9674D0A10440C2A0065A638 /* ExoneratieViewController.m */,
+				C9674D0B10440C2A0065A638 /* Sqlite.h */,
+				C9674D0C10440C2A0065A638 /* Sqlite.m */,
+				C9674D0D10440C2A0065A638 /* TableViewFromDatabaseViewController.h */,
+				C9674D0E10440C2A0065A638 /* TableViewFromDatabaseViewController.m */,
+				C9674D0F10440C2A0065A638 /* WetboekSearchViewController.h */,
+				C9674D1010440C2A0065A638 /* WetboekSearchViewController.m */,
+				1D3623240D0F684500981E51 /* StudiebundelAppDelegate.h */,
+				1D3623250D0F684500981E51 /* StudiebundelAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Studiebundel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				C9917BAF10CAD2F200DE6F50 /* obj-c.cfg */,
+				C9917BB010CAD2F200DE6F50 /* uncrust.sh */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				C9E087DF12156F170074BBCD /* Resources-iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Studiebundel_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C998A980113C088E00FF4451 /* db */,
+				C9674D2810440C410065A638 /* Images */,
+				C9674D1B10440C370065A638 /* ArtikelViewControllerFromXIB.xib */,
+				C9674D1C10440C370065A638 /* CustomCell.xib */,
+				C9674D1D10440C370065A638 /* CustomCellLong.xib */,
+				C9674D1E10440C370065A638 /* ExoneratieViewController.xib */,
+				C9674D1F10440C370065A638 /* TableViewFromDatabaseViewController.xib */,
+				C9674D2010440C370065A638 /* WetboekSearchViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Studiebundel-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9674E6F10440D160065A638 /* libsqlite3.0.dylib */,
+				C9674E6D10440CEB0065A638 /* QuartzCore.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9674D2810440C410065A638 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C981AC6312198BC9008F3DA3 /* Default~ipad.png */,
+				C981AC6412198BC9008F3DA3 /* Icon-72.png */,
+				C981AC6512198BC9008F3DA3 /* Icon-Small-50.png */,
+				C981AC6612198BC9008F3DA3 /* Icon-Small.png */,
+				C981AC6712198BC9008F3DA3 /* Icon-Small@2x.png */,
+				C981AC6812198BC9008F3DA3 /* icon-website.png */,
+				C981AC6912198BC9008F3DA3 /* Icon.png */,
+				C981AC6A12198BC9008F3DA3 /* Icon@2x.png */,
+				C9674D2910440C4E0065A638 /* arrow-left.png */,
+				C9674D2A10440C4E0065A638 /* arrow-right.png */,
+				C9674D2B10440C4E0065A638 /* bg-sectionheader.png */,
+				C9674D2C10440C4E0065A638 /* Default.png */,
+				C9674D2D10440C4E0065A638 /* home.png */,
+				C9674D2E10440C4E0065A638 /* icon-about.png */,
+				C9674D2F10440C4E0065A638 /* Icon.jpg */,
+				C9674D3010440C4E0065A638 /* Icon.png */,
+				C9674D3110440C4E0065A638 /* info.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		C998A980113C088E00FF4451 /* db */ = {
+			isa = PBXGroup;
+			children = (
+				C9AC663F118F269C0078EF72 /* aanvullendprotocolbijheteuropeessociaalhandvestbetreffendeeensysteemvoorcollectieveklachtenstraatsburg09111995.db */,
+				C9AC6640118F269C0078EF72 /* aanvullendprotocolbijhetverdragbetreffendedeovereenkomsttotinternationaalvervoervangoederenoverdewegcmrinzakededigitale.db */,
+				C9AC6641118F269C0078EF72 /* advocatenwet.db */,
+				C9AC6642118F269C0078EF72 /* algemenetermijnenwet.db */,
+				C9AC6643118F269C0078EF72 /* algemenewetbestuursrecht.db */,
+				C9AC6644118F269C0078EF72 /* algemenewetgelijkebehandeling.db */,
+				C9AC6645118F269C0078EF72 /* algemenewetinzakerijksbelastingen.db */,
+				C9AC6646118F269C0078EF72 /* algemenewetophetbinnentreden.db */,
+				C9AC6647118F269C0078EF72 /* ambtenarenwet.db */,
+				C9AC6648118F269C0078EF72 /* ambtsinstructiecommissarisvandekoning.db */,
+				C9AC6649118F269C0078EF72 /* ambtsinstructievoordepolitiedekoninklijkemarechausseeendebuitengewoonopsporingsambtenaar.db */,
+				C9AC664A118F269C0078EF72 /* auteurswet1912.db */,
+				C9AC664B118F269C0078EF72 /* beginselenwetverplegingterbeschikkinggestelden.db */,
+				C9AC664C118F269C0078EF72 /* bekendmakingswet.db */,
+				C9AC664D118F269C0078EF72 /* beneluxverdraginzakedeintellectueleeigendommerkenentekeningenofmodellensgravenhage25022005.db */,
+				C9AC664E118F269C0078EF72 /* beroepswet.db */,
+				C9AC664F118F269C0078EF72 /* besluitalcoholonderzoeken.db */,
+				C9AC6650118F269C0078EF72 /* besluitgetuigenbescherming.db */,
+				C9AC6651118F269C0078EF72 /* besluitmarktmisbruikwft.db */,
+				C9AC6652118F269C0078EF72 /* besluitmeldingzeggenschapenkapitaalbelanginuitgevendeinstellingen.db */,
+				C9AC6653118F269C0078EF72 /* besluitopenbarebiedingenwft.db */,
+				C9AC6654118F269C0078EF72 /* buitengewoonbesluitarbeidsverhoudingen1945.db */,
+				C9AC6655118F269C0078EF72 /* burgerlijkwetboekboek1.db */,
+				C9AC6656118F269C0078EF72 /* burgerlijkwetboekboek2.db */,
+				C9AC6657118F269C0078EF72 /* burgerlijkwetboekboek3.db */,
+				C9AC6658118F269C0078EF72 /* burgerlijkwetboekboek4.db */,
+				C9AC6659118F269C0078EF72 /* burgerlijkwetboekboek5.db */,
+				C9AC665A118F269C0078EF72 /* burgerlijkwetboekboek6.db */,
+				C9AC665B118F269C0078EF72 /* burgerlijkwetboekboek7.db */,
+				C9AC665C118F269C0078EF72 /* burgerlijkwetboekboek7a.db */,
+				C9AC665D118F269C0078EF72 /* burgerlijkwetboekboek8.db */,
+				C9AC665E118F269C0078EF72 /* colportagewet.db */,
+				C9AC665F118F269C0078EF72 /* comptabiliteitswet2001.db */,
+				C9AC6660118F269C0078EF72 /* embryowet.db */,
+				C9AC6661118F269C0078EF72 /* europeessociaalhandvestherzienstraatsburg03051996.db */,
+				C9AC6662118F269C0078EF72 /* europeesverdraginzakedeerkenningvanderechtspersoonlijkheidvaninternationalenietgouvernementeleorganisatiesstraatsburg24041.db */,
+				C9AC6663118F269C0078EF72 /* europeesverdragtervoorkomingvanfolteringenonmenselijkeofvernederendebehandelingofbestraffingzoalsgewijzigddoorprotocol1en.db */,
+				C9AC6664118F269C0078EF72 /* facultatiefprotocolbijhetverdraginzakedeuitbanningvanallevormenvandiscriminatievanvrouwennewyork06101999.db */,
+				C9AC6665118F269C0078EF72 /* facultatiefprotocolinzakedeverkoopvankinderenkinderprostitutieenkinderpornografiebijhetverdraginzakederechtenvanhetkind.db */,
+				C9AC6666118F269C0078EF72 /* faillissementswet.db */,
+				C9AC6667118F269C0078EF72 /* gemeentewet.db */,
+				C9AC6668118F269C0078EF72 /* gerechtsdeurwaarderswet.db */,
+				C9AC6669118F269C0078EF72 /* grondwet.db */,
+				C9AC666A118F269C0078EF72 /* handelsnaamwet.db */,
+				C9AC666B118F269C0078EF72 /* handelsregisterbesluit2008.db */,
+				C9AC666C118F269C0078EF72 /* handelsregisterwet2007.db */,
+				C9AC666D118F269C0078EF72 /* internationaalverdraginzakeburgerrechtenenpolitiekerechtennewyork16121966.db */,
+				C9AC666E118F269C0078EF72 /* internationaalverdraginzakedeuitbanningvanallevormenvanrassendiscriminatienewyork07031966.db */,
+				C9AC666F118F269C0078EF72 /* internationaalverdraginzakeeconomischesocialeenculturelerechtennewyork16121966.db */,
+				C9AC6670118F269C0078EF72 /* invorderingswet1990.db */,
+				C9AC6671118F269C0078EF72 /* kadasterwet.db */,
+				C9AC6672118F269C0078EF72 /* kaderwetzelfstandigebestuursorganen.db */,
+				C9AC6673118F269C0078EF72 /* kieswet.db */,
+				C9AC6674118F269C0078EF72 /* leegstandwet.db */,
+				C9AC6675118F269C0078EF72 /* mededingingswet.db */,
+				C9AC6676118F269C0078EF72 /* onteigeningswet.db */,
+				C9AC6677118F269C0078EF72 /* opiumwet.db */,
+				C9AC6678118F269C0078EF72 /* penitentiairebeginselenwet.db */,
+				C9AC6679118F269C0078EF72 /* penitentiairemaatregel.db */,
+				C9AC667A118F269C0078EF72 /* politiewet1993.db */,
+				C9AC667B118F269C0078EF72 /* prijzenwet.db */,
+				C9AC667C118F269C0078EF72 /* protocolbijhetverdragtotbeschermingvanderechtenvandemensendefundamentelevrijhedenparijs20031952.db */,
+				C9AC667D118F269C0078EF72 /* protocolno13bijhetverdragtotbeschermingvanderechtenvandemensendefundamentelevrijhedeninzakedeafschaffingvandedoodst.db */,
+				C9AC667E118F269C0078EF72 /* protocolnr12bijhetverdragtotbeschermingvanderechtenvandemensendefundamentelevrijhedenrome04112000.db */,
+				C9AC667F118F269C0078EF72 /* protocolnr14bijhetverdragtotbeschermingvanderechtenvandemensendefundamentalevrijhedenbetreffendewijzigingvanhetcontr.db */,
+				C9AC6680118F269C0078EF72 /* provinciewet.db */,
+				C9AC6681118F269C0078EF72 /* regelingbetreffendedeverklaringhoudendetoestemmingtotadoptie.db */,
+				C9AC6682118F269C0078EF72 /* reglementvanordevoordeministerraad.db */,
+				C9AC6683118F269C0078EF72 /* rijksoctrooiwet1995.db */,
+				C9AC6684118F269C0078EF72 /* rijkswetgoedkeuringenbekendmakingverdragen.db */,
+				C9AC6685118F269C0078EF72 /* rijkswetophetnederlanderschap.db */,
+				C9AC6686118F269C0078EF72 /* statuutvanromeinzakehetinternationaalstrafhofrome17071998.db */,
+				C9AC6687118F269C0078EF72 /* statuutvoorhetkoninkrijkdernederlanden.db */,
+				C9AC6688118F269C0078EF72 /* tweedefacultatieveprotocolbijhetinternationaalverdraginzakeburgerrechtenenpolitiekerechtengerichtopdeafschaffingvandedood.db */,
+				C9AC6689118F269C0078EF72 /* uitvoeringswethaagstestamentenverdrag.db */,
+				C9AC668A118F269C0078EF72 /* uitvoeringswetinternationalekinderbescherming.db */,
+				C9AC668B118F269C0078EF72 /* universeleverklaringvanderechtenvandemensnewyork10121948.db */,
+				C9AC668C118F269C0078EF72 /* verdragbetreffendedebevoegdheidderautoriteitenendetoepasselijkewetinzakedebeschermingvanminderjarigensgravenhage051019.db */,
+				C9AC668D118F269C0078EF72 /* verdragbetreffendedeeuropeseuniemaastricht07021992.db */,
+				C9AC668E118F269C0078EF72 /* verdragbetreffendedestatusvanvluchtelingengeneve28071951.db */,
+				C9AC668F118F269C0078EF72 /* verdraginzakedebeschermingvankinderenendesamenwerkingophetgebiedvandeinterlandelijkeadoptiesgravenhage29051993.db */,
+				C9AC6690118F269C0078EF72 /* verdraginzakedeerkenningvanechtscheidingenenscheidingenvantafelenbedsgravenhage01061970.db */,
+				C9AC6691118F269C0078EF72 /* verdraginzakederechtenvanhetkindnewyork20111989.db */,
+				C9AC6692118F269C0078EF72 /* verdraginzakedeuitbanningvanallevormenvandiscriminatievanvrouwennewyork18121979.db */,
+				C9AC6693118F269C0078EF72 /* verdraginzakedewetwelkevantoepassingisopverkeersongevallenopdewegsgravenhage04051971.db */,
+				C9AC6694118F269C0078EF72 /* verdragnopensdeerkenningendetenuitvoerleggingvanbeslissingenoveronderhoudsverplichtingenjegenskinderensgravenhage150419.db */,
+				C9AC6695118F269C0078EF72 /* verdragnopensdewetwelkeopalimentatieverplichtingenjegenskinderentoepasselijkissgravenhage24101956.db */,
+				C9AC6696118F269C0078EF72 /* verdragtegenfolteringenanderewredeonmenselijkeenonterendebehandelingofbestraffingnewyork10121984.db */,
+				C9AC6697118F269C0078EF72 /* verdragtotbeschermingvanderechtenvandemensendefundamentelevrijhedenrome04111950.db */,
+				C9AC6698118F269C0078EF72 /* verdragtotoprichtingvandeeuropesegemeenschaprome25031957.db */,
+				C9AC6699118F269C0078EF72 /* verdragvanweneninzakehetverdragenrechttussenstateneninternationaleorganisatiesoftusseninternationaleorganisatieswenen2103.db */,
+				C9AC669A118F269C0078EF72 /* vierdeprotocolbijhetverdragtotbeschermingvanderechtenvandemensendefundamentelevrijhedentothetwaarborgenvanbepaalderec.db */,
+				C9AC669B118F269C0078EF72 /* vreemdelingenbesluit2000.db */,
+				C9AC669C118F269C0078EF72 /* vreemdelingenwet2000.db */,
+				C9AC669D118F269C0078EF72 /* waterschapswet.db */,
+				C9AC669E118F269C0078EF72 /* wegenverkeerswet1994.db */,
+				C9AC669F118F269C0078EF72 /* wegenwet.db */,
+				C9AC66A0118F269C0078EF72 /* werkloosheidswet.db */,
+				C9AC66A1118F269C0078EF72 /* wetadministratiefrechtelijkehandhavingverkeersvoorschriften.db */,
+				C9AC66A2118F269C0078EF72 /* wetalgemenebepalingen.db */,
+				C9AC66A3118F269C0078EF72 /* wetbeschermingpersoonsgegevens.db */,
+				C9AC66A4118F269C0078EF72 /* wetbijzondereopnemingeninpsychiatrischeziekenhuizen.db */,
+				C9AC66A5118F269C0078EF72 /* wetboekvanburgerlijkerechtsvordering.db */,
+				C9AC66A6118F269C0078EF72 /* wetboekvankoophandel.db */,
+				C9AC66A7118F269C0078EF72 /* wetboekvanstrafrecht.db */,
+				C9AC66A8118F269C0078EF72 /* wetboekvanstrafvordering.db */,
+				C9AC66A9118F269C0078EF72 /* wetconflictenrechtadoptie.db */,
+				C9AC66AA118F269C0078EF72 /* wetconflictenrechtafstamming.db */,
+				C9AC66AB118F269C0078EF72 /* wetconflictenrechtcorporaties.db */,
+				C9AC66AC118F269C0078EF72 /* wetconflictenrechterfopvolging.db */,
+				C9AC66AD118F269C0078EF72 /* wetconflictenrechtgeregistreerdpartnerschap.db */,
+				C9AC66AE118F269C0078EF72 /* wetconflictenrechtgoederenrecht.db */,
+				C9AC66AF118F269C0078EF72 /* wetconflictenrechthuwelijksbetrekkingen.db */,
+				C9AC66B0118F269C0078EF72 /* wetconflictenrechthuwelijksvermogensregime.db */,
+				C9AC66B1118F269C0078EF72 /* wetconflictenrechtinzakeontbindinghuwelijkenscheidingvantafelenbed.db */,
+				C9AC66B2118F269C0078EF72 /* wetconflictenrechtnamen.db */,
+				C9AC66B3118F269C0078EF72 /* wetconflictenrechtonrechtmatigedaad.db */,
+				C9AC66B4118F269C0078EF72 /* wetconflictenrechttrusts.db */,
+				C9AC66B5118F269C0078EF72 /* wetdonorgegevenskunstmatigebevruchting.db */,
+				C9AC66B6118F269C0078EF72 /* wetgelijkebehandelingvanmannenenvrouwen.db */,
+				C9AC66B7118F269C0078EF72 /* wetgemeenschappelijkeregelingen.db */,
+				C9AC66B8118F269C0078EF72 /* wetgiraaleffectenverkeer.db */,
+				C9AC66B9118F269C0078EF72 /* wetinternationalemisdrijven.db */,
+				C9AC66BA118F269C0078EF72 /* wetmeldingcollectiefontslag.db */,
+				C9AC66BB118F269C0078EF72 /* wetmilieubeheer.db */,
+				C9AC66BC118F269C0078EF72 /* wetnationaleombudsman.db */,
+				C9AC66BD118F269C0078EF72 /* wetopdearbeidsongeschiktheidsverzekering.db */,
+				C9AC66BE118F269C0078EF72 /* wetopdebedrijfsorganisatie.db */,
+				C9AC66BF118F269C0078EF72 /* wetopdecollectievearbeidsovereenkomst.db */,
+				C9AC66C0118F269C0078EF72 /* wetopdeeconomischedelicten.db */,
+				C9AC66C1118F269C0078EF72 /* wetopdeeuropeseondernemingsraden.db */,
+				C9AC66C2118F269C0078EF72 /* wetopdeformeelbuitenlandsevennootschappen.db */,
+				C9AC66C3118F269C0078EF72 /* wetopdeloonvorming.db */,
+				C9AC66C4118F269C0078EF72 /* wetopdeondernemingsraden.db */,
+				C9AC66C5118F269C0078EF72 /* wetopdeparlementaireenquete2008.db */,
+				C9AC66C6118F269C0078EF72 /* wetopderaadvanstate.db */,
+				C9AC66C7118F269C0078EF72 /* wetopderechterlijkeorganisatie.db */,
+				C9AC66C8118F269C0078EF72 /* wetopderechtsbijstand.db */,
+				C9AC66C9118F269C0078EF72 /* wetopenbaarheidvanbestuur.db */,
+				C9AC66CA118F269C0078EF72 /* wetophetalgemeenverbindendenhetonverbindendverklarenvanbepalingenvancollectievearbeidsovereenkomsten.db */,
+				C9AC66CB118F269C0078EF72 /* wetophetconsumentenkrediet.db */,
+				C9AC66CC118F269C0078EF72 /* wetophetfinancieeltoezicht.db */,
+				C9AC66CD118F269C0078EF72 /* wetophetnotarisambt.db */,
+				C9AC66CE118F269C0078EF72 /* wetopnemingbuitenlandsekinderenteradoptie.db */,
+				C9AC66CF118F269C0078EF72 /* wetpolitiegegevens.db */,
+				C9AC66D0118F269C0078EF72 /* wetruimtelijkeordening.db */,
+				C9AC66D1118F269C0078EF72 /* wetten.db */,
+				C9AC66D2118F269C0078EF72 /* wetvereveningpensioenrechtenbijscheiding.db */,
+				C9AC66D3118F269C0078EF72 /* wetwapensenmunitie.db */,
+				C9AC66D4118F269C0078EF72 /* wetwerkenbijstand.db */,
+				C9AC66D5118F269C0078EF72 /* wetwerkeninkomennaararbeidsvermogen.db */,
+				C9AC66D6118F269C0078EF72 /* woningwet.db */,
+				C9AC66D7118F269C0078EF72 /* zesdeprotocolbijhetverdragtotbeschermingvanderechtenvandemensendefundamentalevrijhedeninzakedeafschaffingvandedoodstr.db */,
+			);
+			path = db;
+			sourceTree = "<group>";
+		};
+		C9E087DF12156F170074BBCD /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				C9E087E012156F170074BBCD /* MainWindow-iPad.xib */,
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Studiebundel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Studiebundel" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Studiebundel;
+			productName = Studiebundel;
+			productReference = 1D6058910D05DD3D006BFB54 /* Studiebundel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Studiebundel" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Studiebundel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				C9674D2110440C370065A638 /* ArtikelViewControllerFromXIB.xib in Resources */,
+				C9674D2210440C370065A638 /* CustomCell.xib in Resources */,
+				C9674D2310440C370065A638 /* CustomCellLong.xib in Resources */,
+				C9674D2410440C370065A638 /* ExoneratieViewController.xib in Resources */,
+				C9674D2510440C370065A638 /* TableViewFromDatabaseViewController.xib in Resources */,
+				C9674D2610440C370065A638 /* WetboekSearchViewController.xib in Resources */,
+				C9674D3210440C4E0065A638 /* arrow-left.png in Resources */,
+				C9674D3310440C4E0065A638 /* arrow-right.png in Resources */,
+				C9674D3410440C4E0065A638 /* bg-sectionheader.png in Resources */,
+				C9674D3510440C4E0065A638 /* Default.png in Resources */,
+				C9674D3610440C4E0065A638 /* home.png in Resources */,
+				C9674D3710440C4E0065A638 /* icon-about.png in Resources */,
+				C9674D3810440C4E0065A638 /* Icon.jpg in Resources */,
+				C9674D3910440C4E0065A638 /* Icon.png in Resources */,
+				C9674D3A10440C4E0065A638 /* info.png in Resources */,
+				C9917BB110CAD2F200DE6F50 /* obj-c.cfg in Resources */,
+				C9917BB210CAD2F200DE6F50 /* uncrust.sh in Resources */,
+				C9AC66D8118F269C0078EF72 /* aanvullendprotocolbijheteuropeessociaalhandvestbetreffendeeensysteemvoorcollectieveklachtenstraatsburg09111995.db in Resources */,
+				C9AC66D9118F269C0078EF72 /* aanvullendprotocolbijhetverdragbetreffendedeovereenkomsttotinternationaalvervoervangoederenoverdewegcmrinzakededigitale.db in Resources */,
+				C9AC66DA118F269C0078EF72 /* advocatenwet.db in Resources */,
+				C9AC66DB118F269C0078EF72 /* algemenetermijnenwet.db in Resources */,
+				C9AC66DC118F269C0078EF72 /* algemenewetbestuursrecht.db in Resources */,
+				C9AC66DD118F269C0078EF72 /* algemenewetgelijkebehandeling.db in Resources */,
+				C9AC66DE118F269C0078EF72 /* algemenewetinzakerijksbelastingen.db in Resources */,
+				C9AC66DF118F269C0078EF72 /* algemenewetophetbinnentreden.db in Resources */,
+				C9AC66E0118F269C0078EF72 /* ambtenarenwet.db in Resources */,
+				C9AC66E1118F269C0078EF72 /* ambtsinstructiecommissarisvandekoning.db in Resources */,
+				C9AC66E2118F269C0078EF72 /* ambtsinstructievoordepolitiedekoninklijkemarechausseeendebuitengewoonopsporingsambtenaar.db in Resources */,
+				C9AC66E3118F269C0078EF72 /* auteurswet1912.db in Resources */,
+				C9AC66E4118F269C0078EF72 /* beginselenwetverplegingterbeschikkinggestelden.db in Resources */,
+				C9AC66E5118F269C0078EF72 /* bekendmakingswet.db in Resources */,
+				C9AC66E6118F269C0078EF72 /* beneluxverdraginzakedeintellectueleeigendommerkenentekeningenofmodellensgravenhage25022005.db in Resources */,
+				C9AC66E7118F269C0078EF72 /* beroepswet.db in Resources */,
+				C9AC66E8118F269C0078EF72 /* besluitalcoholonderzoeken.db in Resources */,
+				C9AC66E9118F269C0078EF72 /* besluitgetuigenbescherming.db in Resources */,
+				C9AC66EA118F269C0078EF72 /* besluitmarktmisbruikwft.db in Resources */,
+				C9AC66EB118F269C0078EF72 /* besluitmeldingzeggenschapenkapitaalbelanginuitgevendeinstellingen.db in Resources */,
+				C9AC66EC118F269C0078EF72 /* besluitopenbarebiedingenwft.db in Resources */,
+				C9AC66ED118F269C0078EF72 /* buitengewoonbesluitarbeidsverhoudingen1945.db in Resources */,
+				C9AC66EE118F269C0078EF72 /* burgerlijkwetboekboek1.db in Resources */,
+				C9AC66EF118F269C0078EF72 /* burgerlijkwetboekboek2.db in Resources */,
+				C9AC66F0118F269C0078EF72 /* burgerlijkwetboekboek3.db in Resources */,
+				C9AC66F1118F269C0078EF72 /* burgerlijkwetboekboek4.db in Resources */,
+				C9AC66F2118F269C0078EF72 /* burgerlijkwetboekboek5.db in Resources */,
+				C9AC66F3118F269C0078EF72 /* burgerlijkwetboekboek6.db in Resources */,
+				C9AC66F4118F269C0078EF72 /* burgerlijkwetboekboek7.db in Resources */,
+				C9AC66F5118F269C0078EF72 /* burgerlijkwetboekboek7a.db in Resources */,
+				C9AC66F6118F269C0078EF72 /* burgerlijkwetboekboek8.db in Resources */,
+				C9AC66F7118F269C0078EF72 /* colportagewet.db in Resources */,
+				C9AC66F8118F269C0078EF72 /* comptabiliteitswet2001.db in Resources */,
+				C9AC66F9118F269C0078EF72 /* embryowet.db in Resources */,
+				C9AC66FA118F269C0078EF72 /* europeessociaalhandvestherzienstraatsburg03051996.db in Resources */,
+				C9AC66FB118F269C0078EF72 /* europeesverdraginzakedeerkenningvanderechtspersoonlijkheidvaninternationalenietgouvernementeleorganisatiesstraatsburg24041.db in Resources */,
+				C9AC66FC118F269C0078EF72 /* europeesverdragtervoorkomingvanfolteringenonmenselijkeofvernederendebehandelingofbestraffingzoalsgewijzigddoorprotocol1en.db in Resources */,
+				C9AC66FD118F269C0078EF72 /* facultatiefprotocolbijhetverdraginzakedeuitbanningvanallevormenvandiscriminatievanvrouwennewyork06101999.db in Resources */,
+				C9AC66FE118F269C0078EF72 /* facultatiefprotocolinzakedeverkoopvankinderenkinderprostitutieenkinderpornografiebijhetverdraginzakederechtenvanhetkind.db in Resources */,
+				C9AC66FF118F269C0078EF72 /* faillissementswet.db in Resources */,
+				C9AC6700118F269C0078EF72 /* gemeentewet.db in Resources */,
+				C9AC6701118F269C0078EF72 /* gerechtsdeurwaarderswet.db in Resources */,
+				C9AC6702118F269C0078EF72 /* grondwet.db in Resources */,
+				C9AC6703118F269C0078EF72 /* handelsnaamwet.db in Resources */,
+				C9AC6704118F269C0078EF72 /* handelsregisterbesluit2008.db in Resources */,
+				C9AC6705118F269C0078EF72 /* handelsregisterwet2007.db in Resources */,
+				C9AC6706118F269C0078EF72 /* internationaalverdraginzakeburgerrechtenenpolitiekerechtennewyork16121966.db in Resources */,
+				C9AC6707118F269C0078EF72 /* internationaalverdraginzakedeuitbanningvanallevormenvanrassendiscriminatienewyork07031966.db in Resources */,
+				C9AC6708118F269C0078EF72 /* internationaalverdraginzakeeconomischesocialeenculturelerechtennewyork16121966.db in Resources */,
+				C9AC6709118F269C0078EF72 /* invorderingswet1990.db in Resources */,
+				C9AC670A118F269C0078EF72 /* kadasterwet.db in Resources */,
+				C9AC670B118F269C0078EF72 /* kaderwetzelfstandigebestuursorganen.db in Resources */,
+				C9AC670C118F269C0078EF72 /* kieswet.db in Resources */,
+				C9AC670D118F269C0078EF72 /* leegstandwet.db in Resources */,
+				C9AC670E118F269C0078EF72 /* mededingingswet.db in Resources */,
+				C9AC670F118F269C0078EF72 /* onteigeningswet.db in Resources */,
+				C9AC6710118F269C0078EF72 /* opiumwet.db in Resources */,
+				C9AC6711118F269C0078EF72 /* penitentiairebeginselenwet.db in Resources */,
+				C9AC6712118F269C0078EF72 /* penitentiairemaatregel.db in Resources */,
+				C9AC6713118F269C0078EF72 /* politiewet1993.db in Resources */,
+				C9AC6714118F269C0078EF72 /* prijzenwet.db in Resources */,
+				C9AC6715118F269C0078EF72 /* protocolbijhetverdragtotbeschermingvanderechtenvandemensendefundamentelevrijhedenparijs20031952.db in Resources */,
+				C9AC6716118F269C0078EF72 /* protocolno13bijhetverdragtotbeschermingvanderechtenvandemensendefundamentelevrijhedeninzakedeafschaffingvandedoodst.db in Resources */,
+				C9AC6717118F269C0078EF72 /* protocolnr12bijhetverdragtotbeschermingvanderechtenvandemensendefundamentelevrijhedenrome04112000.db in Resources */,
+				C9AC6718118F269C0078EF72 /* protocolnr14bijhetverdragtotbeschermingvanderechtenvandemensendefundamentalevrijhedenbetreffendewijzigingvanhetcontr.db in Resources */,
+				C9AC6719118F269C0078EF72 /* provinciewet.db in Resources */,
+				C9AC671A118F269C0078EF72 /* regelingbetreffendedeverklaringhoudendetoestemmingtotadoptie.db in Resources */,
+				C9AC671B118F269C0078EF72 /* reglementvanordevoordeministerraad.db in Resources */,
+				C9AC671C118F269C0078EF72 /* rijksoctrooiwet1995.db in Resources */,
+				C9AC671D118F269C0078EF72 /* rijkswetgoedkeuringenbekendmakingverdragen.db in Resources */,
+				C9AC671E118F269C0078EF72 /* rijkswetophetnederlanderschap.db in Resources */,
+				C9AC671F118F269C0078EF72 /* statuutvanromeinzakehetinternationaalstrafhofrome17071998.db in Resources */,
+				C9AC6720118F269C0078EF72 /* statuutvoorhetkoninkrijkdernederlanden.db in Resources */,
+				C9AC6721118F269C0078EF72 /* tweedefacultatieveprotocolbijhetinternationaalverdraginzakeburgerrechtenenpolitiekerechtengerichtopdeafschaffingvandedood.db in Resources */,
+				C9AC6722118F269C0078EF72 /* uitvoeringswethaagstestamentenverdrag.db in Resources */,
+				C9AC6723118F269C0078EF72 /* uitvoeringswetinternationalekinderbescherming.db in Resources */,
+				C9AC6724118F269C0078EF72 /* universeleverklaringvanderechtenvandemensnewyork10121948.db in Resources */,
+				C9AC6725118F269C0078EF72 /* verdragbetreffendedebevoegdheidderautoriteitenendetoepasselijkewetinzakedebeschermingvanminderjarigensgravenhage051019.db in Resources */,
+				C9AC6726118F269C0078EF72 /* verdragbetreffendedeeuropeseuniemaastricht07021992.db in Resources */,
+				C9AC6727118F269C0078EF72 /* verdragbetreffendedestatusvanvluchtelingengeneve28071951.db in Resources */,
+				C9AC6728118F269C0078EF72 /* verdraginzakedebeschermingvankinderenendesamenwerkingophetgebiedvandeinterlandelijkeadoptiesgravenhage29051993.db in Resources */,
+				C9AC6729118F269C0078EF72 /* verdraginzakedeerkenningvanechtscheidingenenscheidingenvantafelenbedsgravenhage01061970.db in Resources */,
+				C9AC672A118F269C0078EF72 /* verdraginzakederechtenvanhetkindnewyork20111989.db in Resources */,
+				C9AC672B118F269C0078EF72 /* verdraginzakedeuitbanningvanallevormenvandiscriminatievanvrouwennewyork18121979.db in Resources */,
+				C9AC672C118F269C0078EF72 /* verdraginzakedewetwelkevantoepassingisopverkeersongevallenopdewegsgravenhage04051971.db in Resources */,
+				C9AC672D118F269C0078EF72 /* verdragnopensdeerkenningendetenuitvoerleggingvanbeslissingenoveronderhoudsverplichtingenjegenskinderensgravenhage150419.db in Resources */,
+				C9AC672E118F269C0078EF72 /* verdragnopensdewetwelkeopalimentatieverplichtingenjegenskinderentoepasselijkissgravenhage24101956.db in Resources */,
+				C9AC672F118F269C0078EF72 /* verdragtegenfolteringenanderewredeonmenselijkeenonterendebehandelingofbestraffingnewyork10121984.db in Resources */,
+				C9AC6730118F269C0078EF72 /* verdragtotbeschermingvanderechtenvandemensendefundamentelevrijhedenrome04111950.db in Resources */,
+				C9AC6731118F269C0078EF72 /* verdragtotoprichtingvandeeuropesegemeenschaprome25031957.db in Resources */,
+				C9AC6732118F269C0078EF72 /* verdragvanweneninzakehetverdragenrechttussenstateneninternationaleorganisatiesoftusseninternationaleorganisatieswenen2103.db in Resources */,
+				C9AC6733118F269C0078EF72 /* vierdeprotocolbijhetverdragtotbeschermingvanderechtenvandemensendefundamentelevrijhedentothetwaarborgenvanbepaalderec.db in Resources */,
+				C9AC6734118F269C0078EF72 /* vreemdelingenbesluit2000.db in Resources */,
+				C9AC6735118F269C0078EF72 /* vreemdelingenwet2000.db in Resources */,
+				C9AC6736118F269C0078EF72 /* waterschapswet.db in Resources */,
+				C9AC6737118F269C0078EF72 /* wegenverkeerswet1994.db in Resources */,
+				C9AC6738118F269C0078EF72 /* wegenwet.db in Resources */,
+				C9AC6739118F269C0078EF72 /* werkloosheidswet.db in Resources */,
+				C9AC673A118F269C0078EF72 /* wetadministratiefrechtelijkehandhavingverkeersvoorschriften.db in Resources */,
+				C9AC673B118F269C0078EF72 /* wetalgemenebepalingen.db in Resources */,
+				C9AC673C118F269C0078EF72 /* wetbeschermingpersoonsgegevens.db in Resources */,
+				C9AC673D118F269C0078EF72 /* wetbijzondereopnemingeninpsychiatrischeziekenhuizen.db in Resources */,
+				C9AC673E118F269C0078EF72 /* wetboekvanburgerlijkerechtsvordering.db in Resources */,
+				C9AC673F118F269C0078EF72 /* wetboekvankoophandel.db in Resources */,
+				C9AC6740118F269C0078EF72 /* wetboekvanstrafrecht.db in Resources */,
+				C9AC6741118F269C0078EF72 /* wetboekvanstrafvordering.db in Resources */,
+				C9AC6742118F269C0078EF72 /* wetconflictenrechtadoptie.db in Resources */,
+				C9AC6743118F269C0078EF72 /* wetconflictenrechtafstamming.db in Resources */,
+				C9AC6744118F269C0078EF72 /* wetconflictenrechtcorporaties.db in Resources */,
+				C9AC6745118F269C0078EF72 /* wetconflictenrechterfopvolging.db in Resources */,
+				C9AC6746118F269C0078EF72 /* wetconflictenrechtgeregistreerdpartnerschap.db in Resources */,
+				C9AC6747118F269C0078EF72 /* wetconflictenrechtgoederenrecht.db in Resources */,
+				C9AC6748118F269C0078EF72 /* wetconflictenrechthuwelijksbetrekkingen.db in Resources */,
+				C9AC6749118F269C0078EF72 /* wetconflictenrechthuwelijksvermogensregime.db in Resources */,
+				C9AC674A118F269C0078EF72 /* wetconflictenrechtinzakeontbindinghuwelijkenscheidingvantafelenbed.db in Resources */,
+				C9AC674B118F269C0078EF72 /* wetconflictenrechtnamen.db in Resources */,
+				C9AC674C118F269C0078EF72 /* wetconflictenrechtonrechtmatigedaad.db in Resources */,
+				C9AC674D118F269C0078EF72 /* wetconflictenrechttrusts.db in Resources */,
+				C9AC674E118F269C0078EF72 /* wetdonorgegevenskunstmatigebevruchting.db in Resources */,
+				C9AC674F118F269C0078EF72 /* wetgelijkebehandelingvanmannenenvrouwen.db in Resources */,
+				C9AC6750118F269C0078EF72 /* wetgemeenschappelijkeregelingen.db in Resources */,
+				C9AC6751118F269C0078EF72 /* wetgiraaleffectenverkeer.db in Resources */,
+				C9AC6752118F269C0078EF72 /* wetinternationalemisdrijven.db in Resources */,
+				C9AC6753118F269C0078EF72 /* wetmeldingcollectiefontslag.db in Resources */,
+				C9AC6754118F269C0078EF72 /* wetmilieubeheer.db in Resources */,
+				C9AC6755118F269C0078EF72 /* wetnationaleombudsman.db in Resources */,
+				C9AC6756118F269C0078EF72 /* wetopdearbeidsongeschiktheidsverzekering.db in Resources */,
+				C9AC6757118F269C0078EF72 /* wetopdebedrijfsorganisatie.db in Resources */,
+				C9AC6758118F269C0078EF72 /* wetopdecollectievearbeidsovereenkomst.db in Resources */,
+				C9AC6759118F269C0078EF72 /* wetopdeeconomischedelicten.db in Resources */,
+				C9AC675A118F269C0078EF72 /* wetopdeeuropeseondernemingsraden.db in Resources */,
+				C9AC675B118F269C0078EF72 /* wetopdeformeelbuitenlandsevennootschappen.db in Resources */,
+				C9AC675C118F269C0078EF72 /* wetopdeloonvorming.db in Resources */,
+				C9AC675D118F269C0078EF72 /* wetopdeondernemingsraden.db in Resources */,
+				C9AC675E118F269C0078EF72 /* wetopdeparlementaireenquete2008.db in Resources */,
+				C9AC675F118F269C0078EF72 /* wetopderaadvanstate.db in Resources */,
+				C9AC6760118F269C0078EF72 /* wetopderechterlijkeorganisatie.db in Resources */,
+				C9AC6761118F269C0078EF72 /* wetopderechtsbijstand.db in Resources */,
+				C9AC6762118F269C0078EF72 /* wetopenbaarheidvanbestuur.db in Resources */,
+				C9AC6763118F269C0078EF72 /* wetophetalgemeenverbindendenhetonverbindendverklarenvanbepalingenvancollectievearbeidsovereenkomsten.db in Resources */,
+				C9AC6764118F269C0078EF72 /* wetophetconsumentenkrediet.db in Resources */,
+				C9AC6765118F269C0078EF72 /* wetophetfinancieeltoezicht.db in Resources */,
+				C9AC6766118F269C0078EF72 /* wetophetnotarisambt.db in Resources */,
+				C9AC6767118F269C0078EF72 /* wetopnemingbuitenlandsekinderenteradoptie.db in Resources */,
+				C9AC6768118F269C0078EF72 /* wetpolitiegegevens.db in Resources */,
+				C9AC6769118F269C0078EF72 /* wetruimtelijkeordening.db in Resources */,
+				C9AC676A118F269C0078EF72 /* wetten.db in Resources */,
+				C9AC676B118F269C0078EF72 /* wetvereveningpensioenrechtenbijscheiding.db in Resources */,
+				C9AC676C118F269C0078EF72 /* wetwapensenmunitie.db in Resources */,
+				C9AC676D118F269C0078EF72 /* wetwerkenbijstand.db in Resources */,
+				C9AC676E118F269C0078EF72 /* wetwerkeninkomennaararbeidsvermogen.db in Resources */,
+				C9AC676F118F269C0078EF72 /* woningwet.db in Resources */,
+				C9AC6770118F269C0078EF72 /* zesdeprotocolbijhetverdragtotbeschermingvanderechtenvandemensendefundamentalevrijhedeninzakedeafschaffingvandedoodstr.db in Resources */,
+				C9E087E112156F170074BBCD /* MainWindow-iPad.xib in Resources */,
+				C981AC6B12198BC9008F3DA3 /* Default~ipad.png in Resources */,
+				C981AC6C12198BC9008F3DA3 /* Icon-72.png in Resources */,
+				C981AC6D12198BC9008F3DA3 /* Icon-Small-50.png in Resources */,
+				C981AC6E12198BC9008F3DA3 /* Icon-Small.png in Resources */,
+				C981AC6F12198BC9008F3DA3 /* Icon-Small@2x.png in Resources */,
+				C981AC7012198BC9008F3DA3 /* icon-website.png in Resources */,
+				C981AC7112198BC9008F3DA3 /* Icon.png in Resources */,
+				C981AC7212198BC9008F3DA3 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* StudiebundelAppDelegate.m in Sources */,
+				C9674D1310440C2A0065A638 /* ArtikelViewControllerFromXIB.m in Sources */,
+				C9674D1410440C2A0065A638 /* CustomCell.m in Sources */,
+				C9674D1510440C2A0065A638 /* CustomCellLong.m in Sources */,
+				C9674D1610440C2A0065A638 /* ExoneratieViewController.m in Sources */,
+				C9674D1710440C2A0065A638 /* Sqlite.m in Sources */,
+				C9674D1810440C2A0065A638 /* TableViewFromDatabaseViewController.m in Sources */,
+				C9674D1910440C2A0065A638 /* WetboekSearchViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Studiebundel_Prefix.pch;
+				INFOPLIST_FILE = "Studiebundel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PRODUCT_NAME = Studiebundel;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Studiebundel_Prefix.pch;
+				INFOPLIST_FILE = "Studiebundel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PRODUCT_NAME = Studiebundel;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Active8 B.V.";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7FBCA405-C4B4-4011-BBE3-03FD28A67C46";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Erik de Jonge (UZC2837V97)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7FEDF635-2051-42FC-A60A-D1A5B140E3E9";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		C9674EA1104415DF0065A638 /* Distribute */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Active8 B.V.";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7FBCA405-C4B4-4011-BBE3-03FD28A67C46";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribute;
+		};
+		C9674EA2104415DF0065A638 /* Distribute */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Studiebundel_Prefix.pch;
+				INFOPLIST_FILE = "Studiebundel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PRODUCT_NAME = Studiebundel;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Distribute;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Studiebundel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				C9674EA2104415DF0065A638 /* Distribute */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Studiebundel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				C9674EA1104415DF0065A638 /* Distribute */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

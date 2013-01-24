@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* BestuursrechtAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* BestuursrechtAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* BestuursrechtViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* BestuursrechtViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* BestuursrechtViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* BestuursrechtViewController.m */; };
+		C905993E121A7FD400502BF8 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = C905993C121A7FD400502BF8 /* Icon-72.png */; };
+		C905993F121A7FD400502BF8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C905993D121A7FD400502BF8 /* Icon.png */; };
+		C9296E7A12154E9F00A5E722 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9296E7912154E9F00A5E722 /* MainWindow-iPad.xib */; };
+		C96050421125A16B000A74AA /* obj-c.cfg in Resources */ = {isa = PBXBuildFile; fileRef = C96050401125A16B000A74AA /* obj-c.cfg */; };
+		C96050431125A16B000A74AA /* uncrust.sh in Resources */ = {isa = PBXBuildFile; fileRef = C96050411125A16B000A74AA /* uncrust.sh */; };
+		C960507E1125B21A000A74AA /* algemenetermijnenwet.db in Resources */ = {isa = PBXBuildFile; fileRef = C96050701125B21A000A74AA /* algemenetermijnenwet.db */; };
+		C960507F1125B21A000A74AA /* algemenewetbestuursrecht.db in Resources */ = {isa = PBXBuildFile; fileRef = C96050711125B21A000A74AA /* algemenewetbestuursrecht.db */; };
+		C96050801125B21A000A74AA /* algemenewetinzakerijksbelastingen.db in Resources */ = {isa = PBXBuildFile; fileRef = C96050721125B21A000A74AA /* algemenewetinzakerijksbelastingen.db */; };
+		C96050811125B21A000A74AA /* beroepswet.db in Resources */ = {isa = PBXBuildFile; fileRef = C96050731125B21A000A74AA /* beroepswet.db */; };
+		C96050821125B21A000A74AA /* besluitbestuursorganenwnoenwob.db in Resources */ = {isa = PBXBuildFile; fileRef = C96050741125B21A000A74AA /* besluitbestuursorganenwnoenwob.db */; };
+		C96050831125B21A000A74AA /* besluitproceskostenbestuursrecht.db in Resources */ = {isa = PBXBuildFile; fileRef = C96050751125B21A000A74AA /* besluitproceskostenbestuursrecht.db */; };
+		C96050841125B21A000A74AA /* besluittarievenopenbaarheidvanbestuur.db in Resources */ = {isa = PBXBuildFile; fileRef = C96050761125B21A000A74AA /* besluittarievenopenbaarheidvanbestuur.db */; };
+		C96050851125B21A000A74AA /* instellingsbesluitvandecommissiewetgevingalgemeneregelsvanbestuursrecht.db in Resources */ = {isa = PBXBuildFile; fileRef = C96050771125B21A000A74AA /* instellingsbesluitvandecommissiewetgevingalgemeneregelsvanbestuursrecht.db */; };
+		C96050861125B21A000A74AA /* invorderingswet1990.db in Resources */ = {isa = PBXBuildFile; fileRef = C96050781125B21A000A74AA /* invorderingswet1990.db */; };
+		C96050871125B21A000A74AA /* wetbestuursrechtspraakbedrijfsorganisatie.db in Resources */ = {isa = PBXBuildFile; fileRef = C96050791125B21A000A74AA /* wetbestuursrechtspraakbedrijfsorganisatie.db */; };
+		C96050881125B21A000A74AA /* wetnationaleombudsman.db in Resources */ = {isa = PBXBuildFile; fileRef = C960507A1125B21A000A74AA /* wetnationaleombudsman.db */; };
+		C96050891125B21A000A74AA /* wetopderaadvanstate.db in Resources */ = {isa = PBXBuildFile; fileRef = C960507B1125B21A000A74AA /* wetopderaadvanstate.db */; };
+		C960508A1125B21A000A74AA /* wetopenbaarheidvanbestuur.db in Resources */ = {isa = PBXBuildFile; fileRef = C960507C1125B21A000A74AA /* wetopenbaarheidvanbestuur.db */; };
+		C960508B1125B21A000A74AA /* wetten.db in Resources */ = {isa = PBXBuildFile; fileRef = C960507D1125B21A000A74AA /* wetten.db */; };
+		C99400FE121946BB002E3833 /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = C99400F7121946BB002E3833 /* Default~ipad.png */; };
+		C9940100121946BB002E3833 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = C99400F9121946BB002E3833 /* Icon-Small-50.png */; };
+		C9940101121946BB002E3833 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = C99400FA121946BB002E3833 /* Icon-Small.png */; };
+		C9940102121946BB002E3833 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C99400FB121946BB002E3833 /* Icon-Small@2x.png */; };
+		C9940104121946BB002E3833 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C99400FD121946BB002E3833 /* Icon@2x.png */; };
+		C9FE85E310871972004A4384 /* ArtikelViewControllerFromXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FE85D210871972004A4384 /* ArtikelViewControllerFromXIB.m */; };
+		C9FE85E410871972004A4384 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FE85D410871972004A4384 /* CustomCell.m */; };
+		C9FE85E510871972004A4384 /* CustomCellLong.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FE85D610871972004A4384 /* CustomCellLong.m */; };
+		C9FE85E610871972004A4384 /* ExoneratieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FE85D810871972004A4384 /* ExoneratieViewController.m */; };
+		C9FE85E910871972004A4384 /* Sqlite.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FE85DE10871972004A4384 /* Sqlite.m */; };
+		C9FE85EA10871972004A4384 /* TableViewFromDatabaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FE85E010871972004A4384 /* TableViewFromDatabaseViewController.m */; };
+		C9FE85EB10871972004A4384 /* WetboekSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FE85E210871972004A4384 /* WetboekSearchViewController.m */; };
+		C9FE85FD1087197F004A4384 /* ArtikelViewControllerFromXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9FE85EC1087197F004A4384 /* ArtikelViewControllerFromXIB.xib */; };
+		C9FE85FE1087197F004A4384 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9FE85ED1087197F004A4384 /* CustomCell.xib */; };
+		C9FE85FF1087197F004A4384 /* CustomCellLong.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9FE85EE1087197F004A4384 /* CustomCellLong.xib */; };
+		C9FE86001087197F004A4384 /* ExoneratieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9FE85EF1087197F004A4384 /* ExoneratieViewController.xib */; };
+		C9FE86011087197F004A4384 /* arrow-left.png in Resources */ = {isa = PBXBuildFile; fileRef = C9FE85F11087197F004A4384 /* arrow-left.png */; };
+		C9FE86021087197F004A4384 /* arrow-right.png in Resources */ = {isa = PBXBuildFile; fileRef = C9FE85F21087197F004A4384 /* arrow-right.png */; };
+		C9FE86031087197F004A4384 /* bg-sectionheader.png in Resources */ = {isa = PBXBuildFile; fileRef = C9FE85F31087197F004A4384 /* bg-sectionheader.png */; };
+		C9FE86041087197F004A4384 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C9FE85F41087197F004A4384 /* Default.png */; };
+		C9FE86051087197F004A4384 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = C9FE85F51087197F004A4384 /* home.png */; };
+		C9FE86061087197F004A4384 /* icon-about.png in Resources */ = {isa = PBXBuildFile; fileRef = C9FE85F61087197F004A4384 /* icon-about.png */; };
+		C9FE86071087197F004A4384 /* icon-website.png in Resources */ = {isa = PBXBuildFile; fileRef = C9FE85F71087197F004A4384 /* icon-website.png */; };
+		C9FE86081087197F004A4384 /* Icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9FE85F81087197F004A4384 /* Icon.jpg */; };
+		C9FE860A1087197F004A4384 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = C9FE85FA1087197F004A4384 /* info.png */; };
+		C9FE860B1087197F004A4384 /* TableViewFromDatabaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9FE85FB1087197F004A4384 /* TableViewFromDatabaseViewController.xib */; };
+		C9FE860C1087197F004A4384 /* WetboekSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9FE85FC1087197F004A4384 /* WetboekSearchViewController.xib */; };
+		C9FE864210871A54004A4384 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FE864110871A54004A4384 /* libsqlite3.dylib */; };
+		C9FE866410871A61004A4384 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FE866210871A61004A4384 /* CoreGraphics.framework */; };
+		C9FE866510871A61004A4384 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FE866310871A61004A4384 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* BestuursrechtAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestuursrechtAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* BestuursrechtAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestuursrechtAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Bestuursrecht.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bestuursrecht.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* BestuursrechtViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BestuursrechtViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* BestuursrechtViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestuursrechtViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* BestuursrechtViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestuursrechtViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Bestuursrecht_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bestuursrecht_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Bestuursrecht-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Bestuursrecht-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C905993C121A7FD400502BF8 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		C905993D121A7FD400502BF8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C9296E7912154E9F00A5E722 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "Resources-iPad/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		C96050401125A16B000A74AA /* obj-c.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "obj-c.cfg"; sourceTree = "<group>"; };
+		C96050411125A16B000A74AA /* uncrust.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = uncrust.sh; sourceTree = "<group>"; };
+		C96050701125B21A000A74AA /* algemenetermijnenwet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = algemenetermijnenwet.db; sourceTree = "<group>"; };
+		C96050711125B21A000A74AA /* algemenewetbestuursrecht.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = algemenewetbestuursrecht.db; sourceTree = "<group>"; };
+		C96050721125B21A000A74AA /* algemenewetinzakerijksbelastingen.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = algemenewetinzakerijksbelastingen.db; sourceTree = "<group>"; };
+		C96050731125B21A000A74AA /* beroepswet.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = beroepswet.db; sourceTree = "<group>"; };
+		C96050741125B21A000A74AA /* besluitbestuursorganenwnoenwob.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = besluitbestuursorganenwnoenwob.db; sourceTree = "<group>"; };
+		C96050751125B21A000A74AA /* besluitproceskostenbestuursrecht.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = besluitproceskostenbestuursrecht.db; sourceTree = "<group>"; };
+		C96050761125B21A000A74AA /* besluittarievenopenbaarheidvanbestuur.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = besluittarievenopenbaarheidvanbestuur.db; sourceTree = "<group>"; };
+		C96050771125B21A000A74AA /* instellingsbesluitvandecommissiewetgevingalgemeneregelsvanbestuursrecht.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = instellingsbesluitvandecommissiewetgevingalgemeneregelsvanbestuursrecht.db; sourceTree = "<group>"; };
+		C96050781125B21A000A74AA /* invorderingswet1990.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = invorderingswet1990.db; sourceTree = "<group>"; };
+		C96050791125B21A000A74AA /* wetbestuursrechtspraakbedrijfsorganisatie.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetbestuursrechtspraakbedrijfsorganisatie.db; sourceTree = "<group>"; };
+		C960507A1125B21A000A74AA /* wetnationaleombudsman.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetnationaleombudsman.db; sourceTree = "<group>"; };
+		C960507B1125B21A000A74AA /* wetopderaadvanstate.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetopderaadvanstate.db; sourceTree = "<group>"; };
+		C960507C1125B21A000A74AA /* wetopenbaarheidvanbestuur.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetopenbaarheidvanbestuur.db; sourceTree = "<group>"; };
+		C960507D1125B21A000A74AA /* wetten.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = wetten.db; sourceTree = "<group>"; };
+		C99400F7121946BB002E3833 /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~ipad.png"; sourceTree = "<group>"; };
+		C99400F9121946BB002E3833 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		C99400FA121946BB002E3833 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		C99400FB121946BB002E3833 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		C99400FD121946BB002E3833 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		C9FE85D110871972004A4384 /* ArtikelViewControllerFromXIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtikelViewControllerFromXIB.h; sourceTree = "<group>"; };
+		C9FE85D210871972004A4384 /* ArtikelViewControllerFromXIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtikelViewControllerFromXIB.m; sourceTree = "<group>"; };
+		C9FE85D310871972004A4384 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		C9FE85D410871972004A4384 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		C9FE85D510871972004A4384 /* CustomCellLong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellLong.h; sourceTree = "<group>"; };
+		C9FE85D610871972004A4384 /* CustomCellLong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellLong.m; sourceTree = "<group>"; };
+		C9FE85D710871972004A4384 /* ExoneratieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExoneratieViewController.h; sourceTree = "<group>"; };
+		C9FE85D810871972004A4384 /* ExoneratieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExoneratieViewController.m; sourceTree = "<group>"; };
+		C9FE85DD10871972004A4384 /* Sqlite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sqlite.h; sourceTree = "<group>"; };
+		C9FE85DE10871972004A4384 /* Sqlite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sqlite.m; sourceTree = "<group>"; };
+		C9FE85DF10871972004A4384 /* TableViewFromDatabaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewFromDatabaseViewController.h; sourceTree = "<group>"; };
+		C9FE85E010871972004A4384 /* TableViewFromDatabaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewFromDatabaseViewController.m; sourceTree = "<group>"; };
+		C9FE85E110871972004A4384 /* WetboekSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WetboekSearchViewController.h; sourceTree = "<group>"; };
+		C9FE85E210871972004A4384 /* WetboekSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WetboekSearchViewController.m; sourceTree = "<group>"; };
+		C9FE85EC1087197F004A4384 /* ArtikelViewControllerFromXIB.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ArtikelViewControllerFromXIB.xib; path = Resources/ArtikelViewControllerFromXIB.xib; sourceTree = "<group>"; };
+		C9FE85ED1087197F004A4384 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CustomCell.xib; path = Resources/CustomCell.xib; sourceTree = "<group>"; };
+		C9FE85EE1087197F004A4384 /* CustomCellLong.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CustomCellLong.xib; path = Resources/CustomCellLong.xib; sourceTree = "<group>"; };
+		C9FE85EF1087197F004A4384 /* ExoneratieViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ExoneratieViewController.xib; path = Resources/ExoneratieViewController.xib; sourceTree = "<group>"; };
+		C9FE85F11087197F004A4384 /* arrow-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-left.png"; sourceTree = "<group>"; };
+		C9FE85F21087197F004A4384 /* arrow-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-right.png"; sourceTree = "<group>"; };
+		C9FE85F31087197F004A4384 /* bg-sectionheader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-sectionheader.png"; sourceTree = "<group>"; };
+		C9FE85F41087197F004A4384 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C9FE85F51087197F004A4384 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		C9FE85F61087197F004A4384 /* icon-about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-about.png"; sourceTree = "<group>"; };
+		C9FE85F71087197F004A4384 /* icon-website.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-website.png"; sourceTree = "<group>"; };
+		C9FE85F81087197F004A4384 /* Icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Icon.jpg; sourceTree = "<group>"; };
+		C9FE85FA1087197F004A4384 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		C9FE85FB1087197F004A4384 /* TableViewFromDatabaseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TableViewFromDatabaseViewController.xib; path = Resources/TableViewFromDatabaseViewController.xib; sourceTree = "<group>"; };
+		C9FE85FC1087197F004A4384 /* WetboekSearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = WetboekSearchViewController.xib; path = Resources/WetboekSearchViewController.xib; sourceTree = "<group>"; };
+		C9FE864110871A54004A4384 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		C9FE866210871A61004A4384 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C9FE866310871A61004A4384 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				C9FE864210871A54004A4384 /* libsqlite3.dylib in Frameworks */,
+				C9FE866410871A61004A4384 /* CoreGraphics.framework in Frameworks */,
+				C9FE866510871A61004A4384 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C9FE85D110871972004A4384 /* ArtikelViewControllerFromXIB.h */,
+				C9FE85D210871972004A4384 /* ArtikelViewControllerFromXIB.m */,
+				C9FE85D310871972004A4384 /* CustomCell.h */,
+				C9FE85D410871972004A4384 /* CustomCell.m */,
+				C9FE85D510871972004A4384 /* CustomCellLong.h */,
+				C9FE85D610871972004A4384 /* CustomCellLong.m */,
+				C9FE85D710871972004A4384 /* ExoneratieViewController.h */,
+				C9FE85D810871972004A4384 /* ExoneratieViewController.m */,
+				C9FE85DD10871972004A4384 /* Sqlite.h */,
+				C9FE85DE10871972004A4384 /* Sqlite.m */,
+				C9FE85DF10871972004A4384 /* TableViewFromDatabaseViewController.h */,
+				C9FE85E010871972004A4384 /* TableViewFromDatabaseViewController.m */,
+				C9FE85E110871972004A4384 /* WetboekSearchViewController.h */,
+				C9FE85E210871972004A4384 /* WetboekSearchViewController.m */,
+				1D3623240D0F684500981E51 /* BestuursrechtAppDelegate.h */,
+				1D3623250D0F684500981E51 /* BestuursrechtAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* BestuursrechtViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* BestuursrechtViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Bestuursrecht.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				C96050401125A16B000A74AA /* obj-c.cfg */,
+				C96050411125A16B000A74AA /* uncrust.sh */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				C9296E7812154E9F00A5E722 /* Resources-iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Bestuursrecht_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C9FE860D10871A0F004A4384 /* db */,
+				C9FE85EC1087197F004A4384 /* ArtikelViewControllerFromXIB.xib */,
+				C9FE85ED1087197F004A4384 /* CustomCell.xib */,
+				C9FE85EE1087197F004A4384 /* CustomCellLong.xib */,
+				C9FE85EF1087197F004A4384 /* ExoneratieViewController.xib */,
+				C9FE85F01087197F004A4384 /* Images */,
+				C9FE85FB1087197F004A4384 /* TableViewFromDatabaseViewController.xib */,
+				C9FE85FC1087197F004A4384 /* WetboekSearchViewController.xib */,
+				2899E5210DE3E06400AC0155 /* BestuursrechtViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Bestuursrecht-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9FE866210871A61004A4384 /* CoreGraphics.framework */,
+				C9FE866310871A61004A4384 /* QuartzCore.framework */,
+				C9FE864110871A54004A4384 /* libsqlite3.dylib */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9296E7812154E9F00A5E722 /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				C9296E7912154E9F00A5E722 /* MainWindow-iPad.xib */,
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+		C9FE85F01087197F004A4384 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C905993C121A7FD400502BF8 /* Icon-72.png */,
+				C905993D121A7FD400502BF8 /* Icon.png */,
+				C99400F7121946BB002E3833 /* Default~ipad.png */,
+				C99400F9121946BB002E3833 /* Icon-Small-50.png */,
+				C99400FA121946BB002E3833 /* Icon-Small.png */,
+				C99400FB121946BB002E3833 /* Icon-Small@2x.png */,
+				C99400FD121946BB002E3833 /* Icon@2x.png */,
+				C9FE85F11087197F004A4384 /* arrow-left.png */,
+				C9FE85F21087197F004A4384 /* arrow-right.png */,
+				C9FE85F31087197F004A4384 /* bg-sectionheader.png */,
+				C9FE85F41087197F004A4384 /* Default.png */,
+				C9FE85F51087197F004A4384 /* home.png */,
+				C9FE85F61087197F004A4384 /* icon-about.png */,
+				C9FE85F71087197F004A4384 /* icon-website.png */,
+				C9FE85F81087197F004A4384 /* Icon.jpg */,
+				C9FE85FA1087197F004A4384 /* info.png */,
+			);
+			name = Images;
+			path = Resources/Images;
+			sourceTree = "<group>";
+		};
+		C9FE860D10871A0F004A4384 /* db */ = {
+			isa = PBXGroup;
+			children = (
+				C96050701125B21A000A74AA /* algemenetermijnenwet.db */,
+				C96050711125B21A000A74AA /* algemenewetbestuursrecht.db */,
+				C96050721125B21A000A74AA /* algemenewetinzakerijksbelastingen.db */,
+				C96050731125B21A000A74AA /* beroepswet.db */,
+				C96050741125B21A000A74AA /* besluitbestuursorganenwnoenwob.db */,
+				C96050751125B21A000A74AA /* besluitproceskostenbestuursrecht.db */,
+				C96050761125B21A000A74AA /* besluittarievenopenbaarheidvanbestuur.db */,
+				C96050771125B21A000A74AA /* instellingsbesluitvandecommissiewetgevingalgemeneregelsvanbestuursrecht.db */,
+				C96050781125B21A000A74AA /* invorderingswet1990.db */,
+				C96050791125B21A000A74AA /* wetbestuursrechtspraakbedrijfsorganisatie.db */,
+				C960507A1125B21A000A74AA /* wetnationaleombudsman.db */,
+				C960507B1125B21A000A74AA /* wetopderaadvanstate.db */,
+				C960507C1125B21A000A74AA /* wetopenbaarheidvanbestuur.db */,
+				C960507D1125B21A000A74AA /* wetten.db */,
+			);
+			path = db;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Bestuursrecht */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Bestuursrecht" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bestuursrecht;
+			productName = Bestuursrecht;
+			productReference = 1D6058910D05DD3D006BFB54 /* Bestuursrecht.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Bestuursrecht" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Bestuursrecht */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* BestuursrechtViewController.xib in Resources */,
+				C9FE85FD1087197F004A4384 /* ArtikelViewControllerFromXIB.xib in Resources */,
+				C9FE85FE1087197F004A4384 /* CustomCell.xib in Resources */,
+				C9FE85FF1087197F004A4384 /* CustomCellLong.xib in Resources */,
+				C9FE86001087197F004A4384 /* ExoneratieViewController.xib in Resources */,
+				C9FE86011087197F004A4384 /* arrow-left.png in Resources */,
+				C9FE86021087197F004A4384 /* arrow-right.png in Resources */,
+				C9FE86031087197F004A4384 /* bg-sectionheader.png in Resources */,
+				C9FE86041087197F004A4384 /* Default.png in Resources */,
+				C9FE86051087197F004A4384 /* home.png in Resources */,
+				C9FE86061087197F004A4384 /* icon-about.png in Resources */,
+				C9FE86071087197F004A4384 /* icon-website.png in Resources */,
+				C9FE86081087197F004A4384 /* Icon.jpg in Resources */,
+				C9FE860A1087197F004A4384 /* info.png in Resources */,
+				C9FE860B1087197F004A4384 /* TableViewFromDatabaseViewController.xib in Resources */,
+				C9FE860C1087197F004A4384 /* WetboekSearchViewController.xib in Resources */,
+				C96050421125A16B000A74AA /* obj-c.cfg in Resources */,
+				C96050431125A16B000A74AA /* uncrust.sh in Resources */,
+				C960507E1125B21A000A74AA /* algemenetermijnenwet.db in Resources */,
+				C960507F1125B21A000A74AA /* algemenewetbestuursrecht.db in Resources */,
+				C96050801125B21A000A74AA /* algemenewetinzakerijksbelastingen.db in Resources */,
+				C96050811125B21A000A74AA /* beroepswet.db in Resources */,
+				C96050821125B21A000A74AA /* besluitbestuursorganenwnoenwob.db in Resources */,
+				C96050831125B21A000A74AA /* besluitproceskostenbestuursrecht.db in Resources */,
+				C96050841125B21A000A74AA /* besluittarievenopenbaarheidvanbestuur.db in Resources */,
+				C96050851125B21A000A74AA /* instellingsbesluitvandecommissiewetgevingalgemeneregelsvanbestuursrecht.db in Resources */,
+				C96050861125B21A000A74AA /* invorderingswet1990.db in Resources */,
+				C96050871125B21A000A74AA /* wetbestuursrechtspraakbedrijfsorganisatie.db in Resources */,
+				C96050881125B21A000A74AA /* wetnationaleombudsman.db in Resources */,
+				C96050891125B21A000A74AA /* wetopderaadvanstate.db in Resources */,
+				C960508A1125B21A000A74AA /* wetopenbaarheidvanbestuur.db in Resources */,
+				C960508B1125B21A000A74AA /* wetten.db in Resources */,
+				C9296E7A12154E9F00A5E722 /* MainWindow-iPad.xib in Resources */,
+				C99400FE121946BB002E3833 /* Default~ipad.png in Resources */,
+				C9940100121946BB002E3833 /* Icon-Small-50.png in Resources */,
+				C9940101121946BB002E3833 /* Icon-Small.png in Resources */,
+				C9940102121946BB002E3833 /* Icon-Small@2x.png in Resources */,
+				C9940104121946BB002E3833 /* Icon@2x.png in Resources */,
+				C905993E121A7FD400502BF8 /* Icon-72.png in Resources */,
+				C905993F121A7FD400502BF8 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* BestuursrechtAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* BestuursrechtViewController.m in Sources */,
+				C9FE85E310871972004A4384 /* ArtikelViewControllerFromXIB.m in Sources */,
+				C9FE85E410871972004A4384 /* CustomCell.m in Sources */,
+				C9FE85E510871972004A4384 /* CustomCellLong.m in Sources */,
+				C9FE85E610871972004A4384 /* ExoneratieViewController.m in Sources */,
+				C9FE85E910871972004A4384 /* Sqlite.m in Sources */,
+				C9FE85EA10871972004A4384 /* TableViewFromDatabaseViewController.m in Sources */,
+				C9FE85EB10871972004A4384 /* WetboekSearchViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Bestuursrecht_Prefix.pch;
+				INFOPLIST_FILE = "Bestuursrecht-Info.plist";
+				PRODUCT_NAME = Bestuursrecht;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Bestuursrecht_Prefix.pch;
+				INFOPLIST_FILE = "Bestuursrecht-Info.plist";
+				PRODUCT_NAME = Bestuursrecht;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		C9FE86B51087349F004A4384 /* Distribute */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Active8 B.V.";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7FBCA405-C4B4-4011-BBE3-03FD28A67C46";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribute;
+		};
+		C9FE86B61087349F004A4384 /* Distribute */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Bestuursrecht_Prefix.pch;
+				INFOPLIST_FILE = "Bestuursrecht-Info.plist";
+				PRODUCT_NAME = Bestuursrecht;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Distribute;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Bestuursrecht" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				C9FE86B61087349F004A4384 /* Distribute */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Bestuursrecht" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				C9FE86B51087349F004A4384 /* Distribute */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

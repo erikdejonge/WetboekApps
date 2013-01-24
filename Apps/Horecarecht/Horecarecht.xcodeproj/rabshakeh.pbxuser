@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* HorecarechtAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1426, 940}}";
+			sepNavSelRange = "{415, 0}";
+			sepNavVisRange = "{0, 566}";
+		};
+	};
+	1D3623250D0F684500981E51 /* HorecarechtAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {985, 650}}";
+			sepNavSelRange = "{858, 0}";
+			sepNavVisRange = "{551, 435}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Horecarecht */ = {
+		activeExec = 0;
+		executables = (
+			C9463FE8106B7C0F0050C4BE /* Horecarecht */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Distribute;
+		activeExecutable = C9463FE8106B7C0F0050C4BE /* Horecarecht */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Horecarecht */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Horecarecht */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = C9463FF8106B7C120050C4BE /* Code sense */;
+		executables = (
+			C9463FE8106B7C0F0050C4BE /* Horecarecht */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					903,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1015,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					975,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 323871165;
+			PBXWorkspaceStateSaveDate = 323871165;
+		};
+		perUserProjectItems = {
+			C95223E610B162C400358F43 /* PBXTextBookmark */ = C95223E610B162C400358F43 /* PBXTextBookmark */;
+			C969D82A121AB1D10041E047 /* PBXBookmark */ = C969D82A121AB1D10041E047 /* PBXBookmark */;
+			C969D849121AB56E0041E047 /* PBXBookmark */ = C969D849121AB56E0041E047 /* PBXBookmark */;
+			C9731C0B106BABEE00F62324 /* PBXTextBookmark */ = C9731C0B106BABEE00F62324 /* PBXTextBookmark */;
+			C9731C15106BADA300F62324 /* PBXTextBookmark */ = C9731C15106BADA300F62324 /* PBXTextBookmark */;
+			C98A1480134DE1EC00593822 /* PlistBookmark */ = C98A1480134DE1EC00593822 /* PlistBookmark */;
+			C9BB6C01121966B000719D35 /* PBXTextBookmark */ = C9BB6C01121966B000719D35 /* PBXTextBookmark */;
+			C9BBA48D10CAF07500F4F754 /* PBXTextBookmark */ = C9BBA48D10CAF07500F4F754 /* PBXTextBookmark */;
+			C9D17296116DC54D0046AFB6 /* PBXTextBookmark */ = C9D17296116DC54D0046AFB6 /* PBXTextBookmark */;
+			C9F34FBF126313460095D5AA /* PBXTextBookmark */ = C9F34FBF126313460095D5AA /* PBXTextBookmark */;
+			C9F891D5134DDF81006330C6 /* PlistBookmark */ = C9F891D5134DDF81006330C6 /* PlistBookmark */;
+		};
+		sourceControlManager = C9463FF7106B7C120050C4BE /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107310486CEB800E47090 /* Horecarecht-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 588}, {1446, 985}}";
+		};
+	};
+	C9463FE8106B7C0F0050C4BE /* Horecarecht */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Horecarecht;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	C9463FF7106B7C120050C4BE /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	C9463FF8106B7C120050C4BE /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	C95223E610B162C400358F43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C9731B6F106BA72D00F62324 /* WetboekSearchViewController.h */;
+		name = "WetboekSearchViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1000;
+		vrLoc = 0;
+	};
+	C969D82A121AB1D10041E047 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = C9731B94106BA83B00F62324 /* Icon.png */;
+	};
+	C969D849121AB56E0041E047 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = C9BB6BAF1219555E00719D35 /* Icon-72.png */;
+	};
+	C9731B5E106BA72D00F62324 /* ArtikelViewControllerFromXIB.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1643, 4264}}";
+			sepNavSelRange = "{3858, 0}";
+			sepNavVisRange = "{2365, 3820}";
+		};
+	};
+	C9731B64106BA72D00F62324 /* ExoneratieViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {4191, 1677}}";
+			sepNavSelRange = "{3619, 0}";
+			sepNavVisRange = "{3164, 1227}";
+		};
+	};
+	C9731B6D106BA72D00F62324 /* TableViewFromDatabaseViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1193, 1040}}";
+			sepNavSelRange = "{322, 33}";
+			sepNavVisRange = "{0, 2632}";
+		};
+	};
+	C9731B6E106BA72D00F62324 /* TableViewFromDatabaseViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1193, 11219}}";
+			sepNavSelRange = "{20353, 0}";
+			sepNavVisRange = "{18443, 4208}";
+		};
+	};
+	C9731B6F106BA72D00F62324 /* WetboekSearchViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1291, 551}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1012}";
+		};
+	};
+	C9731B70106BA72D00F62324 /* WetboekSearchViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1258, 3796}}";
+			sepNavSelRange = "{1942, 1}";
+			sepNavVisRange = "{1514, 808}";
+		};
+	};
+	C9731C0B106BABEE00F62324 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* HorecarechtAppDelegate.h */;
+		name = "HorecarechtAppDelegate.h: 16";
+		rLen = 0;
+		rLoc = 415;
+		rType = 0;
+		vrLen = 566;
+		vrLoc = 0;
+	};
+	C9731C15106BADA300F62324 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C9731B64106BA72D00F62324 /* ExoneratieViewController.m */;
+		name = "ExoneratieViewController.m: 82";
+		rLen = 0;
+		rLoc = 112;
+		rType = 0;
+		vrLen = 3224;
+		vrLoc = 1792;
+	};
+	C98A1480134DE1EC00593822 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Horecarecht-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/parallels/workspace/WetboekApps/2011/Apps/Horecarecht/Horecarecht-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	C9BB6C01121966B000719D35 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C9731B6E106BA72D00F62324 /* TableViewFromDatabaseViewController.m */;
+		name = "TableViewFromDatabaseViewController.m: 507";
+		rLen = 0;
+		rLoc = 157;
+		rType = 0;
+		vrLen = 4208;
+		vrLoc = 18443;
+	};
+	C9BBA48D10CAF07500F4F754 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C9731B70106BA72D00F62324 /* WetboekSearchViewController.m */;
+		name = "WetboekSearchViewController.m: 118";
+		rLen = 0;
+		rLoc = 5046;
+		rType = 0;
+		vrLen = 2307;
+		vrLoc = 3503;
+	};
+	C9D17296116DC54D0046AFB6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C9731B6D106BA72D00F62324 /* TableViewFromDatabaseViewController.h */;
+		name = "TableViewFromDatabaseViewController.h: 13";
+		rLen = 33;
+		rLoc = 322;
+		rType = 0;
+		vrLen = 2632;
+		vrLoc = 0;
+	};
+	C9F34FBF126313460095D5AA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* HorecarechtAppDelegate.m */;
+		name = "HorecarechtAppDelegate.m: 2";
+		rLen = 0;
+		rLoc = 1;
+		rType = 0;
+		vrLen = 1473;
+		vrLoc = 0;
+	};
+	C9F891D5134DDF81006330C6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Horecarecht-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/parallels/workspace/WetboekApps/2011/Apps/Horecarecht/Horecarecht-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+}
